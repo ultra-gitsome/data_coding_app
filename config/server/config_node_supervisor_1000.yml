@@ -1,0 +1,407 @@
+---
+server_initiation:
+  config_server_ref_states:
+    events:
+      seq_server_type: node_supervisor
+    my_server_named_host: corehost
+    my_server_category: core_servers
+    my_server_key: my_supervisor
+    my_server_type: node_supervisor
+    my_local_server_type: node_supervisor
+    preferred_server_num: 1000
+  local:
+    my_server_primary: 0
+    environment:
+      testing: 1
+      socket_carp: 1
+      server_session_carp: 1
+      run_time_carp: 1
+      run_time_by_key_carp: 1
+      my_server_shortform_type: NodeSuper
+      init_server_message: 'HAE TS Node Supervisor'
+      turn_on_local_data_saves: 0
+      save_remarks: 'no ts data handled with the Node Supervisor'
+      save_quick_data: 0
+      save_record_data: 0
+      save_tracking_data: 0
+      save_detail_data: 0
+    database:
+      use_database: 1
+      store_ts_data_to_local_db: 0
+      store_ts_data_to_master_db: 0
+      store_timing_data_db: 0
+      store_laps_data_db: 0
+      make_safe_timing_inserts: 0
+      make_safe_laps_inserts: 0
+      data_store_options:
+        timing: 0
+        laps: 0
+        detailed: 0
+  config_servers:
+    events:
+      make_active: 0
+      state: 'i_am'
+      server_cat: 'core_servers'
+      server_my: 'my_event'
+    runners:
+      make_active: 0
+      state: 'tellmerunners'
+      server_cat: 'nodal_servers'
+      server_my: 'my_runnerdata'
+      address: '127.0.0.1'
+      port: 44409
+    tags:
+      make_active: 0
+      state: 'tellmetags'
+      server_cat: 'nodal_servers'
+      server_my: 'my_tagdata'
+      address: '127.0.0.1'
+      port: 44407
+    courses:
+      make_active: 0
+      state: 'tellmecourses'
+      server_cat: 'nodal_servers'
+      server_my: 'my_coursedata'
+      address: '127.0.0.1'
+      port: 44410
+    bibs:
+      make_active: 0
+      state: 'tellmebibs'
+      address: '127.0.0.1'
+      port: 44408
+  local_node_hosted_servers:
+    name_mapping:
+      thishost: "127.0.0.3"
+      corehost: "127.0.0.1"
+      nodalhost: "127.0.0.1"
+      altnodalhost: "127.0.0.2"
+      datahost: "127.0.0.4"
+      forwardhost: "127.0.0.5"
+      displayhost: "127.0.0.6"
+      presentorhost: "127.0.0.6"
+      audiohost: "127.0.0.7"
+      fieldhost: "127.0.0.1"
+      localhost: "locahost"
+    daemons:
+      my_daemon_core:
+        seq_server_type: 'daemon'
+        port: 44401
+        named_host: 'localhost'
+    tracker_servers:
+      my_tracker:
+        type: 'dtracker'
+        port: 44402
+        named_host: 'thishost'
+    core_servers:
+      my_supervisor:
+        seq_server_type: 'supervisor'
+        port: 44400
+        named_host: 'corehost'
+      my_node:
+        seq_server_type: 'node'
+        port: 44403
+        named_host: 'corehost'
+      my_notify:
+        seq_server_type: 'notification'
+        port: 44405
+        named_host: 'corehost'
+      my_event:
+        seq_server_type: 'event'
+        port: 44404
+        named_host: 'corehost'
+    nodal_servers:
+      my_coursedata:
+        seq_server_type: 'course'
+        port: 44410
+        named_host: 'nodalhost'
+      my_runnerdata:
+        seq_server_type: 'runner'
+        port: 44409
+        named_host: 'nodalhost'
+      my_tagdata:
+        seq_server_type: 'tag'
+        port: 44407
+        named_host: 'nodalhost'
+      my_bibdata:
+        seq_server_type: 'bib'
+        port: 44408
+        named_host: 'nodalhost'
+    data_servers:
+    field_servers:
+      my_integrator:
+        seq_server_type: 'integrator'
+        port: 44430
+        named_host: 'fieldhost'
+    presentor_servers:
+wp_server_to_frame_message_keys:
+  confservice:
+    LOGGER: 0
+    SIGLOGGER: 0
+    VSTATUS_BILLBOARD: 1
+    VSTATUS_LOWER: 1
+    STATUSBOX: 0
+    MAINNOTICE: 1
+    ERRORNOTICE: 1
+    TEMPDATABOX: 0
+wxpoeio_session_wxframe_taskings:
+  wp_signal_keys:
+    epack_go:
+      wxframe_tasker_method: ''
+      wxframe_sigkey_response_handler: 'VStatusLowerShiftDownDisplay'
+      wxframe_response_bad_status_warning_level: 1
+      dynamic_client_hostname: 'corehost'
+      sigvalues:
+        '1':
+          cntrl_type: 'button'
+          button_name: 'button_epack_go'
+          button_id: 98
+          panel_method: 'start'
+          button_evt_method: 'on_click_signal'
+          button_label_swap: 'ePack -'
+          text_field_name: ''
+          text_field_id: ''
+          dynamic_client_port: 0
+    npack_go:
+      wxframe_tasker_method: ''
+      dynamic_client_hostname: 'nodalhost'
+      sigvalues:
+        '1':
+          cntrl_type: 'button'
+          button_name: 'button_npack_go'
+          button_id: 97
+          panel_method: 'start'
+          button_evt_method: 'on_click_signal'
+          button_label_swap: 'nPack -'
+          text_field_name: ''
+          text_field_id: ''
+          static_text_swap: ''
+          clear_input_field: 0
+    daeman_check_my:
+      wxframe_tasker_method: ''
+      dynamic_client_hostname: 'thishost'
+      sigvalues:
+        '1':
+          cntrl_type: 'button'
+          button_name: 'button_my_dcheck_go'
+          button_id: 89
+          panel_method: 'start'
+          button_evt_method: 'on_click_signal'
+    daeman_check_1:
+      wxframe_tasker_method: ''
+      sigvalues:
+        '1':
+          cntrl_type: 'button'
+          button_name: 'button_core_dcheck_go'
+          button_id: 84
+          panel_method: 'start'
+          button_evt_method: 'on_click_signal'
+  by_panel_names:
+    _DEFAULT_:
+      _DEFAULT_: 0
+  match_by_object_key:
+    TSSuperMainPanel:
+      epack_go: 1
+      daeman_check_1: 1
+wxpoeio_session_client_taskings:
+  client_data_mgr_defaults:
+    ts_data_server: 0
+    by_client_data_queue: 1
+  wp_signal_keys:
+    epack_go:
+      dynamic_client_data_queue: 0
+      client_tasker_method: 'daemon_tasker'
+      dynamic_client_wxfmgr_callback: 'signal_dynamic_client_map'
+      wait_ready_method: 'wait_ready'
+      wait_result_method: 'wait_result'
+      signal_value_taskings:
+        _1:
+          send_state: 'start'
+          send_state_var_keys:
+            clear: 1
+            check_run_status: 1
+            carp_daemon: 1
+            start_min: 1
+            start_on_dmn_host: 1
+          wait_for_daemon_confirm: 1
+          wait_for_daemon_ready: 1
+          timeout_delay_secs_on_daemon_ready: 10
+          wait_for_daemon_result: 1
+          timeout_delay_secs_on_daemon_result: 30
+          client_call_list:
+            '1': cs_02
+            '2': cs_03
+          client_ref_var_keys:
+            nskey: '__call_item__'
+            call_key: '__call_item__'
+      logger_tasker_method: 'log_signal_transactions'
+      signal_value_logging:
+        _1:
+          add_sigkey_prefix: 1
+          split_log_entries: 1
+          log_entry_split_regex: ','
+    npack_go:
+      client_tasker_method: 'daemon_tasker'
+      dynamic_client_wxfmgr_callback: 'signal_dynamic_client_map'
+      wait_ready_method: 'wait_ready'
+      wait_result_method: 'wait_result'
+      ts_data_pusher: 0
+      signal_value_taskings:
+        _1:
+          send_state: 'start'
+          send_state_var_keys:
+            clear: 1
+            check_run_status: 1
+            carp_daemon: 1
+            start_min: 1
+            start_on_dmn_host: 1
+          wait_for_daemon_confirm: 1
+          wait_for_daemon_ready: 1
+          timeout_delay_secs_on_daemon_ready: 10
+          wait_for_daemon_result: 1
+          timeout_delay_secs_on_daemon_result: 30
+          client_call_list:
+            '1': ns_01
+            '2': ns_02
+            '3': ns_03
+          client_ref_var_keys:
+            nskey: '__call_item__'
+            call_key: '__call_item__'
+    daeman_check_my:
+      client_tasker_method: 'get_vital_signs'
+      ready_start_method: 'ready_client_wait_start'
+      signal_value_taskings:
+        _0:
+          send_state: 'start'
+          wait_for_daemon_confirm: 0
+          wait_for_daemon_ready: 1
+          timeout_delay_secs_on_daemon_ready: 10
+          send_state_var_keys:
+            auth: 'service1000'
+    daeman_check_1:
+      client_tasker_method: 'get_vital_signs'
+      ready_start_method: 'ready_client_wait_start'
+      signal_value_taskings:
+        _0:
+          send_state: 'start'
+          wait_for_daemon_confirm: 0
+          wait_for_daemon_ready: 1
+          timeout_delay_secs_on_daemon_ready: 10
+          send_state_var_keys:
+            auth: 'service1000'
+wxpoeio_session_registrations:
+  wp_signal_keys:
+    epack_go: 1
+    daemon_check: 1
+    npack_go: 1
+    daeman_check_my: 1
+  wp_signal_config:
+    epack_go:
+      SENDBACK_NOTICE_NO_REGISTRATION: 1
+      SIGNAL_CHANNEL: 'START'
+      LATCH: 1
+      LATCH_TIMEOUT: 5
+      LOCK: 1
+      LOCK_RETRY_TIME: 10
+      LOCK_TIMEOUT: 10
+    npack_go:
+      SIGNAL_CHANNEL: 'START'
+      LATCH: 1
+      LATCH_TIMEOUT: 5
+      LOCK: 1
+      LOCK_RETRY_TIME: 10
+      LOG_SIGNAL: 0
+    daeman_check_my:
+      SIGNAL_IS_INACTIVE: 0
+      SIGNAL_CHANNEL: 'PULSE'
+      LATCH: 1
+      LATCH_TIMEOUT: 3
+    click_to:
+      SIGNAL_CHANNEL: 'FRAME_TO_FRAME'
+      LATCH: 0
+      LATCH_TIMEOUT: 0
+    daemon_check:
+      SIGNAL_IS_INACTIVE: 1
+      SIGNAL_CHANNEL: 'PULSE'
+      LATCH: 1
+      LATCH_TIMEOUT: 3
+  wxpoe_registration:
+    epack_go:
+      DYNAMIC_CLIENT_ALIAS: 1
+      REGISTER_AFTER_START: 0
+      EVT_METHOD_POE: '__dynamic_client_ready_check__'
+      EVT_METHOD_WXFRAME: 'VStatusLowerShiftDownEvent'
+    npack_go:
+      DYNAMIC_CLIENT_ALIAS: 1
+      CLIENT_ALIAS: 'daemon02'
+      REGISTER_AFTER_START: 0
+      EVT_METHOD_POE: '__dynamic_client_ready_check__'
+      EVT_METHOD_LOG: '__signal_logger__'
+      EVT_METHOD_WXFRAME: 'VStatusLowerShiftDownEvent'
+      LOGGER_ALIAS: '__default__'
+    daeman_check_my:
+      DYNAMIC_CLIENT_ALIAS: 1
+      REGISTER_AFTER_START: 0
+      EVT_METHOD_POE: '__dynamic_client_ready_check__'
+      EVT_METHOD_WXFRAME: 'message_to_wxwin_textbox'
+    click_to:
+      INTER_FRAME: 1
+      EVT_METHOD_WXFRAME: 'ShowMyClick'
+    daemon_check:
+      CLIENT_ALIAS: 'local_daemon'
+      REGISTER_AFTER_START: 1
+      EVT_METHOD_POE: '__client_ready_check__'
+      EVT_METHOD_WXFRAME: 'message_to_panel_object'
+  start_client_connections:
+    local_daemon:
+      START_PROC: '__default__'
+      SERVER_SESS: 0
+    daemon02:
+      START_PROC: '__default__'
+      SERVER_SESS: 0
+  client_connection_defaults:
+    default_client_port: 44401
+    default_client_conn_host: 'thishost'
+    default_dynamic_client_port: 44401
+    force_dyn_port_lookup_on_sigval_over: 0
+  clients_by_aliaskey:
+    __EMPTY_DEFAULT__:
+      alias_key: 'config check by client session setup'
+    local_daemon:
+      alias_key: 'local_daemon'
+      client_type: 'daemon'
+      client_port: '_DEFAULT_'
+      client_conn_host: '_DEFAULT_'
+      dmgr_client_data_queue: 0
+    daemon02:
+      alias_key: 'daemon02'
+      client_type: 'daemon'
+      client_port: '_DEFAULT_'
+      client_conn_host: 'nodalhost'
+  daemon_clients_by_key:
+    local_daemon:
+      alias_key: 'local_daemon'
+      client_port: '_DEFAULT_'
+      client_conn_tshost: '_DEFAULT_'
+    daemon02:
+      alias_key: 'daemon02'
+      client_port: '_DEFAULT_'
+      client_conn_tshost: 'nodalhost'
+clientserver_tasking_config:
+  poewxframes:
+    ttracker:
+      tasker_subtasks:
+        get_data:
+          inline_task: 'get_tracker_data'
+          send_state: 'tell_me_data'
+          rcvd_state: 'tracker_data'
+      tasker_inline_tasks:
+        get_data: 
+          '1': 'get_tracker_data'
+        get_sources: 
+          '1': 'get_tracker_sources'
+      inline_tasks:
+        get_data: 'get_tracker_data'
+        get_sources: 'get_tracker_sources'
+      send_states:
+        get_data: 'tell_me_data'
+        get_sources: 'tell_me_who'

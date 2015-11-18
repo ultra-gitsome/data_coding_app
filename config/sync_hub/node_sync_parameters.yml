@@ -1,0 +1,33 @@
+---
+node_sync_parameters:
+  sync_remarks: 'this file holds parameters that are sync across the data servers'
+  suffix_remarks: 'default is falsy. the suffix key passes data tracking details. for one or two stations this data overkill.'
+  use_key_suffix: 0
+  node_time_zone_remarks: 'time zone is indicated as an integer (hour) value, Eastern is -5, Central is -6, etc.'
+  node_time_zone: -8
+  event_code: 13
+  start_time:
+    course_1:
+    course_2:
+  min_time:
+    rw_remarks: 'the read window size (in secs) is the minimum time between data points to prevent double entries. the reader persist cannot exceed this time.'
+    read_window_c_1: 300
+    read_window_c_2: 300
+  min_time_prev_station_check:
+    rw_remarks: 'the station checkpoint read window size (in secs) is the minimum time between data points'
+    rw_remarks2: 'to prevent double entries. the reader persist cannot exceed this time.'
+    rw_remarks3: 'the scp_ key is double index coded by check station and course.'
+    rw_remarks4: 'NOTE: the state_manager only store *one* checkstation instance for all courses.'
+    rw_remarks5: '(one station == one spval) scp coding ==> _c . $c_index . sp . $spval, e.g. _c1sp11_'
+    rw_remarks6: 'scp_read_window keying  ==> _ . $stationnum . _crs_ . $c_index'
+    rw_remarks7: 'spval ==> $stationnum . 1 >> where 1 => checkin event, [0 => checkout event]'
+    scp_read_window_1_crs_1: 120
+    scp_read_window_1_crs_2: 60
+    scp_read_window_2_crs_2: 600
+  persist_time:
+    reader_persist_time_station_1: 60
+    reader_persist_time_station_2: 500
+  single_station_course:
+    station_to_course_remarks: 'this allows the setting of a single (simple) station configuration, so some detailed data checks are skipped'
+    course_1: 1
+    course_2: 0

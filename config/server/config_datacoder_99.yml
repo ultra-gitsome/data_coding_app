@@ -1,0 +1,705 @@
+---
+server_initiation:
+  config_server_ref_states:
+    events:
+      seq_server_type: datacoder
+    my_server_named_host: fieldhost
+    my_server_category: field_servers
+    my_server_key: my_collector
+    my_server_type: collector
+    my_server_address_key: my_collector
+    my_local_server_type: poereaderclient alien 8880
+  local:
+    environment:
+      testing: 0
+      socket_carp: 0
+      server_session_carp: 1
+      run_time_carp: 1
+      run_time_by_key_carp: 1
+      my_server_shortform_type: Coder
+      init_server_message: 'HAE Data Coder Client-Server'
+      source_data_type: tag
+      run_time_by_key_carp: 1
+      turn_on_local_data_saves: 1
+      save_remarks: 'local data saving must be turned on to enable other save options'
+      save_quick_data: 1
+      save_record_data: 0
+      save_tracking_data: 0
+      save_detail_data: 0
+      quick_data_save_interval: 10
+      quick_save_remarks: 'default 10; every 10 records processed...no timer yet'
+      record_data_save_interval: 100
+      record_save_remarks: 'default 100; every 100 records processed...no timer yet'
+    database:
+      use_database: 1
+      store_ts_data_to_local_db: 0
+      store_ts_data_to_master_db: 0
+      store_timing_data_db: 0
+      store_laps_data_db: 0
+      make_safe_timing_inserts: 0
+      make_safe_laps_inserts: 0
+      data_store_options:
+        timing: 1
+        laps: 1
+        detailed: 0
+  config_servers:
+    events:
+      make_active: 1
+      state: 'i_am'
+      server_cat: 'core_servers'
+      server_my: 'my_event'
+    runners:
+      make_active: 0
+      state: 'tellmerunners'
+      server_cat: 'nodal_servers'
+      server_my: 'my_runnerdata'
+    tags:
+      make_active: 0
+      state: 'tellmetags'
+      server_cat: 'nodal_servers'
+      server_my: 'my_tagdata'
+    courses:
+      make_active: 1
+      state: 'tellmecourses'
+      server_cat: 'nodal_servers'
+      server_my: 'my_coursedata'
+    bibs:
+      make_active: 0
+      state: 'tellmebibs'
+      server_cat: 'nodal_servers'
+      server_my: 'my_bibdata'
+  local_node_hosted_servers:
+    daemons:
+      my_daemon_core:
+        seq_server_type: 'daemon'
+        port: 44401
+        named_host: 'localhost'
+    tracker_servers:
+      my_tracker:
+        type: 'dtracker'
+        port: 44402
+        named_host: 'thishost'
+    core_servers:
+      my_supervisor:
+        seq_server_type: 'supervisor'
+        port: 44400
+        named_host: 'corehost'
+      my_node:
+        seq_server_type: 'node'
+        port: 44403
+        named_host: 'corehost'
+      my_notify:
+        seq_server_type: 'notification'
+        port: 44405
+        named_host: 'corehost'
+      my_event:
+        seq_server_type: 'event'
+        port: 44404
+        named_host: 'corehost'
+    nodal_servers:
+      my_coursedata:
+        seq_server_type: 'course'
+        port: 44410
+        named_host: 'nodalhost'
+      my_runnerdata:
+        seq_server_type: 'runner'
+        port: 44409
+        named_host: 'nodalhost'
+      my_tagdata:
+        seq_server_type: 'tag'
+        port: 44407
+        named_host: 'nodalhost'
+      my_bibdata:
+        seq_server_type: 'bib'
+        port: 44408
+        named_host: 'nodalhost'
+server_local_configuration:
+  _SERVER_DEFAULT_REMARKS_: 'server config defaults are located in node and hub configs. The config below is for the local server overrides.'
+  process_manager_config:
+    node_config_server_ref_states:
+      events:
+        seq_server_type: datacoder
+      my_server_named_host: fieldhost
+      my_server_category: field_servers
+      my_server_key: my_collector
+      my_server_type: collector
+      my_server_address_key: my_collector
+      my_local_server_type: poereaderclient alien 8880
+    server_message_vars:
+      my_server_shortform_type: Coder
+      init_server_message: 'HAE Data Coder Client-Server'
+  state_manager_config:
+    state_typology:
+      ts_sourced_data_flag: 0
+      dtg_sourced_data_flag: 0
+  data_manager_config:
+    data_typology:
+      ts_sourced_data_flag: 0
+      dtg_sourced_data_flag: 0
+      yaml_data_files_flag: 1
+    data_form:
+      source_data_type: tag
+      make_all_source_data_keys: 1
+      forward_data_keys_by_src: 1
+    data_storing:
+      save_remarks: 'local data saving must be turned on to enable other save options'
+      quick_save_remarks: 'default 10; every 10 records processed...no timer yet'
+      record_save_remarks: 'default 100; every 100 records processed...no timer yet'
+      turn_on_local_data_saves: 1
+      save_quick_data: 1
+      save_record_data: 0
+      save_tracking_data: 0
+      save_detail_data: 0
+      quick_data_save_interval: 10
+      record_data_save_interval: 100
+      yaml_file_list_src_file: 'dissertation_parse_files.yml'
+    database:
+      use_database: 1
+      store_ts_data_to_local_db: 0
+      store_ts_data_to_master_db: 0
+      store_timing_data_db: 0
+      store_laps_data_db: 0
+      make_safe_timing_inserts: 0
+      make_safe_laps_inserts: 0
+wp_server_to_frame_message_keys:
+  mainframe:
+    LOGGER: 0
+    VSTATUS_BILLBOARD: 1
+    VSTATUS_LOWER: 1
+    STATUSBOX: 0
+    MAINNOTICE: 1
+    ERRORNOTICE: 1
+    TEMPDATABOX: 0
+    LAYOUT_CONTROLLER: 1
+  statsframe:
+    LOGGER: 0
+    GROUP: 1
+wxpoe_wxframe_configuration:
+  _WXFRAME_DEFAULTS_:
+    lazy_build: 0
+    show_on_startup: 1
+    frame_ident: 'mainframe'
+    frame_type: 'super'
+    frame_title: 'Mainframe'
+    app_name: 'WxPoeAppMain'
+    control_class: 'FrameControlMain'
+    layout_file: 'LayoutMain'
+    frame_raise: 1
+  _WXFRAME_LAYOUT_DEFAULTS_:
+    wxlayout_smessage_system: 'smessage_system'
+    wxlayout_smessage_event: 'smessage_event'
+    wxlayout_ialert: 'ialert'
+    wxlayout_talert: 'talert'
+  _WXFRAME_STD_TASKINGS_DEFAULTS_:
+    frame_ident: 'mainframe'
+    NO_wxlayout_method_redirect: 1
+  wxpoe_app_register:
+    app_name: 'DataCoderWxPoe'
+    app_type: 'datacoder'
+    layout_config_file_midfix: 'WxPoeDataCoder'
+  wxframes_keys:
+    main: 1
+    grpstats: 0
+    groupstats2: 0
+  wxframes_config:
+    main:
+      frame_ident: 'mainframe'
+      frame_type: 'super2'
+      frame_title: 'CMmonitor'
+      control_class: 'DataCoderFrameCon'
+      layout_file: 'WxPoeLayoutDataCoder'
+      frame_qqdata_push_target_key: ''
+      frame_raise: 1
+    grpstats:
+      frame_ident: 'statsframe'
+      control_class: 'TSiMonitorHelperFrameCon'
+      layout_file: 'TSWxPoeLayoutHelperService'
+      frame_qqdata_push_target_key: ''
+      lazy_build: 0
+      show_on_startup: 1
+      frame_raise: 0
+    groupstats2:
+      frame_ident: 'statsframe'
+      control_class: 'TSRMonitorHelperFrameCon'
+      layout_file: 'TSWxPoeLayoutHelperService'
+      lazy_build: 1
+  wxframes_std_taskings:
+    ialert:
+      NO_wxlayout_method_redirect: 1
+      wxlayout_key_ialert: ''
+      wxframe_method: 'iNoticeToWxLayout'
+    talert:
+      NO_wxlayout_method_redirect: 1
+      wxlayout_key_talert: ''
+      wxframe_method: 'tNoticeToWxLayout'
+    sysmess:
+      NO_wxlayout_method_redirect: 1
+      wxlayout_key_sysmess: 'wxlayout_smessage_system'
+      wxframe_method: 'sMessageFromSystem'
+    evtmess:
+      NO_wxlayout_method_redirect: 1
+      wxlayout_key_evtmess: 'wxlayout_smessage_event'
+      wxframe_method: 'sMessageFromEvent'
+    qalert:
+      wxframe_method: 'qNoticeToWxFrame'
+      wxframe_mgr_method: 'tNoticeToWxLayout'
+    vlogger:
+      NO_wxlayout_method_redirect: 1
+      wxlayout_key_ialert: 'vlogger'
+      wxframe_method: 'VLoggingEventAppend'
+    vstatus:
+      NO_wxlayout_method_redirect: 1
+      wxlayout_key_ialert: 'vlogger'
+      wxframe_method: 'VStatusLowerShiftDownEventTrace'
+    ialert_redirect:
+      NO_wxlayout_method_redirect: 0
+      wxlayout_key_talert: ''
+      wxlayout_method: 'ialert'
+      wxframe_method: 'iNoticeToWxLayoutRedirect'
+    talert_redirect:
+      NO_wxlayout_method_redirect: 0
+      wxlayout_key_talert: ''
+      wxlayout_method: 'talert'
+      wxframe_method: 'tNoticeToWxLayoutRedirect'
+    resultsnotice:
+      NO_wxlayout_method_redirect: 1
+      wxframe_method: 'noticeResultsToFrame'
+    resultsnotice_redirect:
+      NO_wxlayout_method_redirect: 0
+      wxlayout_method: 'notice_to_layout'
+      wxframe_method: 'noticeResultsToFrameRedirect'
+    updatenotice:
+      NO_wxlayout_method_redirect: 1
+      wxframe_method: 'noticeUpdateToFrame'
+    updatenotice_redirect:
+      NO_wxlayout_method_redirect: 0
+      wxlayout_method: 'update_to_layout'
+      wxframe_method: 'noticeUpdateToFrameRedirect'
+wxpoeio_datamanager_signal_registration:
+  _DATAKEY_REMARKS_: 'primary keys = 1, secondary keys = 2, tertiary keys = 3'
+  _DATAKEY_REMARKS2_: 'data queue data keys are normally mapped directly from the signal namekey'
+  _DATAKEY_REMARKS3_: 'a MAIN datakey is set as a mimimum default qqueue, override this value to set to the main/primary client namekey [optional]'
+  _DATAKEY_DEFAULTS_:
+    default_datakey_type: 3
+  datakey_config:
+    Monitor: 1
+    reader_1: 2
+    reader_2: 2
+    push: 1
+    info: 3
+    log: 3
+  queues_display_by_datakey:
+    Monitor: 1
+    reader_1: 1
+    reader_2: 1
+  queues_forward_by_client_datakey:
+    push: 1
+  client_to_datakey_config:
+    Monitor: 'display'
+    reader_1: 2
+    reader_2: 2
+    push: 1
+    info: 3
+    log: 3
+  wp_signal_namekey_to_datakey_remap:
+    data_pusher: 'push'
+  declare_main_datakey:
+    _MAINKEY_: 'Monitor'
+wxpoeio_session_wxframe_taskings:
+  _DEFAULTS_:
+    _WXFRAME_DEFAULTS_:
+      default_wxframe_ident: 'mainframe'
+      default_wxframe_key: 'main'
+    _WXFRAME_LAYOUT_DEFAULTS_:
+      wxlayout_smessage_system: 'smessage_system'
+      wxlayout_smessage_event: 'smessage_event'
+      wxlayout_ialert: 'ialert'
+      wxlayout_talert: 'talert'
+    _SIGNAL_DEFAULTS_:
+      wxframe_tasker_method: ''
+      wxframe_sigkey_response_handler: 'handle_button_change'
+      wxframe_sigkey_switch_handler: 'handle_button_change'
+      wxframe_signal_update_handler: 'handle_signal_update'
+      wxframe_signal_smessage_system_handler: ''
+      wxframe_signal_smessage_event_handler: ''
+      wxframe_response_bad_status_warning_level: 1
+      wxframe_response_ignore_status_over_1: 1
+      primary_sigvalue: '1'
+      sigvalue_key_prefix: 'v_'
+  wp_signal_wxframe_config:
+    run_codes_go:
+      wxframe_tasker_method: ''
+      swap_signal_state_remarks: 'swap process is for 2 matched sigvalues...on/off type configuration'
+      swap_signal_state: 0
+      dynamic_client_hostname: ''
+      signal_evt_method: 'on_click_signal'
+      cntrl_type: 'button'
+      cname: 'run_parse'
+      cntrl_id: 11
+      primary_sigvalue: ''
+      remarks_signals_1: 'cntrls are set on WxPanel and the cntrl builder method pulls in cntrl_id and cntrl_evt_method'
+      remarks_signals_1: 'signal cntrl_id and cntrl_evt_method override gui values set by WxPanel'
+      remarks_signals_1: 'LayoutMain creates cntrl_id to signal map. Signal values are primarily referenced with the cntrl_id'
+      sigvalues:
+        '1':
+          cname: 'run_parse'
+          cntrl_id: 12
+        '2':
+          cname: 'run_recodes'
+          cntrl_id: 11
+          button_label_swap: ''
+        '3':
+          cname: 'run_coding'
+          cntrl_id: 13
+        '4':
+          cname: 'run_atx_files'
+          cntrl_id: 14
+        '5':
+          cname: 'run_dist_calc'
+          cntrl_id: 15
+        '6':
+          cname: 'run_write_sheets'
+          cntrl_id: 16
+    reader2_go:
+      wxframe_tasker_method: ''
+      wxframe_sigkey_response_handler: ''
+      wxframe_sigkey_switch_handler: 'handle_button_change'
+      wxframe_response_bad_status_warning_level: 1
+      wxframe_signal_update_handler: 'handle_signal_update'
+      wxframe_response_ignore_status_over_1: 1
+      swap_signal_state_remarks: 'swap process is for 2 matched sigvalues...on/off type configuration'
+      swap_signal_state: 1
+      dynamic_client_hostname: ''
+      cname: 'reader2_go'
+      sigvalues:
+        '0':
+          cntrl_type: 'button'
+          button_name: 'button_reader2_go'
+          cntrl_id: 98
+          signal_evt_method: 'on_click_signal'
+          button_label_swap: 'Reader 2 +'
+          signal_swap_level: secondary 
+          text_field_name: ''
+          text_field_id: ''
+        '1':
+          cntrl_type: 'button'
+          button_name: 'button_reader2_go'
+          cntrl_id: 98
+          layout_obj_method: 'load_reader1_data'
+          signal_evt_method: 'on_click_signal'
+          button_label_swap: 'Reader 2 -'
+          signal_swap_level: primary
+          text_field_name: ''
+          text_field_id: ''
+    push_go:
+      wxframe_tasker_method: ''
+      client_tasker_method: 'send_data_queue'
+      sigvalues:
+        '1':
+    log_to_group_cats:
+      wxframe_tasker_method: ''
+      wxframe_sigkey_response_handler: 'handle_runtime_cat_data'
+      wxframe_response_bad_status_warning_level: 1
+      wxframe_response_ignore_status_over_1: 1
+      sigvalues:
+        '1':
+          layout_obj_method: ''
+        '2':
+          layout_obj_method: ''
+        '3':
+          layout_obj_method: ''
+  by_panel_names:
+    _DEFAULT_:
+      _DEFAULT_: 0
+  match_by_wxframe_key:
+    main:
+      reader1_go: 1
+      reader2_go: 1
+  wxframe_to_wxlayout_keys:
+    main:
+      wxlayout_smessage_system: 'smessage_system'
+      wxlayout_smessage_event: 'smessage_event'
+      wxlayout_ialert: 'ialert'
+      wxlayout_talert: 'talert'
+wxpoeio_session_client_taskings:
+  _DEFAULTS_:
+    _SIGNAL_DEFAULTS_:
+      client_tasker_method: 'start_tag_reads'
+      wait_ready_method: 'wait_ready'
+      wait_result_method: 'wait_result'
+      client_start_method: 'start_reader_client'
+      ready_start_method: 'ready_client_wait_start'
+      send_vstatus_completion_notice: 1
+      send_vstatus_notice_upon_ready: 1
+      send_vstatus_notice_upon_conn_fail: 1
+      send_notice_client_running_on: 0
+      evt_method_ready_response: 0
+      evt_method_running_response: 0
+      DISABLE_evt_method_response: 0
+      DISABLE_evt_method_update: 0
+      sigvalue_key: 'v_1'
+    _SIGVALUE_DEFAULTS_:
+      signal_value: 1
+      wait_for_client_ready: 1
+      wait_for_client_confirm: 0
+      wait_for_client_result: 0
+      timeout_delay_secs_on_client_ready: 15
+      client_ref_var_keys:
+        NO_KEYS: 1
+      send_state_var_keys:
+        NO_KEYS: 1
+    _CLIENT_CONNECTIONS_:
+      default_client_port: 44400
+      default_client_conn_host: 'thishost'
+      default_dynamic_client_port: 44400
+      force_dyn_port_lookup_on_sigval_over: -1
+    _CLIENTS_BY_KEY_:
+      default_client_namekey: ''
+      default_daemon_namekey: 'local_daemon'
+      client_type: 'tag_reader'
+      client_data_path: 'both'
+      client_multi_queue_dispatch: 0
+  wp_signal_client_config:
+    run_codes_go:
+      client_namekey: 'run_codes'
+      client_tasker_method: 'srvr_tasker'
+      wait_ready_method: 'wait_ready'
+      wait_result_method: 'wait_result'
+      send_vstatus_notice_upon_ready: 1
+      send_notice_client_running_on: 0
+      evt_method_ready_response: 1
+      evt_method_running_response: 0
+      DISABLE_evt_method_response: 1
+      timeout_delay_secs_on_client_ready: 10
+      timeout_delay_secs_on_client_confirm: 20
+      wait_for_client_confirm: 1
+      use_task_id_buffer: 1
+      conn_state: 'connect'
+      send_state: 'run_codes'
+      send_state_tasker_keys:
+        SEND_HUB_KEY: 1
+        SEND_SRVR_NUM: 1
+        SEND_NODAL_KEY: 0
+      signal_value_taskings:
+        v_1:
+          signal_value: 1
+          conn_state: 'connect'
+          send_state: 'run_codes'
+          send_var_key_val_pairs:
+            type: 1
+          wait_for_client_confirm: 1
+          wait_for_client_ready: 1
+          timeout_delay_secs_on_client_ready: 10
+          timeout_delay_secs_on_client_confirm: 20
+        v_2:
+          signal_value: 2
+          send_state: 'run_codes'
+          send_var_key_val_pairs:
+            type: 10
+          wait_for_client_confirm: 1
+          wait_for_client_ready: 1
+        v_3:
+          signal_value: 3
+          send_var_key_val_pairs:
+            type: 3
+        v_4:
+          signal_value: 4
+          send_var_key_val_pairs:
+            type: 5
+        v_5:
+          signal_value: 5
+          send_var_key_val_pairs:
+            type: 12
+          timeout_delay_secs_on_client_confirm: 300
+        v_6:
+          signal_value: 6
+          send_var_key_val_pairs:
+            type: 14
+          timeout_delay_secs_on_client_confirm: 120
+    reader2_go:
+      client_namekey: 'reader_2'
+      client_tasker_method: 'start_tag_reads'
+      wait_ready_method: 'wait_ready'
+      wait_result_method: 'wait_result'
+      send_vstatus_notice_upon_ready: 1
+      send_notice_client_running_on: 1
+      evt_method_ready_response: 1
+      evt_method_running_response: 1
+      signal_value_taskings:
+        v_1:
+          signal_value: 1
+          conn_state: 'connect'
+          send_state: 'get tags'
+          send_state_var_keys:
+            NO_KEYS: 1
+          wait_for_client_confirm: 0
+          wait_for_client_ready: 1
+          timeout_delay_secs_on_client_ready: 40
+          client_ref_var_keys:
+            NO_KEYS: 1
+        v_0:
+          signal_value: 0
+          conn_state: 'disconnect'
+          send_state: 'quit'
+          send_state_var_keys:
+            NO_KEYS: 1
+          wait_for_client_confirm: 0
+          wait_for_client_ready: 1
+          timeout_delay_secs_on_client_ready: 10
+          wait_for_client_result: 1
+          timeout_delay_secs_on_client_result: 20
+          client_ref_var_keys:
+            NO_KEYS: 1
+      client_start_method: 'start_reader_client'
+      ready_start_method: 'ready_client_wait_start'
+    push_go:
+      client_namekey: 'data_pusher'
+      client_tasker_method: 'send_data_queue'
+      wait_ready_method: 'wait_ready'
+      send_vstatus_notice_upon_ready: 1
+      send_notice_client_running_on: 0
+      DISABLE_evt_method_response: 1
+      signal_value_taskings:
+        v_1:
+          client_tasker_method: 'send_data_queue'
+          client_call_server_method: ''
+          wait_for_client_ready: 1
+          timeout_delay_secs_on_client_ready: 10
+          send_state: 'quick_data'
+          send_state_var_keys:
+            DATA_QQUEUE_CLIENT_KEY: 'push'
+  clients_by_name_key:
+    run_codes:
+      aliaskey_for_client: 'rund_codes'
+      client_type: 'code_maker'
+      client_server_number: ''
+      client_port: 44500
+      client_conn_tshost: '__STATIC_IP_ADDRESS__'
+      client_conn_static_address: 'localhost'
+      client_welcome_redirect_method: 'send_srvr_task'
+      client_data_path: 'push'
+      remarks_client_multi_queue_dispatch: 'multi_queue_dispatch is a one-to-many client...not implemented yet'
+      client_multi_queue_dispatch: 0
+    reader_2:
+      aliaskey_for_client: 'reader_2'
+      client_type: 'tag_reader'
+      client_server_number: ''
+      client_port: 23
+      client_conn_tshost: '__STATIC_IP_ADDRESS__'
+      client_conn_static_address: '192.168.1.4'
+      client_continuous_run_after_ready: 1
+    data_pusher:
+      namekey_to_client: 'data_pusher'
+      client_type: 'data'
+      client_port: 44430
+      client_conn_tshost: '__STATIC_IP_ADDRESS__'
+      client_conn_static_address: '127.0.0.3'
+      client_welcome_redirect_method: 'push_data_forward'
+      client_data_path: 'push'
+      client_multi_queue_dispatch: 0
+  daemon_clients_by_name_key:
+    local_daemon:
+      alias_key: 'local_daemon'
+      client_server_number: 001
+      client_port: '_DEFAULT_'
+      client_conn_tshost: '_DEFAULT_'
+    daemon02:
+      alias_key: 'daemon02'
+      client_port: '_DEFAULT_'
+      client_conn_tshost: 'nodalhost'
+wxpoeio_session_registrations:
+  wp_signal_defaults:
+    signal_config:
+      SIGNAL_CHANNEL: 'MAIN'
+      LATCH: 1
+      LATCH_TIMEOUT: 10
+      LOCK: 1
+      LOCK_RETRY_TIME: 10
+      TRAP: 0
+      TRAP_TIMEOUT: 0
+    registration:
+      REGISTER_AFTER_START: 0
+      SOURCE_WXFRAME_IDENT: 'mainframe'
+      LOGGER_ALIAS: '__default__'
+      DIRECT_SERVER_SESSION_ALIASKEY: 0
+  wp_signal_keys:
+    run_codes_go: 1
+    reader2_go: 0
+    push_go: 0
+    qdata_notice: 1
+    qdata_error: 1
+    state_notice: 1
+    talert_notice: 1
+  wp_signal_config:
+    run_codes_go:
+      SIGNAL_CHANNEL: 'CODES'
+      LATCH: 1
+      LATCH_TIMEOUT: 10
+      LOCK: 1
+      LOCK_RETRY_TIME: 10
+      LOCK_TIMEOUT: 30
+      SIGNAL_KILL_SIGVALUE: 0
+      TRACE_SIGNAL: 1
+    reader2_go:
+      SIGNAL_CHANNEL: 'READER2'
+      LATCH: 1
+      LATCH_TIMEOUT: 10
+      LOCK: 1
+      LOCK_RETRY_TIME: 10
+      LOCK_TIMEOUT: 0
+      SIGNAL_KILL_SIGVALUE: 0
+    push_go:
+      SIGNAL_CHANNEL: 'DATA_PUSH'
+      LATCH: 0
+      LATCH_TIMEOUT: 10
+      LOCK: 0
+      LOCK_RETRY_TIME: 10
+      LOCK_TIMEOUT: 0
+    qdata_notice:
+      TRAP: 1
+      TRAP_TIMEOUT: 3
+    qdata_error:
+      TRAP: 1
+      TRAP_TIMEOUT: 3
+    state_notice:
+      TRAP: 1
+      TRAP_TIMEOUT: 1
+    talert_notice:
+      TRAP: 1
+      TRAP_TIMEOUT: 1
+  wxpoe_registration:
+    run_codes_go:
+      REG_REMARKS: 'If conn_start is set to "no_init_start" then make sure "register_after_start" is falsy'
+      CLIENT_NAMEKEY: 'run_codes'
+      REGISTER_AFTER_START: 0
+      EVT_METHOD_POE: '__server_client_ready_check__'
+      WXFRAME_STD_TASKER_TYPE_KEY: 'resultsnotice'
+    reader2_go:
+      CLIENT_NAMEKEY: 'reader_2'
+      REGISTER_AFTER_START: 0
+      EVT_METHOD_POE: '__data_client_ready_check__'
+      EVT_METHOD_WXFRAME: 'mod_wxwin_control'
+      EVT_UPDATE_WXFRAME: 'notice_to_wxwin'
+    push_go:
+      REG_REMARKS: 'If conn_start is set to "no_init_start" then make sure "register_after_start" is falsy'
+      CLIENT_NAMEKEY: 'data_pusher'
+      REGISTER_AFTER_START: 0
+      EVT_METHOD_POE: '__push_client_ready_check__'
+      EVT_METHOD_WXFRAME: 'notice_to_wxwin'
+    qdata_notice:
+      TARGET_WXFRAME_IDENT: 'mainframe'
+      WXFRAME_STD_TASKER_TYPE_KEY: 'qalert'
+      EVT_NAMEKEY: 'monitor'
+    qdata_error:
+      TARGET_WXFRAME_IDENT: 'mainframe'
+      WXFRAME_STD_TASKER_TYPE_KEY: 'vstatus'
+      EVT_NAMEKEY: 'monitor'
+    state_notice:
+      TARGET_WXFRAME_IDENT: 'mainframe'
+      WXFRAME_STD_TASKER_TYPE_KEY: 'vstatus'
+      EVT_NAMEKEY: 'monitor'
+    talert_notice:
+      TARGET_WXFRAME_IDENT: 'mainframe'
+      WXFRAME_STD_TASKER_TYPE_KEY: 'talert_redirect'
+      OVERRIDE_EVT_METHOD_WXLAYOUT: 'handle_button_switch'
+      EVT_NAMEKEY: 'monitor'

@@ -1,0 +1,30 @@
+files:
+  1: 'k0t0_2014.4.11.txt'
+  2: 'j0mp1-d0mp1-g3mp1-d1mp1_2014.4.22.txt'
+  3: 'm0f0_2014.4.4.txt'
+  4: 'p0l0_2014.4.24.txt'
+  5: 'c1r0_2014.4.30.txt'
+  6: 'g0s0_2014.5.27.txt'
+  7: 'c2w0_2014.5.3.txt'
+active_parse:
+  1: 0
+  2: 0
+  3: 1
+  4: 0
+  5: 0
+  6: 0
+  7: 0
+atx_out:
+  1: 'k0t0_2014.4.11'
+  2: 'j0-d0-g3-d1_2014.4.22'
+  3: 'm0f0_2014.4.4'
+  4: 'p0l0_2014.4.24'
+  5: 'c1r0_2014.4.30'
+  6: 'g0s0_2014.5.27'
+  7: 'c2w0_2014.5.3'
+wx_input_yml:
+  1: 'data_coding.yml'
+  2: 'coding_analysis.yml'
+  3: 'post_parse_data.yml'
+wx_output_yml:
+  1: 'data_coding.yml'

@@ -1,0 +1,4 @@
+---
+system_parameters:
+  label_remarks: 'this file holds the system specific name/label to identify the GUI config file for that [laptop] screen'
+  TSGUILABEL: 'dell1900wd'

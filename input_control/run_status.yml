@@ -1,0 +1,270 @@
+---
+active_1_last_parsed_file_to_fkey_map:
+  '1': f1
+  '2': f2
+  '3': f3
+  '4': f4
+  '5': f5
+  '6': f6
+  '7': f7
+active_1_last_parsed_files:
+  '1': k0t0_2014.4.11.txt
+  '2': j0mp1-d0mp1-g3mp1-d1mp1_2014.4.22.txt
+  '3': m0f0_2014.4.4.txt
+  '4': p0l0_2014.4.24.txt
+  '5': c1r0_2014.4.30.txt
+  '6': g0s0_2014.5.27.txt
+  '7': c2w0_2014.5.3.txt
+active_1_last_parsed_fkeys:
+  f1: 1
+  f2: 1
+  f3: 1
+  f4: 1
+  f5: 1
+  f6: 1
+  f7: 1
+active_2_done_tsplit_iname:
+  C1R0: 1
+  C2W0: 1
+  D0MP1: 1
+  D1MP1: 1
+  G0S0: 1
+  G3MP1: 1
+  J0MP1: 1
+  K0T0: 1
+  M0F0: 1
+  P0L0: 1
+active_2_needs_tpliting_fkeys:
+  f1: 0
+  f2: 0
+  f3: 0
+  f4: 0
+  f5: 0
+  f6: 0
+  f7: 0
+active_3_done_precoding_iname:
+  C1R0: 1
+  C2W0: 1
+  D0MP1: 1
+  D1MP1: 1
+  G0S0: 1
+  G3MP1: 1
+  J0MP1: 1
+  K0T0: 1
+  M0F0: 1
+  P0L0: 1
+active_3_needs_precoding_iname:
+  C1R0: 0
+  C2W0: 0
+  D0MP1: 0
+  D1MP1: 0
+  G0S0: 0
+  G3MP1: 0
+  J0MP1: 0
+  K0T0: 0
+  M0F0: 0
+  P0L0: 0
+active_4_done_clean_coding_iname:
+  C1R0: 1
+  C2W0: 1
+  D0MP1: 1
+  D1MP1: 1
+  G0S0: 1
+  G3MP1: 1
+  J0MP1: 1
+  K0T0: 1
+  M0F0: 1
+  P0L0: 1
+active_4_needs_clean_coding_iname:
+  C1R0: 0
+  C2W0: 0
+  D0MP1: 0
+  D1MP1: 0
+  G0S0: 0
+  G3MP1: 0
+  J0MP1: 0
+  K0T0: 0
+  M0F0: 0
+  P0L0: 0
+active_5_done_code_stating_iname:
+  C1R0: 1
+  C2W0: 1
+  D0MP1: 1
+  D1MP1: 1
+  G0S0: 1
+  G3MP1: 1
+  J0MP1: 1
+  K0T0: 1
+  M0F0: 1
+  P0L0: 1
+active_5_needs_code_stating_iname:
+  C1R0: 0
+  C2W0: 0
+  D0MP1: 0
+  D1MP1: 0
+  G0S0: 0
+  G3MP1: 0
+  J0MP1: 0
+  K0T0: 0
+  M0F0: 0
+  P0L0: 0
+active_6_done_aspect_iname_disp:
+  C1R0: 1
+  C2W0: 1
+  D0MP1: 1
+  D1MP1: 1
+  G0S0: 1
+  G3MP1: 1
+  J0MP1: 1
+  K0T0: 1
+  M0F0: 1
+  P0L0: 1
+active_6_done_codes_iname_disp:
+  C1R0: 1
+  C2W0: 1
+  D0MP1: 1
+  D1MP1: 1
+  G0S0: 1
+  G3MP1: 1
+  J0MP1: 1
+  K0T0: 1
+  M0F0: 1
+  P0L0: 1
+active_6_needs_code_calc_iname:
+  C1R0: 1
+  C2W0: 1
+  D0MP1: 1
+  D1MP1: 1
+  G0S0: 1
+  G3MP1: 1
+  J0MP1: 1
+  K0T0: 1
+  M0F0: 1
+  P0L0: 1
+active_coding_iname_makestats:
+  C1R0: 0
+  C2W0: 0
+  D0MP1: 0
+  D1MP1: 0
+  G0S0: 0
+  G3MP1: 0
+  J0MP1: 0
+  K0T0: 0
+  M0F0: 0
+  P0L0: 0
+active_coding_iname_verify:
+  C2W0: 1
+active_coding_iname_verify_TOGOFF:
+  C1R0: 1
+  C2W0: 1
+  D0MP1: 1
+  D1MP1: 1
+  G0S0: 1
+  G3MP1: 1
+  J0MP1: 1
+  K0T0: 1
+  M0F0: 1
+  P0L0: 1
+active_parsing_iname_coding:
+  C1R0: 0
+  C2W0: 0
+  D0MP1: 0
+  D1MP1: 0
+  G0S0: 0
+  G3MP1: 0
+  J0MP1: 0
+  K0T0: 0
+  M0F0: 0
+  P0L0: 0
+active_parsing_iname_dispersion_LOCALTOG:
+  C1R0: 1
+  C2W0: 1
+  D0MP1: 1
+  D1MP1: 1
+  G0S0: 1
+  G3MP1: 1
+  J0MP1: 1
+  K0T0: 1
+  M0F0: 1
+  P0L0: 1
+active_parsing_iname_tsplit:
+  C1R0: 1
+  C2W0: 1
+  G0S0: 1
+  K0T0: 1
+  M0F0: 1
+  P0L0: 1
+active_xls_iname_percodestats:
+  C1R0: prev-5
+  C2W0: 10
+  D0MP1: prev-3
+  D1MP1: prev-2
+  G0S0: 9
+  G3MP1: prev-1
+  J0MP1: prev-4
+  K0T0: prev-8
+  M0F0: prev-7
+  P0L0: prev-6
+active_xls_iname_rank_order:
+  '1': G3MP1
+  '10': K0T0
+  '2': D1MP1
+  '3': D0MP1
+  '4': G0S0
+  '5': J0MP1
+  '6': C1R0
+  '7': P0L0
+  '8': M0F0
+  '9': C2W0
+atx_files:
+  count: 0
+backup_data_coding_file_ASAP: 0
+clean_hash_keys: 1
+code_state_info: sentence re-codes to aco
+codes_are_new_for_coding: 1
+dispersion_calc_codes:
+  disp_calc_iname_ctr: 10
+  iname_total_count: 0
+force_sentence_copy_parsing_to_coding: 0
+last_aspect_calc_dtg: 2015_7_21_22_8
+last_code_clean_dtg: 2015_8_26_17_30
+last_code_dtg: 2015_5_4_11_55
+last_code_stats_dtg: 2015_8_26_17_30
+last_disp_dtg: 2015_8_26_17_30
+last_file_dtg: 2015_3_7_10_45
+last_parse_dtg: 2015_8_18_12_28
+last_precode_dtg: 2015_8_18_12_28
+last_topic_parse_dtg: 2015_8_18_12_28
+last_xls_dtg: 2015_8_26_17_40
+parse_is_new_for_coding: 1
+parsed_files:
+  count: 1
+parts_are_new_for_coding: 1
+post_code_all_inames_TOGG: 1
+post_coding_iname_verify_TOG_ON:
+  C2W0: 1
+pre_coded_texts:
+  iname_total_count: 10
+  parsed_iname_ctr: 1
+re_coded_inames:
+  count: 10
+recode_clean_inames:
+  count: 0
+recode_stats_inames:
+  count: 10
+state_calc: 2
+state_calc_info: aspect dispersion calculated
+state_coding: 3
+state_coding_info: code -n- aspect dispersion calculated
+state_parse: 3
+state_parse_info: topics pre-coded
+state_xls: 1
+state_xls_info: xlsx file created
+topic_texts_parsed:
+  iname_total_count: 10
+  parsed_file_ctr: 1
+  parsed_iname_ctr: 1
+verify_sentences_parsing_coding: 1
+will_restructure_multi_data_coding_keys: 0
+xls_files:
+  count: 1

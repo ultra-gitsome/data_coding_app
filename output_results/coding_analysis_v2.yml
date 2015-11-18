@@ -1,0 +1,7373 @@
+---
+by_iname:
+  C1R0:
+    dispersion:
+      base:
+        linkage:
+          AE designer interest:
+            distances:
+              '1': 5
+              '5': 1
+            struct:
+              allcount:
+                zero: 7
+              hits:
+                base: 7
+              links:
+                base: 6
+          EE:
+            distances:
+              '1': 313
+              '11': 1
+              '12': 1
+              '19': 1
+              '2': 4
+              '20': 1
+              '22': 1
+              '28': 1
+              '3': 1
+              '36': 1
+              '40': 1
+              '48': 1
+              '49': 1
+              '5': 2
+              '6': 1
+              '60': 1
+              '63': 1
+              '7': 2
+              '8': 2
+            struct:
+              allcount:
+                zero: 349
+              hits:
+                base: 251
+                zeros: 98
+              links:
+                base: 250
+                zeros: 87
+          LEED:
+            distances:
+              '1': 342
+              '129': 1
+              '13': 1
+              '2': 7
+              '42': 1
+              '52': 2
+              '76': 1
+              '77': 1
+              '89': 1
+            struct:
+              allcount:
+                zero: 386
+              hits:
+                base: 151
+                zeros: 235
+              links:
+                base: 150
+                zeros: 207
+          OPP|NMJ --other people's problem|not my job:
+            distances:
+              '1': 5
+              '203': 1
+              '285': 1
+            struct:
+              allcount:
+                zero: 8
+              hits:
+                base: 8
+              links:
+                base: 7
+          ROI:
+            distances:
+              '1': 26
+              '140': 1
+              '27': 1
+              '293': 1
+            struct:
+              allcount:
+                zero: 31
+              hits:
+                base: 22
+                zeros: 9
+              links:
+                base: 21
+                zeros: 8
+          benefit:
+            distances:
+              '1': 136
+              '13': 1
+              '2': 2
+              '3': 1
+              '44': 1
+              '90': 1
+            struct:
+              allcount:
+                zero: 149
+              hits:
+                base: 59
+                zeros: 90
+              links:
+                base: 58
+                zeros: 84
+          betterment assumed:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          business area:
+            distances:
+              '1': 19
+              '2': 1
+            struct:
+              allcount:
+                zero: 21
+              hits:
+                base: 21
+              links:
+                base: 20
+          business strategy:
+            distances:
+              '1': 12
+              '3': 1
+            struct:
+              allcount:
+                zero: 14
+              hits:
+                base: 14
+              links:
+                base: 13
+          commissioning:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          complexity:
+            distances:
+              '1': 38
+              '232': 1
+              '54': 2
+            struct:
+              allcount:
+                zero: 42
+              hits:
+                base: 42
+              links:
+                base: 41
+          comprehensive water and energy plan:
+            distances:
+              '1': 6
+            struct:
+              allcount:
+                zero: 8
+              hits:
+                base: 4
+                zeros: 4
+              links:
+                base: 3
+                zeros: 3
+          computer driven:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          computer programmers:
+            distances: {}
+            struct:
+              allcount:
+                zero: 1
+              hits:
+                base: 1
+              links: {}
+          construction management:
+            distances:
+              '1': 308
+              '12': 1
+              '13': 1
+              '133': 1
+              '14': 1
+              '16': 1
+              '18': 1
+              '2': 4
+              '20': 1
+              '22': 1
+              '3': 2
+              '35': 1
+              '41': 1
+              '42': 1
+              '46': 1
+              '50': 2
+              '6': 1
+            struct:
+              allcount:
+                zero: 343
+              hits:
+                base: 240
+                zeros: 103
+              links:
+                base: 239
+                zeros: 90
+          construction project engineer:
+            distances:
+              '1': 9
+              '42': 1
+            struct:
+              allcount:
+                zero: 11
+              hits:
+                base: 11
+              links:
+                base: 10
+          contract management:
+            distances:
+              '1': 22
+              '271': 1
+            struct:
+              allcount:
+                zero: 24
+              hits:
+                base: 24
+              links:
+                base: 23
+          corporate:
+            distances:
+              '1': 17
+              '11': 1
+              '304': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 21
+              hits:
+                base: 21
+              links:
+                base: 20
+          cost:
+            distances:
+              '1': 6
+            struct:
+              allcount:
+                zero: 7
+              hits:
+                base: 7
+              links:
+                base: 6
+          cost savings:
+            distances:
+              '1': 64
+              '2': 1
+              '23': 1
+              '238': 1
+              '3': 1
+              '34': 1
+              '5': 1
+              '51': 1
+              '64': 1
+            struct:
+              allcount:
+                zero: 75
+              hits:
+                base: 61
+                zeros: 14
+              links:
+                base: 60
+                zeros: 12
+          decision making:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          deficiency management:
+            distances:
+              '1': 20
+            struct:
+              allcount:
+                zero: 21
+              hits:
+                base: 21
+              links:
+                base: 20
+          doing more with less:
+            distances:
+              '1': 4
+              '2': 1
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          economics:
+            distances:
+              '1': 10
+              '435': 1
+            struct:
+              allcount:
+                zero: 13
+              hits:
+                base: 10
+                zeros: 3
+              links:
+                base: 9
+                zeros: 2
+          end-user:
+            distances:
+              '1': 303
+              '11': 1
+              '153': 1
+              '20': 1
+              '26': 2
+              '293': 2
+            struct:
+              allcount:
+                zero: 322
+              hits:
+                base: 123
+                zeros: 199
+              links:
+                base: 122
+                zeros: 188
+          energy:
+            distances:
+              '1': 535
+              '11': 2
+              '14': 2
+              '148': 2
+              '16': 1
+              '18': 1
+              '19': 1
+              '2': 1
+              '26': 2
+              '29': 1
+              '5': 1
+              '6': 1
+              '7': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 601
+              hits:
+                base: 248
+                zeros: 353
+              links:
+                base: 247
+                zeros: 305
+          experience important:
+            distances:
+              '1': 14
+              '74': 1
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 16
+              links:
+                base: 15
+          expert assistance:
+            distances:
+              '1': 47
+              '136': 1
+            struct:
+              allcount:
+                zero: 51
+              hits:
+                base: 37
+                zeros: 14
+              links:
+                base: 36
+                zeros: 12
+          extra cost:
+            distances:
+              '1': 60
+              '11': 1
+              '160': 1
+              '179': 1
+              '2': 1
+              '3': 3
+              '55': 1
+              '69': 1
+              '89': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 72
+              hits:
+                base: 72
+              links:
+                base: 71
+          facility management:
+            distances:
+              '1': 250
+              '12': 1
+              '16': 1
+              '17': 1
+              '19': 1
+              '22': 1
+              '235': 1
+              '3': 1
+              '5': 1
+              '69': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 282
+              hits:
+                base: 123
+                zeros: 159
+              links:
+                base: 122
+                zeros: 138
+          funding:
+            distances:
+              '1': 66
+              '122': 1
+              '124': 1
+              '171': 1
+              '30': 1
+              '6': 1
+              '70': 1
+            struct:
+              allcount:
+                zero: 76
+              hits:
+                base: 53
+                zeros: 23
+              links:
+                base: 52
+                zeros: 20
+          green programs:
+            distances:
+              '1': 107
+              '17': 1
+              '2': 3
+              '38': 1
+              '5': 1
+              '71': 1
+              '99': 1
+            struct:
+              allcount:
+                zero: 117
+              hits:
+                base: 92
+                zeros: 25
+              links:
+                base: 91
+                zeros: 24
+          guidance:
+            distances:
+              '1': 512
+              '10': 1
+              '111': 1
+              '123': 1
+              '13': 1
+              '14': 1
+              '17': 1
+              '2': 5
+              '3': 1
+              '32': 1
+              '35': 1
+              '39': 3
+              '5': 3
+              '6': 1
+              '7': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 557
+              hits:
+                base: 288
+                zeros: 269
+              links:
+                base: 287
+                zeros: 248
+          improving maintenance:
+            distances:
+              '1': 3
+              '2': 1
+            struct:
+              allcount:
+                zero: 5
+              hits:
+                base: 5
+              links:
+                base: 4
+          influencing change:
+            distances:
+              '1': 13
+              '5': 1
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 15
+              links:
+                base: 14
+          innovation:
+            distances:
+              '1': 62
+              '52': 1
+            struct:
+              allcount:
+                zero: 68
+              hits:
+                base: 45
+                zeros: 23
+              links:
+                base: 44
+                zeros: 19
+          installation utilization manager:
+            distances:
+              '1': 28
+              '137': 1
+              '206': 1
+              '3': 2
+              '6': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 37
+              hits:
+                base: 27
+                zeros: 10
+              links:
+                base: 26
+                zeros: 8
+          issues concerns:
+            distances:
+              '1': 128
+              '11': 1
+              '13': 1
+              '18': 1
+              '2': 2
+              '26': 1
+              '3': 2
+              '4': 2
+              '43': 1
+              '44': 2
+              '46': 1
+              '58': 1
+              '7': 2
+              '71': 1
+              '8': 2
+              '80': 1
+              '88': 1
+            struct:
+              allcount:
+                zero: 155
+              hits:
+                base: 121
+                zeros: 34
+              links:
+                base: 120
+                zeros: 30
+          lifecycle:
+            distances:
+              '1': 37
+              '4': 1
+              '40': 1
+            struct:
+              allcount:
+                zero: 44
+              hits:
+                base: 20
+                zeros: 24
+              links:
+                base: 19
+                zeros: 20
+          management:
+            distances:
+              '1': 49
+              '11': 1
+              '267': 1
+              '32': 2
+              '5': 1
+              '54': 1
+            struct:
+              allcount:
+                zero: 59
+              hits:
+                base: 42
+                zeros: 17
+              links:
+                base: 41
+                zeros: 14
+          many players:
+            distances:
+              '1': 20
+              '29': 1
+            struct:
+              allcount:
+                zero: 22
+              hits:
+                base: 22
+              links:
+                base: 21
+          non-core activity:
+            distances: {}
+            struct:
+              allcount:
+                zero: 1
+              hits:
+                base: 1
+              links: {}
+          normative view:
+            distances:
+              '1': 30
+              '246': 1
+              '3': 1
+              '32': 1
+              '71': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 36
+              hits:
+                base: 36
+              links:
+                base: 35
+          norms:
+            distances:
+              '1': 13
+              '32': 1
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 15
+              links:
+                base: 14
+          org strategy:
+            distances:
+              '1': 308
+              '10': 2
+              '161': 1
+              '182': 1
+              '2': 5
+              '3': 5
+              '4': 1
+              '41': 1
+              '54': 1
+              '6': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 342
+              hits:
+                base: 220
+                zeros: 122
+              links:
+                base: 219
+                zeros: 108
+          organization:
+            distances:
+              '1': 29
+              '216': 1
+            struct:
+              allcount:
+                zero: 32
+              hits:
+                base: 27
+                zeros: 5
+              links:
+                base: 26
+                zeros: 4
+          owner:
+            distances:
+              '1': 26
+              '10': 1
+              '71': 1
+            struct:
+              allcount:
+                zero: 30
+              hits:
+                base: 21
+                zeros: 9
+              links:
+                base: 20
+                zeros: 8
+          ownership:
+            distances:
+              '1': 110
+              '142': 1
+              '50': 1
+              '86': 4
+            struct:
+              allcount:
+                zero: 125
+              hits:
+                base: 47
+                zeros: 78
+              links:
+                base: 46
+                zeros: 70
+          personal aspect:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          pilot demonstration:
+            distances:
+              '1': 9
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 10
+              links:
+                base: 9
+          project:
+            distances:
+              '1': 113
+              '15': 1
+              '17': 1
+              '20': 1
+              '23': 1
+              '26': 1
+              '3': 1
+              '34': 1
+              '36': 1
+              '4': 1
+              '41': 1
+              '57': 1
+              '62': 1
+              '7': 1
+              '92': 1
+            struct:
+              allcount:
+                zero: 137
+              hits:
+                base: 99
+                zeros: 38
+              links:
+                base: 98
+                zeros: 29
+          projects:
+            distances:
+              '1': 42
+              '126': 1
+              '199': 1
+              '4': 1
+              '6': 1
+              '68': 1
+            struct:
+              allcount:
+                zero: 48
+              hits:
+                base: 48
+              links:
+                base: 47
+          property management:
+            distances:
+              '1': 166
+              '10': 2
+              '108': 1
+              '17': 1
+              '18': 1
+              '2': 1
+              '217': 1
+              '26': 2
+              '3': 1
+              '4': 1
+              '47': 1
+              '49': 1
+              '5': 2
+              '63': 1
+            struct:
+              allcount:
+                zero: 202
+              hits:
+                base: 96
+                zeros: 106
+              links:
+                base: 95
+                zeros: 87
+          property utilization:
+            distances:
+              '1': 9
+              '60': 1
+            struct:
+              allcount:
+                zero: 11
+              hits:
+                base: 11
+              links:
+                base: 10
+          proponents:
+            distances:
+              '1': 15
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 16
+              links:
+                base: 15
+          role:
+            distances:
+              '1': 22
+            struct:
+              allcount:
+                zero: 23
+              hits:
+                base: 23
+              links:
+                base: 22
+          stakeholders:
+            distances:
+              '1': 39
+              '138': 1
+              '145': 1
+              '2': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 44
+              hits:
+                base: 44
+              links:
+                base: 43
+          stovepiping:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          supporting relationships:
+            distances:
+              '1': 41
+              '196': 1
+              '20': 1
+              '26': 1
+            struct:
+              allcount:
+                zero: 45
+              hits:
+                base: 45
+              links:
+                base: 44
+          sustainability:
+            distances:
+              '1': 123
+              '121': 1
+              '14': 1
+              '153': 1
+              '154': 1
+              '22': 1
+              '23': 1
+              '3': 1
+              '5': 1
+              '57': 2
+              '60': 1
+            struct:
+              allcount:
+                zero: 141
+              hits:
+                base: 100
+                zeros: 41
+              links:
+                base: 99
+                zeros: 35
+          systems EE:
+            distances:
+              '1': 64
+              '11': 1
+              '15': 1
+              '3': 1
+              '32': 1
+              '320': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 76
+              hits:
+                base: 60
+                zeros: 16
+              links:
+                base: 59
+                zeros: 11
+          top management:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          training:
+            distances:
+              '1': 48
+              '138': 1
+              '19': 1
+              '23': 1
+              '76': 1
+            struct:
+              allcount:
+                zero: 56
+              hits:
+                base: 43
+                zeros: 13
+              links:
+                base: 42
+                zeros: 10
+          user initiated energy project:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          valuable skills:
+            distances:
+              '1': 14
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 15
+              links:
+                base: 14
+  C2W0:
+    dispersion:
+      base:
+        linkage:
+          EE:
+            distances:
+              '1': 289
+              '10': 1
+              '15': 1
+              '2': 5
+              '22': 1
+              '3': 4
+              '4': 2
+              '40': 1
+              '5': 2
+              '50': 1
+              '7': 2
+              '95': 1
+            struct:
+              allcount:
+                zero: 337
+              hits:
+                base: 201
+                zeros: 136
+              links:
+                base: 200
+                zeros: 110
+          LED lighting:
+            distances:
+              '141': 1
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 2
+                zeros: 2
+              links:
+                base: 1
+                zeros: 0
+          LEED:
+            distances:
+              '1': 154
+              '140': 1
+              '2': 5
+              '29': 1
+              '33': 2
+              '47': 1
+              '5': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 176
+              hits:
+                base: 85
+                zeros: 91
+              links:
+                base: 84
+                zeros: 82
+          ROI:
+            distances:
+              '1': 7
+              '117': 1
+              '170': 1
+              '2': 1
+            struct:
+              allcount:
+                zero: 11
+              hits:
+                base: 11
+              links:
+                base: 10
+          benefit:
+            distances:
+              '1': 8
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 9
+              links:
+                base: 8
+          betterment assumed:
+            distances:
+              '1': 6
+              '47': 1
+            struct:
+              allcount:
+                zero: 8
+              hits:
+                base: 8
+              links:
+                base: 7
+          building products EE:
+            distances:
+              '1': 79
+              '2': 2
+            struct:
+              allcount:
+                zero: 87
+              hits:
+                base: 30
+                zeros: 57
+              links:
+                base: 29
+                zeros: 52
+          business area:
+            distances:
+              '1': 21
+              '2': 1
+            struct:
+              allcount:
+                zero: 25
+              hits:
+                base: 14
+                zeros: 11
+              links:
+                base: 13
+                zeros: 9
+          business strategy:
+            distances:
+              '1': 11
+              '156': 1
+            struct:
+              allcount:
+                zero: 13
+              hits:
+                base: 13
+              links:
+                base: 12
+          certainty scale:
+            distances:
+              '1': 55
+              '14': 1
+              '17': 1
+              '24': 1
+              '47': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 61
+              hits:
+                base: 61
+              links:
+                base: 60
+          complexity:
+            distances:
+              '1': 23
+              '179': 1
+            struct:
+              allcount:
+                zero: 25
+              hits:
+                base: 25
+              links:
+                base: 24
+          computer driven:
+            distances:
+              '1': 4
+            struct:
+              allcount:
+                zero: 5
+              hits:
+                base: 5
+              links:
+                base: 4
+          computer programmers:
+            distances:
+              '1': 2
+              '9': 1
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 4
+              links:
+                base: 3
+          construction management:
+            distances:
+              '1': 4
+              '16': 1
+              '4': 1
+            struct:
+              allcount:
+                zero: 7
+              hits:
+                base: 7
+              links:
+                base: 6
+          consultant EE:
+            distances:
+              '1': 174
+              '13': 1
+              '235': 1
+              '3': 2
+              '7': 1
+              '77': 1
+            struct:
+              allcount:
+                zero: 186
+              hits:
+                base: 96
+                zeros: 90
+              links:
+                base: 95
+                zeros: 85
+          contractor:
+            distances:
+              '1': 34
+              '113': 1
+              '2': 1
+              '25': 1
+              '29': 1
+            struct:
+              allcount:
+                zero: 40
+              hits:
+                base: 38
+                zeros: 2
+              links:
+                base: 37
+                zeros: 1
+          corporate:
+            distances:
+              '1': 60
+            struct:
+              allcount:
+                zero: 63
+              hits:
+                base: 22
+                zeros: 41
+              links:
+                base: 21
+                zeros: 39
+          cost savings:
+            distances:
+              '1': 25
+              '10': 1
+              '13': 1
+              '2': 1
+              '78': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 33
+              hits:
+                base: 29
+                zeros: 4
+              links:
+                base: 28
+                zeros: 2
+          decision factors:
+            distances:
+              '1': 13
+              '2': 1
+              '286': 1
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 16
+              links:
+                base: 15
+          demonstration of technology:
+            distances:
+              '1': 3
+              '73': 1
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 5
+                zeros: 1
+              links:
+                base: 4
+                zeros: 0
+          economics:
+            distances:
+              '1': 37
+              '165': 1
+              '22': 1
+              '4': 1
+              '48': 1
+              '6': 2
+            struct:
+              allcount:
+                zero: 45
+              hits:
+                base: 29
+                zeros: 16
+              links:
+                base: 28
+                zeros: 15
+          end-user:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          energy:
+            distances:
+              '1': 190
+              '10': 2
+              '13': 1
+              '166': 1
+              '17': 1
+              '2': 2
+              '20': 1
+              '3': 2
+              '4': 4
+              '5': 1
+              '57': 1
+              '6': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 218
+              hits:
+                base: 131
+                zeros: 87
+              links:
+                base: 130
+                zeros: 78
+          environmental engineering:
+            distances:
+              '1': 14
+              '6': 1
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 16
+              links:
+                base: 15
+          expert assistance:
+            distances:
+              '1': 24
+            struct:
+              allcount:
+                zero: 25
+              hits:
+                base: 25
+              links:
+                base: 24
+          extra cost:
+            distances:
+              '1': 13
+              '123': 1
+              '184': 1
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 16
+              links:
+                base: 15
+          facility management:
+            distances:
+              '1': 56
+              '142': 1
+              '146': 1
+              '2': 2
+              '20': 1
+              '3': 1
+              '89': 1
+            struct:
+              allcount:
+                zero: 68
+              hits:
+                base: 55
+                zeros: 13
+              links:
+                base: 54
+                zeros: 9
+          funding:
+            distances:
+              '1': 21
+              '42': 1
+            struct:
+              allcount:
+                zero: 27
+              hits:
+                base: 11
+                zeros: 16
+              links:
+                base: 10
+                zeros: 12
+          green programs:
+            distances:
+              '1': 89
+              '105': 1
+              '3': 2
+              '66': 1
+            struct:
+              allcount:
+                zero: 96
+              hits:
+                base: 82
+                zeros: 14
+              links:
+                base: 81
+                zeros: 12
+          guidance:
+            distances:
+              '1': 44
+              '111': 1
+              '20': 1
+              '3': 2
+              '34': 1
+              '50': 1
+              '53': 3
+            struct:
+              allcount:
+                zero: 57
+              hits:
+                base: 48
+                zeros: 9
+              links:
+                base: 47
+                zeros: 6
+          information value moderate:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          installation management:
+            distances:
+              '1': 20
+            struct:
+              allcount:
+                zero: 22
+              hits:
+                base: 16
+                zeros: 6
+              links:
+                base: 15
+                zeros: 5
+          issues concerns:
+            distances:
+              '1': 24
+              '133': 1
+              '141': 1
+              '2': 1
+              '20': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 32
+              hits:
+                base: 22
+                zeros: 10
+              links:
+                base: 21
+                zeros: 8
+          lifecycle:
+            distances:
+              '1': 8
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 8
+                zeros: 2
+              links:
+                base: 7
+                zeros: 1
+          management:
+            distances:
+              '1': 64
+              '144': 1
+              '41': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 72
+              hits:
+                base: 46
+                zeros: 26
+              links:
+                base: 45
+                zeros: 22
+          mission oriented view:
+            distances:
+              '1': 21
+            struct:
+              allcount:
+                zero: 24
+              hits:
+                base: 10
+                zeros: 14
+              links:
+                base: 9
+                zeros: 12
+          monitoring data:
+            distances:
+              '1': 14
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 15
+              links:
+                base: 14
+          norms:
+            distances:
+              '1': 7
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 7
+                zeros: 2
+              links:
+                base: 6
+                zeros: 1
+          org strategy:
+            distances:
+              '1': 7
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 8
+                zeros: 1
+              links:
+                base: 7
+          owner:
+            distances:
+              '1': 41
+              '219': 1
+              '3': 2
+              '75': 2
+            struct:
+              allcount:
+                zero: 49
+              hits:
+                base: 39
+                zeros: 10
+              links:
+                base: 38
+                zeros: 8
+          performance metrics:
+            distances:
+              '1': 31
+            struct:
+              allcount:
+                zero: 34
+              hits:
+                base: 15
+                zeros: 19
+              links:
+                base: 14
+                zeros: 17
+          project:
+            distances:
+              '1': 26
+              '102': 1
+              '2': 1
+              '3': 1
+              '45': 1
+              '5': 1
+              '52': 1
+              '62': 1
+            struct:
+              allcount:
+                zero: 34
+              hits:
+                base: 34
+              links:
+                base: 33
+          projects:
+            distances:
+              '1': 7
+              '3': 1
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 9
+              links:
+                base: 8
+          property utilization:
+            distances:
+              '1': 9
+              '14': 1
+              '2': 1
+            struct:
+              allcount:
+                zero: 14
+              hits:
+                base: 12
+                zeros: 2
+              links:
+                base: 11
+                zeros: 0
+          role:
+            distances:
+              '1': 61
+              '104': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 66
+              hits:
+                base: 35
+                zeros: 31
+              links:
+                base: 34
+                zeros: 29
+          stovepiping:
+            distances:
+              '1': 7
+              '14': 1
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 9
+              links:
+                base: 8
+          strategic partnership:
+            distances:
+              '1': 13
+              '6': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 16
+              links:
+                base: 15
+          sustainability:
+            distances:
+              '1': 47
+              '112': 1
+              '126': 1
+              '139': 1
+              '2': 2
+              '3': 2
+              '5': 1
+            struct:
+              allcount:
+                zero: 58
+              hits:
+                base: 49
+                zeros: 9
+              links:
+                base: 48
+                zeros: 7
+          systems EE:
+            distances:
+              '1': 69
+              '150': 1
+              '21': 1
+              '3': 1
+              '31': 1
+              '41': 1
+              '54': 2
+            struct:
+              allcount:
+                zero: 79
+              hits:
+                base: 72
+                zeros: 7
+              links:
+                base: 71
+                zeros: 5
+          training:
+            distances:
+              '1': 3
+            struct:
+              allcount:
+                zero: 5
+              hits:
+                base: 3
+                zeros: 2
+              links:
+                base: 2
+                zeros: 1
+  D0MP1:
+    dispersion:
+      base:
+        linkage:
+          AE designer interest:
+            distances:
+              '1': 1
+              '2': 1
+            struct:
+              allcount:
+                zero: 7
+              hits:
+                base: 2
+              links:
+                base: 2
+          EE:
+            distances:
+              '1': 13
+              '120': 1
+              '2': 1
+              '3': 1
+              '4': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 89
+              hits:
+                base: 17
+                zeros: 2
+              links:
+                base: 17
+                zeros: 1
+          EPACT:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 12
+              hits:
+                base: 5
+              links:
+                base: 5
+          LEED:
+            distances:
+              '1': 308
+              '11': 1
+              '2': 4
+              '3': 2
+            struct:
+              allcount:
+                zero: 845
+              hits:
+                base: 96
+                zeros: 235
+              links:
+                base: 96
+                zeros: 219
+          benefits hype/oversold:
+            distances:
+              '1': 7
+              '2': 2
+            struct:
+              allcount:
+                zero: 11
+              hits:
+                base: 9
+              links:
+                base: 9
+          betterment assumed:
+            distances:
+              '1': 9
+            struct:
+              allcount:
+                zero: 21
+              hits:
+                base: 6
+                zeros: 8
+              links:
+                base: 5
+                zeros: 4
+          commissioning:
+            distances:
+              '1': 10
+            struct:
+              allcount:
+                zero: 22
+              hits:
+                base: 7
+                zeros: 8
+              links:
+                base: 6
+                zeros: 4
+          construction management:
+            distances:
+              '1': 76
+              '2': 5
+              '3': 1
+              '47': 1
+              '81': 1
+            struct:
+              allcount:
+                zero: 176
+              hits:
+                base: 51
+                zeros: 45
+              links:
+                base: 51
+                zeros: 33
+          construction program:
+            distances:
+              '1': 10
+            struct:
+              allcount:
+                zero: 30
+              hits:
+                base: 11
+              links:
+                base: 10
+          construction project engineer:
+            distances:
+              '1': 18
+              '2': 2
+            struct:
+              allcount:
+                zero: 21
+              hits:
+                base: 21
+              links:
+                base: 20
+          cost savings:
+            distances:
+              '1': 14
+              '2': 1
+            struct:
+              allcount:
+                zero: 29
+              hits:
+                base: 15
+                zeros: 1
+              links:
+                base: 15
+                zeros: 0
+          decision factors:
+            distances:
+              '2': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          deficiency management:
+            distances:
+              '1': 14
+              '184': 1
+              '2': 1
+              '25': 1
+              '3': 1
+            struct:
+              allcount:
+                zero: 198
+              hits:
+                base: 18
+                zeros: 1
+              links:
+                base: 17
+                zeros: 1
+          economics:
+            distances:
+              '1': 3
+              '5': 1
+            struct:
+              allcount:
+                zero: 11
+              hits:
+                base: 4
+              links:
+                base: 4
+          end-user:
+            distances:
+              '1': 49
+              '15': 1
+              '2': 1
+              '216': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 149
+              hits:
+                base: 39
+                zeros: 17
+              links:
+                base: 39
+                zeros: 14
+          energy:
+            distances:
+              '1': 41
+              '153': 1
+              '2': 1
+              '21': 2
+              '23': 1
+              '27': 1
+              '3': 2
+              '35': 1
+              '4': 1
+              '62': 1
+            struct:
+              allcount:
+                zero: 130
+              hits:
+                base: 34
+                zeros: 23
+              links:
+                base: 34
+                zeros: 18
+          extra cost:
+            distances:
+              '1': 14
+              '112': 1
+              '2': 3
+            struct:
+              allcount:
+                zero: 31
+              hits:
+                base: 18
+              links:
+                base: 18
+          facility management:
+            distances:
+              '1': 19
+              '105': 1
+              '2': 1
+              '212': 1
+            struct:
+              allcount:
+                zero: 64
+              hits:
+                base: 15
+                zeros: 12
+              links:
+                base: 15
+                zeros: 7
+          footprint management:
+            distances:
+              '1': 78
+              '12': 1
+              '123': 1
+              '2': 12
+              '3': 4
+              '39': 1
+              '4': 1
+            struct:
+              allcount:
+                zero: 201
+              hits:
+                base: 66
+                zeros: 38
+              links:
+                base: 66
+                zeros: 32
+          funding:
+            distances:
+              '1': 146
+              '2': 2
+              '3': 1
+              '36': 2
+              '4': 3
+              '6': 1
+            struct:
+              allcount:
+                zero: 330
+              hits:
+                base: 80
+                zeros: 84
+              links:
+                base: 79
+                zeros: 76
+          green programs:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          guidance:
+            distances:
+              '1': 30
+              '11': 1
+              '2': 2
+              '27': 2
+              '3': 1
+              '4': 1
+              '6': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 139
+              hits:
+                base: 35
+                zeros: 7
+              links:
+                base: 35
+                zeros: 4
+          incentive program:
+            distances:
+              '1': 3
+            struct:
+              allcount:
+                zero: 13
+              hits:
+                base: 3
+              links:
+                base: 3
+          information value moderate:
+            distances:
+              '1': 7
+              '2': 1
+              '3': 1
+            struct:
+              allcount:
+                zero: 13
+              hits:
+                base: 10
+              links:
+                base: 9
+          installation management:
+            distances:
+              '1': 37
+              '2': 4
+              '3': 2
+              '4': 1
+              '49': 1
+            struct:
+              allcount:
+                zero: 82
+              hits:
+                base: 45
+                zeros: 3
+              links:
+                base: 45
+                zeros: 0
+          installation utilization manager:
+            distances:
+              '1': 201
+              '16': 1
+              '2': 13
+              '22': 1
+              '3': 4
+              '31': 1
+              '4': 4
+              '7': 1
+              '84': 2
+              '93': 1
+            struct:
+              allcount:
+                zero: 466
+              hits:
+                base: 137
+                zeros: 110
+              links:
+                base: 137
+                zeros: 92
+          issues concerns:
+            distances:
+              '1': 54
+              '109': 1
+              '14': 1
+              '3': 3
+              '32': 1
+              '35': 1
+              '4': 2
+              '43': 1
+              '7': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 113
+              hits:
+                base: 57
+                zeros: 12
+              links:
+                base: 56
+                zeros: 10
+          management:
+            distances:
+              '1': 24
+              '12': 1
+              '2': 3
+              '3': 2
+              '4': 1
+              '45': 1
+              '58': 1
+            struct:
+              allcount:
+                zero: 110
+              hits:
+                base: 31
+                zeros: 3
+              links:
+                base: 30
+                zeros: 3
+          normative view:
+            distances:
+              '1': 2
+              '6': 1
+            struct:
+              allcount:
+                zero: 8
+              hits:
+                base: 3
+              links:
+                base: 3
+          org strategy:
+            distances:
+              '1': 23
+              '109': 1
+              '16': 1
+              '26': 1
+              '4': 1
+            struct:
+              allcount:
+                zero: 35
+              hits:
+                base: 27
+              links:
+                base: 27
+          owner:
+            distances:
+              '1': 47
+              '11': 1
+              '142': 1
+              '2': 2
+              '3': 1
+              '4': 1
+              '52': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 258
+              hits:
+                base: 52
+                zeros: 4
+              links:
+                base: 52
+                zeros: 3
+          ownership:
+            distances:
+              '1': 57
+              '2': 2
+              '3': 1
+              '33': 1
+              '4': 1
+              '5': 2
+              '581': 1
+            struct:
+              allcount:
+                zero: 399
+              hits:
+                base: 48
+                zeros: 20
+              links:
+                base: 48
+                zeros: 17
+          project:
+            distances:
+              '1': 22
+              '11': 1
+              '2': 2
+              '79': 1
+            struct:
+              allcount:
+                zero: 160
+              hits:
+                base: 24
+                zeros: 4
+              links:
+                base: 24
+                zeros: 2
+          projects:
+            distances:
+              '1': 47
+              '142': 1
+              '2': 2
+              '5': 1
+              '7': 2
+              '9': 1
+            struct:
+              allcount:
+                zero: 142
+              hits:
+                base: 36
+                zeros: 28
+              links:
+                base: 36
+                zeros: 18
+          property management:
+            distances:
+              '1': 209
+              '11': 1
+              '16': 1
+              '2': 12
+              '22': 1
+              '28': 1
+              '3': 1
+              '30': 2
+              '4': 1
+              '45': 1
+              '7': 1
+              '9': 3
+            struct:
+              allcount:
+                zero: 672
+              hits:
+                base: 132
+                zeros: 127
+              links:
+                base: 132
+                zeros: 102
+          property utilization:
+            distances:
+              '1': 42
+              '2': 6
+              '3': 1
+              '4': 2
+              '5': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 201
+              hits:
+                base: 53
+                zeros: 1
+              links:
+                base: 53
+                zeros: 0
+          responsible party:
+            distances:
+              '1': 7
+              '38': 1
+            struct:
+              allcount:
+                zero: 30
+              hits:
+                base: 8
+              links:
+                base: 8
+          supporting staff role - non-core stakeholder:
+            distances:
+              '1': 15
+              '2': 4
+            struct:
+              allcount:
+                zero: 31
+              hits:
+                base: 19
+              links:
+                base: 19
+          sustainability:
+            distances:
+              '1': 11
+              '11': 1
+              '176': 2
+              '2': 1
+              '33': 1
+              '35': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 59
+              hits:
+                base: 18
+                zeros: 1
+              links:
+                base: 18
+                zeros: 0
+          systems EE:
+            distances:
+              '1': 5
+              '2': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 30
+              hits:
+                base: 7
+              links:
+                base: 7
+          theory cradle-to-grave:
+            distances:
+              '1': 12
+              '2': 2
+              '4': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 18
+              hits:
+                base: 16
+              links:
+                base: 16
+          third party task:
+            distances:
+              '1': 2
+              '137': 1
+              '4': 1
+            struct:
+              allcount:
+                zero: 5
+              hits:
+                base: 5
+              links:
+                base: 4
+          training:
+            distances:
+              '1': 11
+            struct:
+              allcount:
+                zero: 30
+              hits:
+                base: 8
+                zeros: 5
+              links:
+                base: 7
+                zeros: 4
+          user initiated energy project:
+            distances:
+              '1': 8
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 8
+              links:
+                base: 8
+  D1MP1:
+    dispersion:
+      base:
+        linkage:
+          LEED:
+            distances:
+              '1': 2
+              '99': 1
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 4
+              links:
+                base: 3
+          construction management:
+            distances:
+              '1': 33
+              '3': 1
+              '61': 1
+            struct:
+              allcount:
+                zero: 36
+              hits:
+                base: 36
+              links:
+                base: 35
+          end-user:
+            distances:
+              '1': 2
+              '2': 2
+              '95': 1
+            struct:
+              allcount:
+                zero: 7
+              hits:
+                base: 5
+                zeros: 2
+              links:
+                base: 4
+                zeros: 1
+          energy:
+            distances: {}
+            struct:
+              allcount:
+                zero: 1
+              hits:
+                base: 1
+              links: {}
+          facility management:
+            distances:
+              '1': 1
+              '2': 1
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          footprint:
+            distances:
+              '1': 18
+              '18': 1
+              '2': 1
+              '30': 1
+              '4': 1
+            struct:
+              allcount:
+                zero: 23
+              hits:
+                base: 23
+              links:
+                base: 22
+          footprint management:
+            distances:
+              '1': 2
+              '2': 2
+            struct:
+              allcount:
+                zero: 19
+              hits:
+                base: 5
+              links:
+                base: 4
+          funding:
+            distances:
+              '1': 7
+              '2': 1
+              '3': 1
+            struct:
+              allcount:
+                zero: 12
+              hits:
+                base: 8
+                zeros: 3
+              links:
+                base: 8
+                zeros: 1
+          guidance:
+            distances:
+              '1': 26
+              '11': 1
+              '2': 2
+              '3': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 44
+              hits:
+                base: 24
+                zeros: 10
+              links:
+                base: 23
+                zeros: 8
+          installation management:
+            distances:
+              '1': 5
+              '2': 1
+              '39': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 11
+              hits:
+                base: 7
+                zeros: 4
+              links:
+                base: 6
+                zeros: 2
+          installation utilization manager:
+            distances:
+              '1': 9
+              '10': 1
+              '2': 1
+            struct:
+              allcount:
+                zero: 63
+              hits:
+                base: 11
+              links:
+                base: 11
+          issues concerns:
+            distances:
+              '1': 1
+              '2': 1
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 2
+              links:
+                base: 2
+          non-core activity:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          org strategy:
+            distances:
+              '2': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          owner:
+            distances:
+              '1': 86
+              '10': 1
+              '16': 1
+              '2': 1
+              '23': 1
+              '4': 1
+            struct:
+              allcount:
+                zero: 121
+              hits:
+                base: 68
+                zeros: 26
+              links:
+                base: 68
+                zeros: 23
+          ownership:
+            distances:
+              '1': 226
+              '2': 4
+              '4': 1
+              '5': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 368
+              hits:
+                base: 108
+                zeros: 154
+              links:
+                base: 108
+                zeros: 125
+          project:
+            distances:
+              '1': 43
+              '2': 4
+            struct:
+              allcount:
+                zero: 49
+              hits:
+                base: 25
+                zeros: 24
+              links:
+                base: 24
+                zeros: 23
+          property management:
+            distances:
+              '1': 98
+              '18': 1
+              '19': 1
+              '2': 2
+              '23': 1
+              '3': 1
+              '4': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 205
+              hits:
+                base: 78
+                zeros: 40
+              links:
+                base: 78
+                zeros: 28
+          property utilization:
+            distances:
+              '1': 29
+              '13': 1
+              '2': 1
+              '3': 2
+              '50': 2
+            struct:
+              allcount:
+                zero: 49
+              hits:
+                base: 35
+              links:
+                base: 35
+          rights to electricity:
+            distances:
+              '1': 3
+              '8': 1
+            struct:
+              allcount:
+                zero: 5
+              hits:
+                base: 5
+              links:
+                base: 4
+          role:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 3
+                zeros: 1
+              links:
+                base: 2
+                zeros: 0
+          stakeholders:
+            distances:
+              '1': 4
+              '3': 1
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          systems EE:
+            distances:
+              '1': 24
+              '2': 1
+              '4': 3
+            struct:
+              allcount:
+                zero: 38
+              hits:
+                base: 19
+                zeros: 11
+              links:
+                base: 18
+                zeros: 10
+          top management:
+            distances:
+              '1': 13
+              '2': 2
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 16
+              links:
+                base: 15
+  G0S0:
+    dispersion:
+      base:
+        linkage:
+          Building Status Report:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          EE:
+            distances:
+              '1': 138
+              '11': 1
+              '14': 1
+              '197': 1
+              '2': 2
+              '28': 2
+              '35': 1
+              '39': 1
+              '42': 1
+              '43': 1
+              '57': 1
+              '6': 1
+              '7': 1
+              '77': 1
+            struct:
+              allcount:
+                zero: 159
+              hits:
+                base: 121
+                zeros: 38
+              links:
+                base: 120
+                zeros: 33
+          Federal Acquisition Rules:
+            distances:
+              '1': 25
+            struct:
+              allcount:
+                zero: 26
+              hits:
+                base: 26
+              links:
+                base: 25
+          LEED:
+            distances:
+              '1': 14
+              '150': 1
+              '19': 1
+              '348': 1
+            struct:
+              allcount:
+                zero: 20
+              hits:
+                base: 17
+                zeros: 3
+              links:
+                base: 16
+                zeros: 1
+          ROI:
+            distances:
+              '1': 7
+              '139': 1
+              '2': 1
+              '290': 1
+              '3': 3
+              '92': 1
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 15
+              links:
+                base: 14
+          benefit:
+            distances:
+              '1': 28
+              '59': 1
+              '71': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 32
+              hits:
+                base: 32
+              links:
+                base: 31
+          betterment assumed:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          building products EE:
+            distances:
+              '1': 26
+            struct:
+              allcount:
+                zero: 27
+              hits:
+                base: 27
+              links:
+                base: 26
+          complexity:
+            distances:
+              '1': 39
+              '16': 1
+            struct:
+              allcount:
+                zero: 41
+              hits:
+                base: 41
+              links:
+                base: 40
+          conflicting priorities:
+            distances:
+              '1': 32
+            struct:
+              allcount:
+                zero: 33
+              hits:
+                base: 33
+              links:
+                base: 32
+          construction management:
+            distances:
+              '1': 49
+              '24': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 52
+              hits:
+                base: 52
+              links:
+                base: 51
+          cost savings:
+            distances:
+              '1': 16
+              '27': 1
+              '40': 1
+              '49': 1
+              '51': 1
+            struct:
+              allcount:
+                zero: 22
+              hits:
+                base: 18
+                zeros: 4
+              links:
+                base: 17
+                zeros: 3
+          deficiency management:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          end-user:
+            distances:
+              '1': 136
+              '11': 2
+              '2': 2
+              '263': 1
+              '3': 1
+              '53': 1
+              '66': 1
+              '7': 1
+              '77': 1
+            struct:
+              allcount:
+                zero: 153
+              hits:
+                base: 125
+                zeros: 28
+              links:
+                base: 124
+                zeros: 22
+          energy:
+            distances:
+              '1': 220
+              '105': 1
+              '131': 1
+              '16': 1
+              '17': 1
+              '29': 1
+              '3': 1
+              '30': 1
+              '35': 2
+              '42': 3
+              '48': 1
+              '5': 1
+              '59': 1
+              '6': 2
+              '8': 1
+            struct:
+              allcount:
+                zero: 249
+              hits:
+                base: 177
+                zeros: 72
+              links:
+                base: 176
+                zeros: 62
+          expert assistance:
+            distances:
+              '1': 25
+              '198': 1
+              '2': 1
+              '272': 1
+              '3': 1
+            struct:
+              allcount:
+                zero: 30
+              hits:
+                base: 30
+              links:
+                base: 29
+          extra cost:
+            distances:
+              '1': 37
+              '122': 1
+              '20': 1
+              '24': 1
+              '282': 1
+              '65': 1
+            struct:
+              allcount:
+                zero: 43
+              hits:
+                base: 43
+              links:
+                base: 42
+          facility management:
+            distances:
+              '1': 21
+              '14': 1
+              '202': 1
+              '322': 1
+            struct:
+              allcount:
+                zero: 25
+              hits:
+                base: 25
+              links:
+                base: 24
+          ffleet management:
+            distances:
+              '1': 200
+              '107': 1
+              '129': 1
+              '169': 1
+              '19': 1
+              '2': 1
+              '20': 1
+              '3': 3
+              '38': 1
+              '6': 1
+              '9': 2
+            struct:
+              allcount:
+                zero: 225
+              hits:
+                base: 124
+                zeros: 101
+              links:
+                base: 123
+                zeros: 90
+          footprint:
+            distances:
+              '1': 60
+              '2': 2
+              '3': 2
+              '361': 1
+              '38': 1
+              '62': 1
+              '68': 1
+            struct:
+              allcount:
+                zero: 71
+              hits:
+                base: 58
+                zeros: 13
+              links:
+                base: 57
+                zeros: 11
+          footprint management:
+            distances:
+              '1': 94
+              '17': 1
+              '2': 1
+              '27': 1
+              '3': 2
+              '38': 1
+              '382': 1
+              '39': 1
+              '66': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 109
+              hits:
+                base: 101
+                zeros: 8
+              links:
+                base: 100
+                zeros: 4
+          funding:
+            distances:
+              '1': 156
+              '153': 1
+              '173': 1
+              '41': 1
+              '64': 1
+              '7': 1
+              '90': 1
+            struct:
+              allcount:
+                zero: 169
+              hits:
+                base: 104
+                zeros: 65
+              links:
+                base: 103
+                zeros: 59
+          guidance:
+            distances:
+              '1': 178
+              '10': 1
+              '177': 1
+              '30': 1
+              '44': 1
+              '7': 1
+              '82': 1
+              '95': 1
+              '96': 1
+            struct:
+              allcount:
+                zero: 191
+              hits:
+                base: 116
+                zeros: 75
+              links:
+                base: 115
+                zeros: 71
+          incentive program:
+            distances:
+              '1': 69
+            struct:
+              allcount:
+                zero: 76
+              hits:
+                base: 24
+                zeros: 52
+              links:
+                base: 23
+                zeros: 46
+          influencing change:
+            distances:
+              '1': 1
+              '3': 2
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 4
+              links:
+                base: 3
+          innovation:
+            distances:
+              '1': 10
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 3
+                zeros: 12
+              links:
+                base: 2
+                zeros: 8
+          installation management:
+            distances:
+              '1': 72
+              '10': 1
+              '122': 1
+              '13': 1
+              '273': 1
+              '32': 1
+              '4': 1
+              '43': 1
+              '56': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 83
+              hits:
+                base: 80
+                zeros: 3
+              links:
+                base: 79
+                zeros: 2
+          issues concerns:
+            distances:
+              '1': 67
+              '11': 1
+              '147': 1
+              '2': 1
+              '227': 1
+              '27': 1
+              '31': 1
+              '76': 1
+            struct:
+              allcount:
+                zero: 77
+              hits:
+                base: 65
+                zeros: 12
+              links:
+                base: 64
+                zeros: 10
+          lifecycle:
+            distances:
+              '1': 11
+            struct:
+              allcount:
+                zero: 12
+              hits:
+                base: 12
+              links:
+                base: 11
+          management:
+            distances:
+              '1': 127
+              '129': 1
+              '133': 1
+              '157': 1
+              '3': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 139
+              hits:
+                base: 95
+                zeros: 44
+              links:
+                base: 94
+                zeros: 38
+          no-brainer:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          normative view:
+            distances:
+              '1': 14
+              '39': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 17
+              hits:
+                base: 17
+              links:
+                base: 16
+          norms:
+            distances:
+              '1': 34
+            struct:
+              allcount:
+                zero: 36
+              hits:
+                base: 27
+                zeros: 9
+              links:
+                base: 26
+                zeros: 8
+          org strategy:
+            distances:
+              '1': 70
+              '110': 1
+              '139': 1
+              '155': 1
+              '3': 2
+              '35': 1
+              '45': 1
+            struct:
+              allcount:
+                zero: 81
+              hits:
+                base: 57
+                zeros: 24
+              links:
+                base: 56
+                zeros: 21
+          organization:
+            distances:
+              '1': 32
+            struct:
+              allcount:
+                zero: 34
+              hits:
+                base: 18
+                zeros: 16
+              links:
+                base: 17
+                zeros: 15
+          owner:
+            distances:
+              '1': 441
+              '105': 2
+              '11': 1
+              '2': 2
+              '21': 1
+              '23': 1
+              '25': 1
+              '3': 2
+              '35': 1
+              '60': 1
+              '7': 1
+              '73': 3
+              '8': 1
+              '9': 2
+              '91': 1
+            struct:
+              allcount:
+                zero: 489
+              hits:
+                base: 258
+                zeros: 231
+              links:
+                base: 257
+                zeros: 204
+          ownership:
+            distances:
+              '1': 420
+              '11': 2
+              '110': 1
+              '131': 1
+              '192': 1
+              '2': 1
+              '26': 1
+              '3': 3
+              '4': 1
+              '6': 2
+            struct:
+              allcount:
+                zero: 459
+              hits:
+                base: 202
+                zeros: 257
+              links:
+                base: 201
+                zeros: 232
+          performance metrics:
+            distances:
+              '1': 56
+              '182': 1
+              '36': 1
+            struct:
+              allcount:
+                zero: 63
+              hits:
+                base: 30
+                zeros: 33
+              links:
+                base: 29
+                zeros: 29
+          pilot demonstration:
+            distances:
+              '1': 34
+              '170': 1
+            struct:
+              allcount:
+                zero: 36
+              hits:
+                base: 36
+              links:
+                base: 35
+          privatized electric grid:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          project:
+            distances:
+              '1': 34
+              '138': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 37
+              hits:
+                base: 37
+              links:
+                base: 36
+          projects:
+            distances:
+              '1': 14
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 15
+              links:
+                base: 14
+          property management:
+            distances:
+              '1': 121
+              '118': 1
+              '20': 2
+              '349': 1
+              '38': 1
+            struct:
+              allcount:
+                zero: 132
+              hits:
+                base: 96
+                zeros: 36
+              links:
+                base: 95
+                zeros: 31
+          role:
+            distances:
+              '1': 62
+              '111': 1
+              '130': 1
+              '3': 1
+              '30': 1
+              '62': 1
+            struct:
+              allcount:
+                zero: 70
+              hits:
+                base: 60
+                zeros: 10
+              links:
+                base: 59
+                zeros: 8
+          societal-political agenda:
+            distances:
+              '1': 33
+            struct:
+              allcount:
+                zero: 34
+              hits:
+                base: 34
+              links:
+                base: 33
+          standardization:
+            distances:
+              '1': 71
+              '6': 1
+            struct:
+              allcount:
+                zero: 77
+              hits:
+                base: 39
+                zeros: 38
+              links:
+                base: 38
+                zeros: 34
+          stovepiping:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          supporting relationships:
+            distances:
+              '1': 15
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 16
+              links:
+                base: 15
+          sustainability:
+            distances:
+              '1': 276
+              '10': 1
+              '14': 1
+              '173': 1
+              '18': 1
+              '19': 2
+              '21': 1
+              '25': 2
+              '26': 1
+              '3': 3
+              '4': 1
+              '5': 2
+              '57': 1
+              '59': 1
+              '6': 1
+              '9': 1
+              '96': 1
+            struct:
+              allcount:
+                zero: 307
+              hits:
+                base: 213
+                zeros: 94
+              links:
+                base: 212
+                zeros: 85
+          system water:
+            distances:
+              '1': 28
+            struct:
+              allcount:
+                zero: 31
+              hits:
+                base: 14
+                zeros: 17
+              links:
+                base: 13
+                zeros: 15
+          systems EE:
+            distances:
+              '1': 68
+              '176': 1
+              '2': 3
+              '256': 1
+              '3': 1
+              '46': 1
+              '49': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 85
+              hits:
+                base: 54
+                zeros: 31
+              links:
+                base: 53
+                zeros: 24
+          top management:
+            distances:
+              '1': 3
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 4
+              links:
+                base: 3
+          training:
+            distances:
+              '1': 8
+              '638': 1
+            struct:
+              allcount:
+                zero: 11
+              hits:
+                base: 7
+                zeros: 4
+              links:
+                base: 6
+                zeros: 3
+  G3MP1:
+    dispersion:
+      base:
+        linkage:
+          AE designer interest:
+            distances:
+              '1': 4
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 5
+              links:
+                base: 4
+          Building Status Report:
+            distances:
+              '29': 1
+            struct:
+              allcount:
+                zero: 18
+              hits:
+                base: 1
+              links:
+                base: 1
+          EE:
+            distances:
+              '1': 26
+              '2': 4
+              '4': 1
+              '49': 1
+              '6': 2
+              '90': 1
+            struct:
+              allcount:
+                zero: 90
+              hits:
+                base: 24
+                zeros: 14
+              links:
+                base: 24
+                zeros: 11
+          EPACT:
+            distances:
+              '1': 4
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 4
+              links:
+                base: 4
+          LED lighting:
+            distances:
+              '1': 10
+              '337': 1
+            struct:
+              allcount:
+                zero: 13
+              hits:
+                base: 7
+                zeros: 6
+              links:
+                base: 6
+                zeros: 5
+          LEED:
+            distances:
+              '1': 347
+              '13': 1
+              '15': 3
+              '2': 1
+              '3': 1
+              '34': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 853
+              hits:
+                base: 114
+                zeros: 307
+              links:
+                base: 114
+                zeros: 241
+          OPP|NMJ --other people's problem|not my job:
+            distances:
+              '1': 8
+              '2': 5
+              '3': 1
+              '4': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 27
+              hits:
+                base: 17
+              links:
+                base: 16
+          ROI:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          benefits hype/oversold:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          betterment assumed:
+            distances:
+              '1': 6
+            struct:
+              allcount:
+                zero: 11
+              hits:
+                base: 6
+              links:
+                base: 6
+          commissioning:
+            distances:
+              '1': 6
+              '3': 1
+            struct:
+              allcount:
+                zero: 12
+              hits:
+                base: 7
+              links:
+                base: 7
+          complexity:
+            distances:
+              '1': 6
+              '2': 4
+              '3': 1
+            struct:
+              allcount:
+                zero: 12
+              hits:
+                base: 12
+              links:
+                base: 11
+          construction management:
+            distances:
+              '1': 34
+              '101': 1
+              '2': 6
+              '3': 1
+              '33': 1
+              '6': 1
+              '63': 1
+              '9': 3
+            struct:
+              allcount:
+                zero: 188
+              hits:
+                base: 44
+                zeros: 6
+              links:
+                base: 44
+                zeros: 4
+          construction program:
+            distances:
+              '1': 18
+              '20': 1
+            struct:
+              allcount:
+                zero: 24
+              hits:
+                base: 19
+              links:
+                base: 19
+          cost savings:
+            distances:
+              '1': 19
+              '2': 7
+              '3': 1
+              '37': 1
+              '6': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 47
+              hits:
+                base: 31
+              links:
+                base: 30
+          deficiency management:
+            distances:
+              '1': 33
+              '37': 1
+            struct:
+              allcount:
+                zero: 145
+              hits:
+                base: 10
+                zeros: 30
+              links:
+                base: 10
+                zeros: 24
+          economics:
+            distances:
+              '1': 5
+              '4': 1
+            struct:
+              allcount:
+                zero: 7
+              hits:
+                base: 7
+              links:
+                base: 6
+          end-user:
+            distances:
+              '1': 19
+              '112': 1
+              '17': 1
+              '2': 1
+              '3': 1
+            struct:
+              allcount:
+                zero: 150
+              hits:
+                base: 18
+                zeros: 9
+              links:
+                base: 18
+                zeros: 5
+          energy:
+            distances:
+              '1': 38
+              '176': 1
+              '2': 3
+              '3': 2
+              '72': 2
+            struct:
+              allcount:
+                zero: 127
+              hits:
+                base: 31
+                zeros: 18
+              links:
+                base: 31
+                zeros: 15
+          extra cost:
+            distances:
+              '1': 15
+              '2': 1
+              '277': 1
+            struct:
+              allcount:
+                zero: 36
+              hits:
+                base: 18
+              links:
+                base: 17
+          facility management:
+            distances:
+              '1': 16
+              '12': 1
+              '2': 4
+              '3': 3
+              '78': 1
+            struct:
+              allcount:
+                zero: 58
+              hits:
+                base: 15
+                zeros: 15
+              links:
+                base: 15
+                zeros: 10
+          ffleet management:
+            distances:
+              '1': 3
+              '2': 1
+              '23': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 7
+              hits:
+                base: 7
+              links:
+                base: 6
+          footprint:
+            distances:
+              '509': 1
+            struct:
+              allcount:
+                zero: 24
+              hits:
+                base: 1
+              links:
+                base: 1
+          footprint management:
+            distances:
+              '1': 35
+              '120': 1
+              '32': 2
+              '58': 1
+            struct:
+              allcount:
+                zero: 202
+              hits:
+                base: 33
+                zeros: 17
+              links:
+                base: 33
+                zeros: 6
+          funding:
+            distances:
+              '1': 130
+              '120': 1
+              '2': 1
+              '4': 1
+              '5': 1
+              '64': 1
+            struct:
+              allcount:
+                zero: 379
+              hits:
+                base: 70
+                zeros: 78
+              links:
+                base: 70
+                zeros: 65
+          green programs:
+            distances:
+              '1': 5
+              '2': 2
+              '244': 1
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 8
+              links:
+                base: 8
+          guidance:
+            distances:
+              '1': 37
+              '10': 1
+              '106': 1
+              '2': 1
+              '26': 1
+              '3': 2
+              '5': 1
+              '88': 1
+            struct:
+              allcount:
+                zero: 140
+              hits:
+                base: 45
+              links:
+                base: 45
+          incentive program:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 7
+              hits:
+                base: 1
+              links:
+                base: 1
+          information value moderate:
+            distances:
+              '1': 4
+            struct:
+              allcount:
+                zero: 14
+              hits:
+                base: 4
+              links:
+                base: 4
+          installation management:
+            distances:
+              '1': 9
+              '129': 1
+              '137': 1
+              '56': 1
+            struct:
+              allcount:
+                zero: 84
+              hits:
+                base: 12
+              links:
+                base: 12
+          installation utilization manager:
+            distances:
+              '1': 98
+              '12': 1
+              '14': 1
+              '19': 1
+              '2': 7
+              '28': 1
+              '3': 5
+              '9': 1
+            struct:
+              allcount:
+                zero: 458
+              hits:
+                base: 82
+                zeros: 53
+              links:
+                base: 82
+                zeros: 33
+          issues concerns:
+            distances:
+              '1': 29
+              '2': 5
+              '28': 1
+              '29': 1
+              '3': 1
+              '50': 1
+              '51': 1
+              '6': 2
+              '61': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 128
+              hits:
+                base: 40
+                zeros: 4
+              links:
+                base: 40
+                zeros: 3
+          lifecycle:
+            distances:
+              '1': 7
+              '56': 1
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 9
+              links:
+                base: 8
+          management:
+            distances:
+              '1': 31
+              '14': 1
+              '2': 7
+              '30': 1
+            struct:
+              allcount:
+                zero: 76
+              hits:
+                base: 25
+                zeros: 20
+              links:
+                base: 25
+                zeros: 15
+          non-core activity:
+            distances:
+              '1': 1
+              '14': 1
+              '2': 2
+              '4': 1
+              '6': 1
+              '99': 1
+            struct:
+              allcount:
+                zero: 13
+              hits:
+                base: 7
+              links:
+                base: 7
+          org strategy:
+            distances:
+              '1': 8
+              '2': 1
+              '204': 1
+              '275': 1
+              '55': 1
+            struct:
+              allcount:
+                zero: 46
+              hits:
+                base: 11
+                zeros: 3
+              links:
+                base: 11
+                zeros: 1
+          owner:
+            distances:
+              '1': 40
+              '2': 5
+              '236': 1
+              '27': 1
+            struct:
+              allcount:
+                zero: 254
+              hits:
+                base: 33
+                zeros: 20
+              links:
+                base: 33
+                zeros: 14
+          ownership:
+            distances:
+              '1': 17
+            struct:
+              allcount:
+                zero: 223
+              hits:
+                base: 9
+                zeros: 10
+              links:
+                base: 9
+                zeros: 8
+          project:
+            distances:
+              '1': 57
+              '12': 1
+              '2': 2
+              '3': 1
+              '30': 1
+              '51': 1
+              '77': 1
+              '98': 1
+            struct:
+              allcount:
+                zero: 166
+              hits:
+                base: 50
+                zeros: 18
+              links:
+                base: 50
+                zeros: 15
+          projects:
+            distances:
+              '1': 29
+              '2': 1
+              '4': 1
+            struct:
+              allcount:
+                zero: 157
+              hits:
+                base: 23
+                zeros: 15
+              links:
+                base: 23
+                zeros: 8
+          property management:
+            distances:
+              '1': 102
+              '19': 2
+              '2': 5
+              '20': 3
+              '3': 1
+            struct:
+              allcount:
+                zero: 658
+              hits:
+                base: 62
+                zeros: 67
+              links:
+                base: 62
+                zeros: 51
+          property utilization:
+            distances:
+              '1': 32
+              '113': 1
+              '13': 1
+              '179': 1
+              '2': 3
+              '21': 1
+            struct:
+              allcount:
+                zero: 191
+              hits:
+                base: 31
+                zeros: 13
+              links:
+                base: 31
+                zeros: 8
+          responsible party:
+            distances:
+              '1': 14
+            struct:
+              allcount:
+                zero: 29
+              hits:
+                base: 14
+              links:
+                base: 14
+          stakeholders:
+            distances:
+              '2': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 14
+              hits:
+                base: 2
+              links:
+                base: 2
+          supporting staff role - non-core stakeholder:
+            distances:
+              '1': 2
+              '3': 1
+            struct:
+              allcount:
+                zero: 13
+              hits:
+                base: 3
+              links:
+                base: 3
+          sustainability:
+            distances:
+              '1': 22
+              '17': 1
+              '2': 2
+            struct:
+              allcount:
+                zero: 72
+              hits:
+                base: 19
+                zeros: 9
+              links:
+                base: 19
+                zeros: 6
+          systems EE:
+            distances:
+              '1': 8
+              '2': 1
+              '21': 1
+              '220': 1
+            struct:
+              allcount:
+                zero: 48
+              hits:
+                base: 11
+              links:
+                base: 11
+          theory cradle-to-grave:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 2
+              links:
+                base: 1
+          third party task:
+            distances:
+              '1': 2
+              '327': 1
+            struct:
+              allcount:
+                zero: 8
+              hits:
+                base: 3
+              links:
+                base: 3
+          top management:
+            distances:
+              '1': 8
+              '363': 1
+              '5': 2
+            struct:
+              allcount:
+                zero: 28
+              hits:
+                base: 6
+                zeros: 6
+              links:
+                base: 6
+                zeros: 5
+          training:
+            distances:
+              '1': 3
+              '15': 1
+              '2': 1
+              '3': 1
+              '6': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 31
+              hits:
+                base: 8
+              links:
+                base: 8
+          user initiated energy project:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 5
+              links:
+                base: 5
+  J0MP1:
+    dispersion:
+      base:
+        linkage:
+          AE designer interest:
+            distances:
+              '274': 1
+              '3': 1
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 2
+              links:
+                base: 2
+          Building Status Report:
+            distances:
+              '1': 12
+              '10': 1
+              '3': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 17
+              hits:
+                base: 16
+                zeros: 1
+              links:
+                base: 15
+                zeros: 0
+          EE:
+            distances:
+              '1': 22
+              '10': 1
+              '121': 1
+              '2': 2
+              '26': 1
+              '3': 2
+              '4': 3
+              '59': 1
+            struct:
+              allcount:
+                zero: 95
+              hits:
+                base: 24
+                zeros: 14
+              links:
+                base: 23
+                zeros: 10
+          EPACT:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          LEED:
+            distances:
+              '1': 73
+              '116': 1
+              '137': 3
+              '2': 2
+              '4': 1
+              '5': 1
+              '58': 2
+            struct:
+              allcount:
+                zero: 748
+              hits:
+                base: 39
+                zeros: 58
+              links:
+                base: 39
+                zeros: 44
+          OPP|NMJ --other people's problem|not my job:
+            distances:
+              '1': 5
+              '20': 1
+              '3': 2
+              '404': 1
+              '42': 1
+            struct:
+              allcount:
+                zero: 18
+              hits:
+                base: 10
+              links:
+                base: 10
+          betterment assumed:
+            distances:
+              '1': 2
+              '42': 1
+              '69': 1
+            struct:
+              allcount:
+                zero: 24
+              hits:
+                base: 4
+              links:
+                base: 4
+          construction management:
+            distances:
+              '1': 1
+              '126': 1
+              '2': 1
+              '22': 1
+              '81': 1
+            struct:
+              allcount:
+                zero: 54
+              hits:
+                base: 5
+                zeros: 1
+              links:
+                base: 5
+                zeros: 0
+          deficiency management:
+            distances:
+              '1': 125
+            struct:
+              allcount:
+                zero: 199
+              hits:
+                base: 39
+                zeros: 101
+              links:
+                base: 39
+                zeros: 86
+          end-user:
+            distances:
+              '1': 52
+              '2': 5
+              '28': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 144
+              hits:
+                base: 40
+                zeros: 20
+              links:
+                base: 40
+                zeros: 19
+          energy:
+            distances:
+              '1': 19
+              '17': 1
+              '25': 1
+              '28': 1
+            struct:
+              allcount:
+                zero: 129
+              hits:
+                base: 22
+                zeros: 1
+              links:
+                base: 22
+                zeros: 0
+          facility management:
+            distances:
+              '1': 2
+              '107': 1
+              '2': 1
+            struct:
+              allcount:
+                zero: 45
+              hits:
+                base: 4
+              links:
+                base: 4
+          footprint management:
+            distances:
+              '1': 29
+              '2': 2
+              '20': 1
+              '3': 2
+              '6': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 196
+              hits:
+                base: 33
+                zeros: 10
+              links:
+                base: 33
+                zeros: 3
+          funding:
+            distances:
+              '1': 37
+              '109': 1
+              '2': 1
+              '21': 1
+              '3': 2
+              '46': 1
+              '65': 1
+            struct:
+              allcount:
+                zero: 385
+              hits:
+                base: 31
+                zeros: 31
+              links:
+                base: 31
+                zeros: 13
+          guidance:
+            distances:
+              '1': 10
+              '134': 1
+              '2': 3
+              '3': 1
+              '53': 1
+              '87': 1
+            struct:
+              allcount:
+                zero: 118
+              hits:
+                base: 15
+                zeros: 4
+              links:
+                base: 15
+                zeros: 2
+          incentive program:
+            distances:
+              '1': 10
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 11
+              links:
+                base: 10
+          installation management:
+            distances:
+              '1': 10
+              '116': 1
+              '12': 1
+              '2': 1
+            struct:
+              allcount:
+                zero: 83
+              hits:
+                base: 13
+              links:
+                base: 13
+          installation utilization manager:
+            distances:
+              '1': 62
+              '18': 1
+              '2': 1
+              '28': 1
+              '4': 1
+              '40': 1
+            struct:
+              allcount:
+                zero: 413
+              hits:
+                base: 42
+                zeros: 31
+              links:
+                base: 41
+                zeros: 26
+          issues concerns:
+            distances:
+              '1': 10
+              '16': 1
+              '2': 1
+              '46': 1
+            struct:
+              allcount:
+                zero: 129
+              hits:
+                base: 13
+                zeros: 1
+              links:
+                base: 13
+                zeros: 0
+          management:
+            distances:
+              '1': 40
+              '194': 1
+              '2': 5
+              '227': 1
+              '3': 1
+              '35': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 132
+              hits:
+                base: 37
+                zeros: 16
+              links:
+                base: 37
+                zeros: 13
+          many players:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          non-core activity:
+            distances:
+              '1': 4
+              '10': 1
+              '2': 1
+              '3': 1
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 7
+              links:
+                base: 7
+          normative view:
+            distances:
+              '1': 1
+              '14': 1
+              '3': 1
+              '501': 1
+            struct:
+              allcount:
+                zero: 5
+              hits:
+                base: 5
+              links:
+                base: 4
+          org strategy:
+            distances:
+              '1': 1
+              '30': 1
+            struct:
+              allcount:
+                zero: 42
+              hits:
+                base: 2
+              links:
+                base: 2
+          owner:
+            distances:
+              '1': 35
+              '2': 4
+              '20': 1
+              '24': 1
+              '58': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 238
+              hits:
+                base: 33
+                zeros: 22
+              links:
+                base: 32
+                zeros: 11
+          ownership:
+            distances:
+              '1': 43
+              '3': 1
+            struct:
+              allcount:
+                zero: 397
+              hits:
+                base: 25
+                zeros: 25
+              links:
+                base: 24
+                zeros: 20
+          project:
+            distances:
+              '1': 16
+              '10': 1
+              '102': 1
+              '41': 1
+              '5': 1
+              '77': 1
+            struct:
+              allcount:
+                zero: 159
+              hits:
+                base: 21
+              links:
+                base: 21
+          projects:
+            distances:
+              '1': 53
+              '2': 1
+              '297': 1
+              '3': 2
+              '4': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 163
+              hits:
+                base: 51
+                zeros: 10
+              links:
+                base: 50
+                zeros: 9
+          property management:
+            distances:
+              '1': 136
+              '2': 1
+              '28': 1
+              '29': 1
+              '4': 2
+              '46': 1
+              '5': 2
+              '51': 1
+              '6': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 665
+              hits:
+                base: 74
+                zeros: 92
+              links:
+                base: 73
+                zeros: 74
+          property utilization:
+            distances:
+              '1': 58
+              '18': 1
+              '3': 1
+              '5': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 186
+              hits:
+                base: 62
+                zeros: 6
+              links:
+                base: 61
+                zeros: 1
+          responsible party:
+            distances:
+              '1': 8
+            struct:
+              allcount:
+                zero: 31
+              hits:
+                base: 9
+              links:
+                base: 8
+          stakeholders:
+            distances:
+              '18': 1
+              '2': 3
+              '3': 1
+              '368': 1
+            struct:
+              allcount:
+                zero: 13
+              hits:
+                base: 6
+              links:
+                base: 6
+          supporting staff role - non-core stakeholder:
+            distances:
+              '1': 7
+              '29': 1
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 9
+              links:
+                base: 8
+          sustainability:
+            distances:
+              '1': 19
+              '2': 1
+              '21': 1
+              '22': 1
+              '226': 1
+              '23': 1
+            struct:
+              allcount:
+                zero: 69
+              hits:
+                base: 25
+              links:
+                base: 24
+          training:
+            distances:
+              '1': 10
+            struct:
+              allcount:
+                zero: 20
+              hits:
+                base: 5
+                zeros: 5
+              links:
+                base: 5
+                zeros: 5
+          user initiated energy project:
+            distances:
+              '2': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+  K0T0:
+    dispersion:
+      base:
+        linkage:
+          EE:
+            distances:
+              '1': 135
+              '11': 1
+              '18': 1
+              '2': 1
+              '28': 1
+              '3': 2
+              '35': 1
+              '43': 1
+              '47': 2
+              '5': 1
+              '8': 1
+              '9': 1
+              '90': 1
+            struct:
+              allcount:
+                zero: 157
+              hits:
+                base: 127
+                zeros: 30
+              links:
+                base: 126
+                zeros: 23
+          FM gets excess utility dollars:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          LED lighting:
+            distances:
+              '1': 7
+              '12': 1
+              '136': 1
+              '54': 1
+              '68': 1
+              '97': 1
+            struct:
+              allcount:
+                zero: 14
+              hits:
+                base: 13
+                zeros: 1
+              links:
+                base: 12
+          LEED:
+            distances:
+              '1': 31
+              '11': 1
+              '209': 1
+              '5': 1
+              '76': 1
+            struct:
+              allcount:
+                zero: 39
+              hits:
+                base: 29
+                zeros: 10
+              links:
+                base: 28
+                zeros: 7
+          M&R oversight as owner:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          ROI:
+            distances:
+              '1': 38
+              '17': 1
+              '19': 1
+              '26': 1
+              '34': 1
+              '35': 1
+              '48': 1
+              '5': 1
+              '6': 1
+              '67': 1
+              '7': 1
+              '76': 1
+              '8': 2
+            struct:
+              allcount:
+                zero: 53
+              hits:
+                base: 51
+                zeros: 2
+              links:
+                base: 50
+                zeros: 1
+          agency executive:
+            distances:
+              '4': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          benefit:
+            distances:
+              '1': 6
+              '131': 1
+              '56': 1
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 7
+                zeros: 3
+              links:
+                base: 6
+                zeros: 2
+          betterment assumed:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          business strategy:
+            distances:
+              '1': 9
+              '13': 1
+              '17': 1
+              '3': 1
+              '43': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 15
+              links:
+                base: 14
+          complexity:
+            distances:
+              '1': 3
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 4
+              links:
+                base: 3
+          computer driven:
+            distances:
+              '1': 16
+              '2': 2
+              '28': 1
+            struct:
+              allcount:
+                zero: 20
+              hits:
+                base: 20
+              links:
+                base: 19
+          computer programmers:
+            distances:
+              '1': 15
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 16
+              links:
+                base: 15
+          cost savings:
+            distances:
+              '1': 56
+              '12': 1
+              '18': 1
+              '2': 3
+              '3': 3
+              '36': 1
+              '4': 1
+              '6': 1
+              '77': 1
+              '88': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 72
+              hits:
+                base: 71
+                zeros: 1
+              links:
+                base: 70
+                zeros: 0
+          decision factors:
+            distances:
+              '1': 21
+              '2': 1
+              '211': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 25
+              hits:
+                base: 25
+              links:
+                base: 24
+          decision making:
+            distances:
+              '1': 44
+              '2': 1
+              '3': 1
+              '4': 1
+            struct:
+              allcount:
+                zero: 48
+              hits:
+                base: 48
+              links:
+                base: 47
+          demonstration of technology:
+            distances:
+              '1': 9
+              '107': 1
+              '20': 1
+              '4': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 14
+                zeros: 1
+              links:
+                base: 13
+                zeros: 0
+          economics:
+            distances:
+              '1': 7
+              '213': 1
+              '3': 1
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 10
+              links:
+                base: 9
+          end-user:
+            distances:
+              '1': 36
+              '7': 1
+            struct:
+              allcount:
+                zero: 38
+              hits:
+                base: 38
+              links:
+                base: 37
+          energy:
+            distances:
+              '1': 263
+              '17': 1
+              '2': 5
+              '24': 1
+              '3': 2
+              '38': 1
+              '4': 3
+              '5': 3
+              '6': 3
+              '62': 1
+              '67': 2
+              '7': 1
+            struct:
+              allcount:
+                zero: 327
+              hits:
+                base: 190
+                zeros: 137
+              links:
+                base: 189
+                zeros: 97
+          extra cost:
+            distances:
+              '1': 25
+              '131': 1
+              '14': 1
+              '2': 4
+              '22': 1
+              '3': 1
+              '4': 1
+              '6': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 37
+              hits:
+                base: 37
+              links:
+                base: 36
+          facility management:
+            distances:
+              '1': 509
+              '11': 1
+              '13': 2
+              '15': 2
+              '2': 10
+              '24': 2
+              '3': 5
+              '4': 4
+              '5': 2
+              '6': 2
+              '9': 3
+            struct:
+              allcount:
+                zero: 594
+              hits:
+                base: 316
+                zeros: 278
+              links:
+                base: 315
+                zeros: 227
+          ffleet management:
+            distances:
+              '1': 15
+              '112': 1
+              '283': 1
+            struct:
+              allcount:
+                zero: 18
+              hits:
+                base: 18
+              links:
+                base: 17
+          footprint management:
+            distances:
+              '1': 10
+              '10': 1
+              '2': 1
+              '279': 1
+              '3': 1
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 15
+              links:
+                base: 14
+          funding:
+            distances:
+              '1': 95
+              '10': 1
+              '15': 1
+              '19': 1
+              '2': 3
+              '21': 1
+              '3': 1
+              '33': 1
+              '4': 2
+              '42': 1
+              '43': 1
+              '5': 1
+              '57': 1
+              '6': 3
+              '7': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 129
+              hits:
+                base: 86
+                zeros: 43
+              links:
+                base: 85
+                zeros: 30
+          green programs:
+            distances:
+              '1': 15
+              '197': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 20
+              hits:
+                base: 13
+                zeros: 7
+              links:
+                base: 12
+                zeros: 5
+          guidance:
+            distances:
+              '1': 113
+              '18': 1
+              '25': 1
+              '46': 1
+              '48': 1
+              '6': 1
+              '60': 2
+              '9': 1
+            struct:
+              allcount:
+                zero: 132
+              hits:
+                base: 70
+                zeros: 62
+              links:
+                base: 69
+                zeros: 52
+          improvements not mandated:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          improving maintenance:
+            distances:
+              '1': 3
+              '105': 1
+              '27': 1
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          influencing change:
+            distances: {}
+            struct:
+              allcount:
+                zero: 1
+              hits:
+                base: 1
+              links: {}
+          installation management:
+            distances:
+              '1': 4
+              '2': 2
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 6
+                zeros: 4
+              links:
+                base: 5
+                zeros: 1
+          installation owner:
+            distances:
+              '1': 3
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 4
+              links:
+                base: 3
+          installation utilization manager:
+            distances:
+              '1': 11
+            struct:
+              allcount:
+                zero: 12
+              hits:
+                base: 12
+              links:
+                base: 11
+          installation-wide control system:
+            distances: {}
+            struct:
+              allcount:
+                zero: 1
+              hits:
+                base: 1
+              links: {}
+          issues concerns:
+            distances:
+              '1': 54
+              '2': 1
+              '34': 1
+              '37': 1
+              '49': 1
+              '50': 2
+              '70': 1
+            struct:
+              allcount:
+                zero: 65
+              hits:
+                base: 38
+                zeros: 27
+              links:
+                base: 37
+                zeros: 24
+          lifecycle:
+            distances:
+              '1': 18
+              '3': 1
+            struct:
+              allcount:
+                zero: 23
+              hits:
+                base: 14
+                zeros: 9
+              links:
+                base: 13
+                zeros: 6
+          maintenance savings:
+            distances:
+              '1': 21
+              '149': 1
+              '2': 3
+              '5': 1
+              '86': 1
+            struct:
+              allcount:
+                zero: 28
+              hits:
+                base: 28
+              links:
+                base: 27
+          management:
+            distances:
+              '1': 22
+            struct:
+              allcount:
+                zero: 24
+              hits:
+                base: 16
+                zeros: 8
+              links:
+                base: 15
+                zeros: 7
+          no-brainer:
+            distances:
+              '1': 4
+              '10': 1
+              '11': 1
+              '2': 1
+              '74': 1
+              '8': 1
+              '89': 1
+            struct:
+              allcount:
+                zero: 11
+              hits:
+                base: 11
+              links:
+                base: 10
+          organization:
+            distances:
+              '1': 52
+              '11': 2
+              '16': 1
+              '18': 1
+              '2': 3
+              '23': 1
+              '25': 1
+              '26': 1
+              '28': 1
+              '39': 1
+              '50': 1
+              '6': 2
+              '66': 1
+            struct:
+              allcount:
+                zero: 70
+              hits:
+                base: 69
+                zeros: 1
+              links:
+                base: 68
+                zeros: 0
+          owner:
+            distances:
+              '1': 49
+              '120': 1
+              '16': 1
+              '2': 5
+              '3': 3
+              '30': 2
+              '4': 1
+              '78': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 76
+              hits:
+                base: 44
+                zeros: 32
+              links:
+                base: 43
+                zeros: 21
+          ownership:
+            distances:
+              '2': 3
+              '3': 6
+            struct:
+              allcount:
+                zero: 12
+              hits:
+                base: 4
+                zeros: 8
+              links:
+                base: 3
+                zeros: 6
+          personal aspect:
+            distances:
+              '1': 4
+              '5': 1
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          pilot demonstration:
+            distances:
+              '1': 7
+              '31': 1
+              '99': 1
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 10
+              links:
+                base: 9
+          private rental:
+            distances:
+              '1': 21
+              '144': 1
+            struct:
+              allcount:
+                zero: 26
+              hits:
+                base: 8
+                zeros: 18
+              links:
+                base: 7
+                zeros: 15
+          project:
+            distances:
+              '1': 126
+              '11': 1
+              '12': 1
+              '15': 1
+              '16': 1
+              '18': 1
+              '19': 1
+              '2': 1
+              '23': 1
+              '26': 1
+              '3': 5
+              '4': 3
+              '5': 1
+              '7': 1
+              '74': 1
+              '9': 4
+            struct:
+              allcount:
+                zero: 162
+              hits:
+                base: 120
+                zeros: 42
+              links:
+                base: 119
+                zeros: 31
+          projects:
+            distances:
+              '1': 52
+              '24': 1
+              '5': 1
+              '7': 1
+              '89': 1
+            struct:
+              allcount:
+                zero: 58
+              hits:
+                base: 47
+                zeros: 11
+              links:
+                base: 46
+                zeros: 10
+          property management:
+            distances:
+              '1': 20
+              '10': 1
+              '2': 1
+              '4': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 34
+              hits:
+                base: 19
+                zeros: 15
+              links:
+                base: 18
+                zeros: 6
+          property utilization:
+            distances:
+              '1': 8
+              '2': 1
+              '65': 1
+            struct:
+              allcount:
+                zero: 11
+              hits:
+                base: 11
+              links:
+                base: 10
+          role:
+            distances:
+              '1': 8
+              '345': 1
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 10
+              links:
+                base: 9
+          stakeholders:
+            distances:
+              '1': 8
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 6
+                zeros: 4
+              links:
+                base: 5
+                zeros: 3
+          sustainability:
+            distances:
+              '1': 27
+              '11': 1
+              '126': 1
+              '15': 1
+              '152': 1
+              '17': 1
+            struct:
+              allcount:
+                zero: 34
+              hits:
+                base: 29
+                zeros: 5
+              links:
+                base: 28
+                zeros: 4
+          systems EE:
+            distances:
+              '1': 1
+              '36': 1
+            struct:
+              allcount:
+                zero: 5
+              hits:
+                base: 3
+                zeros: 2
+              links:
+                base: 2
+          top management:
+            distances:
+              '1': 6
+              '2': 1
+              '270': 1
+              '3': 3
+              '8': 1
+              '99': 1
+            struct:
+              allcount:
+                zero: 14
+              hits:
+                base: 14
+              links:
+                base: 13
+          training:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          utility EE support:
+            distances:
+              '1': 4
+              '2': 1
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          valuable skills:
+            distances:
+              '1': 2
+              '219': 1
+              '29': 1
+              '38': 1
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+  M0F0:
+    dispersion:
+      base:
+        linkage:
+          EE:
+            distances:
+              '1': 324
+              '10': 1
+              '104': 1
+              '11': 1
+              '12': 1
+              '15': 1
+              '2': 1
+              '20': 1
+              '25': 1
+              '3': 3
+              '4': 1
+              '5': 1
+              '57': 1
+              '64': 1
+              '8': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 363
+              hits:
+                base: 236
+                zeros: 127
+              links:
+                base: 235
+                zeros: 106
+          ESPC difficult:
+            distances:
+              '1': 8
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 9
+              links:
+                base: 8
+          EnergyStar portfolio:
+            distances:
+              '1': 7
+            struct:
+              allcount:
+                zero: 8
+              hits:
+                base: 8
+              links:
+                base: 7
+          LED lighting:
+            distances:
+              '1': 81
+              '21': 1
+              '279': 1
+              '3': 1
+              '43': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 91
+              hits:
+                base: 47
+                zeros: 44
+              links:
+                base: 46
+                zeros: 40
+          LEED:
+            distances:
+              '1': 146
+              '11': 1
+              '176': 2
+              '26': 1
+              '315': 2
+              '54': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 169
+              hits:
+                base: 55
+                zeros: 114
+              links:
+                base: 54
+                zeros: 100
+          OPP|NMJ --other people's problem|not my job:
+            distances:
+              '1': 10
+              '7': 1
+            struct:
+              allcount:
+                zero: 12
+              hits:
+                base: 12
+              links:
+                base: 11
+          ROI:
+            distances:
+              '1': 21
+            struct:
+              allcount:
+                zero: 23
+              hits:
+                base: 22
+                zeros: 1
+              links:
+                base: 21
+          agency executive:
+            distances:
+              '1': 44
+            struct:
+              allcount:
+                zero: 46
+              hits:
+                base: 29
+                zeros: 17
+              links:
+                base: 28
+                zeros: 16
+          benefit:
+            distances:
+              '1': 68
+              '320': 1
+              '42': 1
+            struct:
+              allcount:
+                zero: 74
+              hits:
+                base: 33
+                zeros: 41
+              links:
+                base: 32
+                zeros: 38
+          business operation groups:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          business strategy:
+            distances:
+              '1': 27
+              '199': 1
+              '64': 1
+              '73': 1
+            struct:
+              allcount:
+                zero: 32
+              hits:
+                base: 28
+                zeros: 4
+              links:
+                base: 27
+                zeros: 3
+          collaboration program:
+            distances:
+              '1': 21
+              '2': 1
+            struct:
+              allcount:
+                zero: 23
+              hits:
+                base: 23
+              links:
+                base: 22
+          complexity:
+            distances:
+              '1': 33
+              '28': 1
+              '296': 1
+              '44': 1
+            struct:
+              allcount:
+                zero: 37
+              hits:
+                base: 37
+              links:
+                base: 36
+          comprehensive water and energy plan:
+            distances:
+              '1': 37
+            struct:
+              allcount:
+                zero: 41
+              hits:
+                base: 18
+                zeros: 23
+              links:
+                base: 17
+                zeros: 20
+          conflicting priorities:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          construction management:
+            distances:
+              '1': 33
+              '13': 1
+              '14': 2
+              '368': 1
+              '72': 1
+            struct:
+              allcount:
+                zero: 42
+              hits:
+                base: 31
+                zeros: 11
+              links:
+                base: 30
+                zeros: 8
+          contracting process:
+            distances:
+              '1': 18
+              '149': 1
+              '161': 1
+              '28': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 23
+              hits:
+                base: 23
+              links:
+                base: 22
+          contractor:
+            distances:
+              '1': 8
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 9
+              links:
+                base: 8
+          cost savings:
+            distances:
+              '1': 22
+              '150': 1
+              '315': 1
+            struct:
+              allcount:
+                zero: 26
+              hits:
+                base: 21
+                zeros: 5
+              links:
+                base: 20
+                zeros: 4
+          decision factors:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+          demonstration of technology:
+            distances:
+              '1': 22
+            struct:
+              allcount:
+                zero: 25
+              hits:
+                base: 21
+                zeros: 4
+              links:
+                base: 20
+                zeros: 2
+          domestic water system:
+            distances:
+              '1': 11
+              '2': 1
+            struct:
+              allcount:
+                zero: 13
+              hits:
+                base: 13
+              links:
+                base: 12
+          economics:
+            distances:
+              '1': 59
+              '387': 1
+              '63': 1
+            struct:
+              allcount:
+                zero: 62
+              hits:
+                base: 62
+              links:
+                base: 61
+          end-user:
+            distances:
+              '1': 46
+              '16': 1
+              '22': 1
+              '24': 1
+              '290': 1
+              '3': 1
+              '7': 2
+            struct:
+              allcount:
+                zero: 56
+              hits:
+                base: 42
+                zeros: 14
+              links:
+                base: 41
+                zeros: 12
+          energy:
+            distances:
+              '1': 1167
+              '12': 2
+              '14': 1
+              '18': 2
+              '2': 2
+              '22': 1
+              '27': 3
+              '4': 1
+              '46': 1
+              '6': 4
+              '8': 1
+            struct:
+              allcount:
+                zero: 1244
+              hits:
+                base: 378
+                zeros: 866
+              links:
+                base: 377
+                zeros: 808
+          experience important:
+            distances:
+              '1': 31
+              '12': 1
+              '174': 1
+              '228': 1
+            struct:
+              allcount:
+                zero: 35
+              hits:
+                base: 35
+              links:
+                base: 34
+          expert assistance:
+            distances:
+              '1': 17
+              '121': 1
+              '229': 1
+              '23': 1
+            struct:
+              allcount:
+                zero: 21
+              hits:
+                base: 21
+              links:
+                base: 20
+          exterior lighting reduction:
+            distances:
+              '1': 23
+            struct:
+              allcount:
+                zero: 24
+              hits:
+                base: 24
+              links:
+                base: 23
+          facility management:
+            distances:
+              '1': 54
+              '121': 1
+              '165': 1
+              '2': 1
+              '39': 1
+              '45': 1
+              '46': 1
+              '54': 1
+              '57': 1
+            struct:
+              allcount:
+                zero: 66
+              hits:
+                base: 56
+                zeros: 10
+              links:
+                base: 55
+                zeros: 7
+          ffleet management:
+            distances:
+              '1': 72
+              '39': 1
+              '67': 1
+              '90': 1
+            struct:
+              allcount:
+                zero: 76
+              hits:
+                base: 76
+              links:
+                base: 75
+          ffleet owner:
+            distances:
+              '1': 7
+              '18': 1
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 9
+              links:
+                base: 8
+          footprint management:
+            distances:
+              '1': 66
+              '526': 1
+            struct:
+              allcount:
+                zero: 69
+              hits:
+                base: 67
+                zeros: 2
+              links:
+                base: 66
+                zeros: 1
+          funding:
+            distances:
+              '1': 360
+              '108': 2
+              '11': 2
+              '133': 1
+              '17': 1
+              '29': 3
+              '3': 5
+              '35': 2
+              '81': 1
+            struct:
+              allcount:
+                zero: 396
+              hits:
+                base: 139
+                zeros: 257
+              links:
+                base: 138
+                zeros: 239
+          green programs:
+            distances:
+              '1': 92
+              '173': 2
+            struct:
+              allcount:
+                zero: 103
+              hits:
+                base: 29
+                zeros: 74
+              links:
+                base: 28
+                zeros: 66
+          guidance:
+            distances:
+              '1': 159
+              '11': 1
+              '181': 1
+              '2': 4
+              '20': 1
+              '26': 1
+              '3': 7
+              '30': 1
+              '9': 2
+              '96': 1
+            struct:
+              allcount:
+                zero: 192
+              hits:
+                base: 120
+                zeros: 72
+              links:
+                base: 119
+                zeros: 59
+          influencing change:
+            distances:
+              '1': 25
+              '176': 1
+              '2': 1
+              '318': 1
+            struct:
+              allcount:
+                zero: 29
+              hits:
+                base: 29
+              links:
+                base: 28
+          installation management:
+            distances:
+              '1': 49
+              '251': 1
+            struct:
+              allcount:
+                zero: 51
+              hits:
+                base: 51
+              links:
+                base: 50
+          installation owner:
+            distances:
+              '1': 8
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 9
+              links:
+                base: 8
+          installation-wide control system:
+            distances:
+              '1': 15
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 16
+              links:
+                base: 15
+          issues concerns:
+            distances:
+              '1': 240
+              '109': 2
+              '12': 1
+              '14': 3
+              '15': 1
+              '17': 1
+              '19': 1
+              '3': 2
+              '47': 1
+              '55': 1
+              '6': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 266
+              hits:
+                base: 190
+                zeros: 76
+              links:
+                base: 189
+                zeros: 66
+          management:
+            distances:
+              '1': 223
+              '119': 1
+              '3': 3
+              '35': 1
+              '44': 1
+              '48': 1
+              '52': 1
+              '64': 1
+              '70': 1
+              '75': 1
+            struct:
+              allcount:
+                zero: 244
+              hits:
+                base: 126
+                zeros: 118
+              links:
+                base: 125
+                zeros: 109
+          many players:
+            distances:
+              '1': 10
+              '3': 1
+            struct:
+              allcount:
+                zero: 12
+              hits:
+                base: 12
+              links:
+                base: 11
+          no-brainer:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          non-core activity:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          normative view:
+            distances:
+              '1': 6
+              '121': 1
+            struct:
+              allcount:
+                zero: 8
+              hits:
+                base: 8
+              links:
+                base: 7
+          norms:
+            distances:
+              '1': 18
+              '33': 1
+            struct:
+              allcount:
+                zero: 20
+              hits:
+                base: 20
+              links:
+                base: 19
+          org strategy:
+            distances:
+              '1': 99
+              '190': 1
+              '2': 1
+              '27': 1
+              '3': 12
+              '31': 1
+              '87': 1
+              '99': 1
+            struct:
+              allcount:
+                zero: 119
+              hits:
+                base: 118
+                zeros: 1
+              links:
+                base: 117
+                zeros: 0
+          organization:
+            distances:
+              '1': 3
+              '57': 1
+            struct:
+              allcount:
+                zero: 5
+              hits:
+                base: 5
+              links:
+                base: 4
+          owner:
+            distances:
+              '1': 125
+              '119': 1
+              '152': 2
+              '194': 1
+              '3': 1
+              '51': 1
+            struct:
+              allcount:
+                zero: 141
+              hits:
+                base: 98
+                zeros: 43
+              links:
+                base: 97
+                zeros: 34
+          ownership:
+            distances:
+              '1': 154
+              '292': 1
+              '45': 1
+            struct:
+              allcount:
+                zero: 163
+              hits:
+                base: 54
+                zeros: 109
+              links:
+                base: 53
+                zeros: 103
+          personal aspect:
+            distances:
+              '1': 21
+              '235': 1
+              '3': 1
+            struct:
+              allcount:
+                zero: 24
+              hits:
+                base: 24
+              links:
+                base: 23
+          pilot demonstration:
+            distances:
+              '1': 49
+              '313': 1
+            struct:
+              allcount:
+                zero: 52
+              hits:
+                base: 27
+                zeros: 25
+              links:
+                base: 26
+                zeros: 24
+          potential|suitability to future opns:
+            distances:
+              '1': 6
+            struct:
+              allcount:
+                zero: 7
+              hits:
+                base: 7
+              links:
+                base: 6
+          privatized electric grid:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          project:
+            distances:
+              '1': 147
+              '102': 1
+              '11': 1
+              '2': 1
+              '21': 1
+              '3': 1
+              '30': 1
+              '31': 3
+              '32': 1
+              '4': 1
+              '48': 1
+              '57': 1
+              '6': 1
+              '67': 1
+            struct:
+              allcount:
+                zero: 167
+              hits:
+                base: 131
+                zeros: 36
+              links:
+                base: 130
+                zeros: 32
+          projects:
+            distances:
+              '1': 37
+              '10': 1
+              '3': 1
+              '336': 1
+              '44': 1
+              '5': 1
+              '84': 1
+            struct:
+              allcount:
+                zero: 45
+              hits:
+                base: 39
+                zeros: 6
+              links:
+                base: 38
+                zeros: 5
+          property management:
+            distances:
+              '1': 151
+            struct:
+              allcount:
+                zero: 158
+              hits:
+                base: 43
+                zeros: 115
+              links:
+                base: 42
+                zeros: 109
+          property utilization:
+            distances:
+              '1': 12
+              '146': 1
+              '147': 1
+              '5': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 17
+              hits:
+                base: 17
+              links:
+                base: 16
+          role:
+            distances:
+              '1': 84
+              '137': 1
+              '21': 1
+              '228': 1
+              '57': 1
+            struct:
+              allcount:
+                zero: 91
+              hits:
+                base: 44
+                zeros: 47
+              links:
+                base: 43
+                zeros: 45
+          solidifies|removes uncertainty:
+            distances:
+              '1': 20
+            struct:
+              allcount:
+                zero: 21
+              hits:
+                base: 21
+              links:
+                base: 20
+          stakeholders:
+            distances:
+              '1': 7
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 7
+                zeros: 2
+              links:
+                base: 6
+                zeros: 1
+          stovepiping:
+            distances:
+              '1': 3
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 4
+              links:
+                base: 3
+          supporting relationships:
+            distances:
+              '1': 21
+              '15': 1
+              '59': 1
+              '68': 1
+              '7': 1
+            struct:
+              allcount:
+                zero: 26
+              hits:
+                base: 26
+              links:
+                base: 25
+          supportive mixed:
+            distances:
+              '1': 5
+              '3': 1
+              '47': 1
+            struct:
+              allcount:
+                zero: 8
+              hits:
+                base: 8
+              links:
+                base: 7
+          sustainability:
+            distances:
+              '1': 118
+              '268': 1
+              '38': 1
+              '63': 1
+            struct:
+              allcount:
+                zero: 131
+              hits:
+                base: 60
+                zeros: 71
+              links:
+                base: 59
+                zeros: 62
+          systems EE:
+            distances:
+              '1': 12
+              '51': 1
+            struct:
+              allcount:
+                zero: 14
+              hits:
+                base: 14
+              links:
+                base: 13
+          top management:
+            distances:
+              '1': 87
+              '398': 1
+            struct:
+              allcount:
+                zero: 90
+              hits:
+                base: 49
+                zeros: 41
+              links:
+                base: 48
+                zeros: 40
+          training:
+            distances:
+              '1': 21
+              '272': 2
+            struct:
+              allcount:
+                zero: 26
+              hits:
+                base: 10
+                zeros: 16
+              links:
+                base: 9
+                zeros: 14
+          utility EE support:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          valuable skills:
+            distances:
+              '1': 1
+            struct:
+              allcount:
+                zero: 2
+              hits:
+                base: 2
+              links:
+                base: 1
+  P0L0:
+    dispersion:
+      base:
+        linkage:
+          Building Status Report:
+            distances:
+              '1': 63
+              '2': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 70
+              hits:
+                base: 47
+                zeros: 23
+              links:
+                base: 46
+                zeros: 19
+          EE:
+            distances:
+              '1': 304
+              '10': 1
+              '12': 1
+              '15': 2
+              '2': 9
+              '20': 1
+              '21': 1
+              '26': 2
+              '3': 6
+              '35': 1
+              '36': 1
+              '45': 1
+              '46': 1
+              '54': 1
+              '58': 1
+              '68': 2
+              '7': 1
+              '8': 2
+              '92': 2
+            struct:
+              allcount:
+                zero: 352
+              hits:
+                base: 285
+                zeros: 67
+              links:
+                base: 284
+                zeros: 56
+          IAQ:
+            distances:
+              '1': 11
+              '305': 1
+            struct:
+              allcount:
+                zero: 13
+              hits:
+                base: 13
+              links:
+                base: 12
+          LEED:
+            distances:
+              '1': 179
+              '107': 1
+              '133': 1
+              '2': 4
+              '220': 1
+              '3': 5
+              '5': 1
+              '68': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 212
+              hits:
+                base: 103
+                zeros: 109
+              links:
+                base: 102
+                zeros: 92
+          ROI:
+            distances:
+              '1': 64
+              '11': 1
+              '113': 1
+              '114': 1
+              '129': 1
+              '13': 1
+              '141': 1
+              '2': 4
+              '29': 1
+              '3': 3
+              '4': 3
+              '47': 2
+              '48': 1
+              '6': 1
+              '62': 1
+            struct:
+              allcount:
+                zero: 88
+              hits:
+                base: 85
+                zeros: 3
+              links:
+                base: 84
+                zeros: 2
+          benefit:
+            distances:
+              '1': 31
+              '10': 1
+              '11': 1
+              '26': 1
+              '745': 1
+            struct:
+              allcount:
+                zero: 36
+              hits:
+                base: 36
+              links:
+                base: 35
+          betterment assumed:
+            distances:
+              '1': 13
+            struct:
+              allcount:
+                zero: 14
+              hits:
+                base: 14
+              links:
+                base: 13
+          business area:
+            distances:
+              '1': 20
+              '2': 1
+              '781': 1
+            struct:
+              allcount:
+                zero: 25
+              hits:
+                base: 18
+                zeros: 7
+              links:
+                base: 17
+                zeros: 5
+          business strategy:
+            distances:
+              '1': 101
+              '123': 1
+              '138': 1
+              '2': 1
+              '21': 1
+              '3': 3
+              '7': 1
+              '85': 1
+            struct:
+              allcount:
+                zero: 111
+              hits:
+                base: 111
+              links:
+                base: 110
+          collaboration program:
+            distances:
+              '1': 19
+            struct:
+              allcount:
+                zero: 20
+              hits:
+                base: 20
+              links:
+                base: 19
+          complexity:
+            distances:
+              '1': 10
+              '2': 1
+            struct:
+              allcount:
+                zero: 12
+              hits:
+                base: 12
+              links:
+                base: 11
+          construction management:
+            distances:
+              '1': 2
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 2
+                zeros: 2
+              links:
+                base: 1
+                zeros: 1
+          corporate:
+            distances:
+              '1': 80
+              '101': 1
+              '118': 1
+              '2': 1
+              '22': 1
+              '24': 1
+              '427': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 88
+              hits:
+                base: 88
+              links:
+                base: 87
+          cost:
+            distances:
+              '1': 11
+              '414': 1
+              '491': 1
+            struct:
+              allcount:
+                zero: 14
+              hits:
+                base: 14
+              links:
+                base: 13
+          cost savings:
+            distances:
+              '1': 39
+              '124': 1
+              '14': 1
+              '21': 1
+              '52': 1
+              '57': 1
+              '74': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 47
+              hits:
+                base: 47
+              links:
+                base: 46
+          decision - four core business processes:
+            distances:
+              '1': 10
+            struct:
+              allcount:
+                zero: 11
+              hits:
+                base: 11
+              links:
+                base: 10
+          decision factors:
+            distances:
+              '1': 19
+              '18': 1
+              '3': 2
+              '540': 1
+            struct:
+              allcount:
+                zero: 24
+              hits:
+                base: 24
+              links:
+                base: 23
+          decision making:
+            distances:
+              '1': 6
+            struct:
+              allcount:
+                zero: 7
+              hits:
+                base: 7
+              links:
+                base: 6
+          deficiency management:
+            distances:
+              '1': 1
+              '182': 1
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 3
+                zeros: 1
+              links:
+                base: 2
+                zeros: 0
+          demonstration of technology:
+            distances:
+              '1': 93
+              '149': 1
+              '159': 1
+              '2': 1
+              '220': 1
+              '63': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 101
+              hits:
+                base: 98
+                zeros: 3
+              links:
+                base: 97
+                zeros: 2
+          diffusion:
+            distances:
+              '1': 4
+            struct:
+              allcount:
+                zero: 5
+              hits:
+                base: 5
+              links:
+                base: 4
+          doing more with less:
+            distances:
+              '1': 49
+              '269': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 56
+              hits:
+                base: 29
+                zeros: 27
+              links:
+                base: 28
+                zeros: 23
+          economics:
+            distances:
+              '1': 49
+              '12': 1
+              '196': 1
+              '2': 2
+              '3': 1
+              '4': 1
+              '6': 1
+              '65': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 59
+              hits:
+                base: 59
+              links:
+                base: 58
+          end-user:
+            distances:
+              '1': 21
+              '14': 1
+              '158': 1
+              '33': 1
+              '50': 1
+              '55': 1
+              '8': 1
+              '95': 1
+            struct:
+              allcount:
+                zero: 31
+              hits:
+                base: 28
+                zeros: 3
+              links:
+                base: 27
+                zeros: 1
+          energy:
+            distances:
+              '1': 232
+              '10': 1
+              '11': 1
+              '112': 1
+              '12': 1
+              '14': 2
+              '145': 1
+              '225': 1
+              '29': 1
+              '3': 3
+              '5': 2
+              '59': 1
+              '79': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 271
+              hits:
+                base: 137
+                zeros: 134
+              links:
+                base: 136
+                zeros: 113
+          expert assistance:
+            distances:
+              '1': 96
+              '132': 1
+              '151': 1
+              '197': 1
+              '2': 1
+              '49': 1
+              '7': 1
+              '77': 1
+            struct:
+              allcount:
+                zero: 104
+              hits:
+                base: 104
+              links:
+                base: 103
+          extra cost:
+            distances:
+              '1': 13
+              '105': 1
+              '171': 1
+              '394': 1
+            struct:
+              allcount:
+                zero: 17
+              hits:
+                base: 17
+              links:
+                base: 16
+          facility management:
+            distances:
+              '1': 19
+              '10': 1
+              '125': 1
+              '2': 2
+              '269': 1
+              '3': 1
+              '35': 1
+              '42': 1
+              '62': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 30
+              hits:
+                base: 30
+              links:
+                base: 29
+          failure:
+            distances:
+              '1': 8
+              '2': 1
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 10
+              links:
+                base: 9
+          ffleet management:
+            distances:
+              '1': 11
+              '255': 1
+              '3': 1
+              '78': 1
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 12
+                zeros: 4
+              links:
+                base: 11
+                zeros: 3
+          ffleet management vs one-site management:
+            distances:
+              '1': 8
+            struct:
+              allcount:
+                zero: 9
+              hits:
+                base: 9
+              links:
+                base: 8
+          funding:
+            distances:
+              '1': 76
+              '118': 1
+              '158': 1
+              '2': 3
+              '39': 1
+              '5': 1
+              '54': 2
+              '57': 1
+              '59': 1
+              '6': 2
+              '80': 1
+            struct:
+              allcount:
+                zero: 96
+              hits:
+                base: 77
+                zeros: 19
+              links:
+                base: 76
+                zeros: 14
+          green programs:
+            distances:
+              '1': 58
+              '17': 1
+              '2': 3
+              '23': 1
+              '239': 1
+              '3': 1
+              '5': 1
+              '64': 1
+            struct:
+              allcount:
+                zero: 74
+              hits:
+                base: 59
+                zeros: 15
+              links:
+                base: 58
+                zeros: 9
+          guidance:
+            distances:
+              '1': 86
+              '134': 1
+              '150': 1
+              '18': 1
+              '194': 1
+              '195': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 93
+              hits:
+                base: 93
+              links:
+                base: 92
+          improvements|innovations:
+            distances:
+              '1': 39
+            struct:
+              allcount:
+                zero: 44
+              hits:
+                base: 34
+                zeros: 10
+              links:
+                base: 33
+                zeros: 6
+          incentive program:
+            distances:
+              '1': 12
+            struct:
+              allcount:
+                zero: 13
+              hits:
+                base: 13
+              links:
+                base: 12
+          influencing change:
+            distances:
+              '1': 41
+              '226': 1
+              '245': 1
+            struct:
+              allcount:
+                zero: 44
+              hits:
+                base: 44
+              links:
+                base: 43
+          installation management:
+            distances:
+              '1': 83
+              '310': 1
+            struct:
+              allcount:
+                zero: 87
+              hits:
+                base: 81
+                zeros: 6
+              links:
+                base: 80
+                zeros: 4
+          issues concerns:
+            distances:
+              '1': 110
+              '10': 2
+              '123': 1
+              '16': 1
+              '2': 8
+              '23': 1
+              '3': 3
+              '5': 1
+              '56': 1
+              '59': 1
+              '73': 1
+              '8': 1
+              '81': 1
+              '84': 1
+            struct:
+              allcount:
+                zero: 139
+              hits:
+                base: 120
+                zeros: 19
+              links:
+                base: 119
+                zeros: 14
+          lifecycle:
+            distances:
+              '1': 5
+            struct:
+              allcount:
+                zero: 6
+              hits:
+                base: 6
+              links:
+                base: 5
+          management:
+            distances:
+              '1': 289
+              '11': 1
+              '15': 1
+              '2': 2
+              '22': 1
+              '227': 1
+              '26': 1
+              '28': 1
+              '29': 1
+              '49': 1
+              '61': 1
+              '96': 1
+              '99': 1
+            struct:
+              allcount:
+                zero: 316
+              hits:
+                base: 219
+                zeros: 97
+              links:
+                base: 218
+                zeros: 84
+          many players:
+            distances:
+              '1': 3
+            struct:
+              allcount:
+                zero: 4
+              hits:
+                base: 4
+              links:
+                base: 3
+          normative view:
+            distances:
+              '1': 9
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 10
+              links:
+                base: 9
+          norms:
+            distances:
+              '1': 7
+            struct:
+              allcount:
+                zero: 8
+              hits:
+                base: 8
+              links:
+                base: 7
+          org strategy:
+            distances:
+              '1': 37
+              '198': 1
+              '3': 1
+              '64': 1
+              '72': 1
+              '78': 1
+            struct:
+              allcount:
+                zero: 44
+              hits:
+                base: 41
+                zeros: 3
+              links:
+                base: 40
+                zeros: 2
+          organization:
+            distances:
+              '1': 6
+              '249': 1
+            struct:
+              allcount:
+                zero: 8
+              hits:
+                base: 8
+              links:
+                base: 7
+          owner:
+            distances:
+              '1': 268
+              '100': 1
+              '123': 1
+              '14': 2
+              '16': 1
+              '2': 8
+              '21': 1
+              '26': 1
+              '3': 6
+              '36': 1
+              '49': 2
+              '53': 1
+              '6': 1
+              '7': 1
+              '82': 1
+              '93': 1
+            struct:
+              allcount:
+                zero: 309
+              hits:
+                base: 238
+                zeros: 71
+              links:
+                base: 237
+                zeros: 60
+          ownership:
+            distances:
+              '1': 53
+              '103': 1
+              '13': 1
+              '2': 2
+              '283': 1
+              '3': 1
+              '51': 1
+              '93': 1
+            struct:
+              allcount:
+                zero: 63
+              hits:
+                base: 43
+                zeros: 20
+              links:
+                base: 42
+                zeros: 19
+          personal aspect:
+            distances:
+              '1': 13
+              '2': 1
+            struct:
+              allcount:
+                zero: 15
+              hits:
+                base: 15
+              links:
+                base: 14
+          pilot demonstration:
+            distances:
+              '1': 157
+              '11': 1
+              '141': 1
+              '15': 1
+              '17': 1
+              '2': 3
+              '215': 1
+              '28': 1
+              '59': 1
+              '6': 1
+              '96': 1
+            struct:
+              allcount:
+                zero: 176
+              hits:
+                base: 129
+                zeros: 47
+              links:
+                base: 128
+                zeros: 41
+          potential|suitability to future opns:
+            distances:
+              '1': 13
+              '3': 2
+              '367': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 18
+              hits:
+                base: 18
+              links:
+                base: 17
+          project:
+            distances:
+              '1': 28
+              '108': 1
+              '177': 1
+              '246': 1
+            struct:
+              allcount:
+                zero: 32
+              hits:
+                base: 32
+              links:
+                base: 31
+          projects:
+            distances:
+              '1': 15
+              '141': 1
+              '243': 1
+              '38': 1
+              '58': 1
+              '6': 1
+            struct:
+              allcount:
+                zero: 21
+              hits:
+                base: 21
+              links:
+                base: 20
+          property management:
+            distances:
+              '1': 50
+              '103': 1
+              '128': 1
+              '163': 1
+              '93': 1
+            struct:
+              allcount:
+                zero: 59
+              hits:
+                base: 46
+                zeros: 13
+              links:
+                base: 45
+                zeros: 9
+          property utilization:
+            distances:
+              '1': 17
+              '2': 2
+            struct:
+              allcount:
+                zero: 20
+              hits:
+                base: 20
+              links:
+                base: 19
+          proponents:
+            distances:
+              '1': 1
+              '3': 1
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          role:
+            distances:
+              '1': 54
+              '142': 1
+              '230': 1
+              '446': 1
+              '87': 1
+            struct:
+              allcount:
+                zero: 61
+              hits:
+                base: 54
+                zeros: 7
+              links:
+                base: 53
+                zeros: 5
+          stakeholders:
+            distances:
+              '1': 63
+              '151': 1
+              '303': 1
+              '5': 1
+            struct:
+              allcount:
+                zero: 67
+              hits:
+                base: 67
+              links:
+                base: 66
+          stovepiping:
+            distances:
+              '1': 15
+            struct:
+              allcount:
+                zero: 16
+              hits:
+                base: 16
+              links:
+                base: 15
+          strategic alliances:
+            distances:
+              '1': 42
+              '449': 1
+            struct:
+              allcount:
+                zero: 44
+              hits:
+                base: 44
+              links:
+                base: 43
+          supporting relationships:
+            distances:
+              '1': 66
+              '148': 1
+              '21': 1
+              '26': 1
+              '36': 1
+              '366': 1
+              '50': 1
+            struct:
+              allcount:
+                zero: 73
+              hits:
+                base: 73
+              links:
+                base: 72
+          supportive mixed:
+            distances:
+              '1': 1
+              '2': 1
+            struct:
+              allcount:
+                zero: 3
+              hits:
+                base: 3
+              links:
+                base: 2
+          sustainability:
+            distances:
+              '1': 846
+              '10': 1
+              '14': 1
+              '140': 1
+              '15': 3
+              '16': 2
+              '17': 1
+              '19': 1
+              '2': 11
+              '21': 1
+              '3': 6
+              '4': 3
+              '50': 1
+              '67': 1
+              '8': 1
+              '9': 1
+            struct:
+              allcount:
+                zero: 918
+              hits:
+                base: 526
+                zeros: 392
+              links:
+                base: 525
+                zeros: 356
+          systems EE:
+            distances:
+              '1': 88
+              '191': 1
+              '2': 1
+              '214': 1
+              '326': 1
+              '61': 1
+              '8': 1
+            struct:
+              allcount:
+                zero: 96
+              hits:
+                base: 92
+                zeros: 4
+              links:
+                base: 91
+                zeros: 3
+          valuable skills:
+            distances:
+              '1': 8
+              '76': 1
+            struct:
+              allcount:
+                zero: 10
+              hits:
+                base: 10
+              links:
+                base: 9

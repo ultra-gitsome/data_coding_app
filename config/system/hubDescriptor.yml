@@ -1,0 +1,489 @@
+---
+'config_remarks':
+  'name': "hubDescriptor.yml"
+  'description': "Configuration file for configuring a TS Hub (system)"
+  'settings':
+    1: "The main settings: node_identifier, node_number, topology settings: server_num, address, port, type, active, ts_data, server_base_key"
+    2: "hub_config: can be configured with only one node. the node_config can be overlaided with local changes"
+    2: "node_config: needs to be defined, too, so a workable node is available"
+    3: "db_connection_conf: legacy settings to access DB settings"
+    4: "topology: keyed hash matching server_num to server settings. Describes the address and port stucture of the node, and how components are used."
+    5: "active: falsy/unfalsy toggle of whether the server can be enabled"
+    6: "ts_data: falsy/unfalsy toggle of whether the server directly processes timing data"
+    7: "start_method: the main method of starting the server - either via script, command line, or by a local daemon"
+    8: "server_base_key: the main server key for the runtime keyed hash table. fs servers use the server number as a clarifying extension"
+    9: "depending_modules: the 'hot/cold' modules needed to run the server. Some of these modules have configuration conflicts under different perl versions."
+  'coordination':
+    1: "Sync's with the config file (nsServerSetupConfigure.yml) for the server start daemon. Also has overlap with nodeConfigure.yml for configuring the Node object"
+'hub_config':
+  hub_identifier: HAE_HUB
+  hub_name: 'main system'
+  init_dtg: '2012-05-15 18:00:00'
+'node_config':
+  node_identifier: HAE_N01
+  node_name: 'main server'
+  node_number: 1
+  init_dtg: '2012-05-15 18:00:00'
+'db_connection_conf':
+  dsn: 'localhost:3306'
+  hostname: 'localhost'
+  database: 'race_timing_3'
+  user: 'station01'
+  password: 'racetiming'
+  user2: 'race_root'
+  password2: 'runrunrun'
+'topology':
+  '1000':
+    type: node_supervisor
+    seq_type: node_supervisor
+    description: node supervisory GUI
+    address: localhost
+    server_num: '1000'
+    port: '44400'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 0
+    server_base_key: super_01
+    server_cat: super
+    named_host: corehost
+    depending_modules: poe,poe-loop,wx,xs
+  '001':
+    type: daemon
+    seq_type: daemon
+    description: local daemon to node supervisor
+    address: 127.0.0.1
+    server_num: '001'
+    daemon_name: 'ts_start_servers.pl'
+    port: '44401'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 0
+    server_base_key: dmn_01
+    server_cat: dmn
+    named_host: corehost
+    depending_modules: poe
+  '002':
+    type: daemon
+    seq_type: daemon
+    description: remote daemon on IP address
+    address: 192.168.0.1
+    server_num: '002'
+    daemon_name: 'ts_start_servers.pl'
+    port: '44401'
+    active: 0
+    active_heartbeat: 1
+    ts_data: 0
+    server_base_key: dmn_02
+    server_cat: dmn
+    named_host: fieldhost2
+    depending_modules: poe
+  '999':
+    type: node
+    seq_type: node
+    address: 127.0.0.1
+    server_num: '999'
+    server_name: 'ts_node_server.pl'
+    port: '44403'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 0
+    server_base_key: cs_01
+    server_cat: core
+    named_host: corehost
+    depending_modules: poe,xs
+  '998':
+    type: notification
+    seq_type: notification
+    address: 127.0.0.1
+    server_num: '998'
+    server_name: 'ts_notification_server.pl'
+    port: '44405'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 0
+    server_base_key: cs_02
+    server_cat: core
+    named_host: corehost
+    prereq_starts: cs_01
+    depending_modules: poe,xs
+  '997':
+    type: event
+    seq_type: event
+    address: 127.0.0.1
+    server_num: '997'
+    server_name: 'ts_event_server.pl'
+    port: '44404'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 0
+    start_method: local_daemon
+    server_base_key: cs_03
+    server_cat: core
+    named_host: corehost
+    prereq_starts: cs_02
+    depending_modules: poe,xs
+  '990':
+    type: consolidator
+    seq_type: consolidator
+    address: 127.0.0.1
+    server_num: '990'
+    server_name: 'ts_consolidator_server.pl'
+    port: '44415'
+    active: 0
+    primary: 1
+    active_heartbeat: 1
+    ts_data: 1
+    start_method: local_daemon
+    server_base_key: ds_01
+    server_cat: hub
+    named_host: mainhost1
+    depending_modules: poe,xs
+  '985':
+    type: relay
+    seq_type: relay
+    address: 127.0.0.1
+    server_num: '985'
+    server_name: 'ts_relay_server.pl'
+    port: '44418'
+    active: 0
+    active_heartbeat: 1
+    ts_data: 1
+    server_base_key: ds_03
+    server_cat: data
+    named_host: mainhost2
+    depending_modules: poe,xs
+  '980':
+    type: contextor
+    seq_type: contextor
+    address: 127.0.0.1
+    server_num: '980'
+    server_name: 'ts_contextor_server.pl'
+    port: '44420'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 1
+    server_base_key: ds_02
+    server_cat: data
+    named_host: mainhost2
+    depending_modules: poe,xs
+  '975':
+    type: lapdisplay
+    seq_type: presentor
+    address: 127.0.0.1
+    server_num: '975'
+    server_name: 'ts_presentor_server.pl'
+    port: '44425'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 1
+    server_base_key: ps_01
+    server_cat: data
+    named_host: presentorhost
+    depending_modules: poe,poe-loop,wx
+  '978':
+    type: announcer
+    seq_type: presentor
+    address: 127.0.0.1
+    server_num: '978'
+    server_name: 'ts_announcer_server.pl'
+    port: '44422'
+    active: 0
+    active_heartbeat: 0
+    ts_data: 1
+    server_base_key: ps_04
+    server_cat: data
+    named_host: presentorhost
+    depending_modules: poe,poe-loop,wx
+  '970':
+    type: course
+    seq_type: course
+    address: 127.0.0.1
+    server_num: '970'
+    server_name: 'ts_course_server.pl'
+    port: '44410'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 0
+    server_base_key: ns_01
+    server_cat: nodal
+    named_host: nodalhost1
+    prereq_starts: cs_03
+    depending_modules: poe,xs
+  '965':
+    type: runner
+    seq_type: runner
+    address: 127.0.0.1
+    server_num: '965'
+    server_name: 'ts_runner_server.pl'
+    port: '44409'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 0
+    server_base_key: ns_02
+    server_cat: nodal
+    named_host: nodalhost1
+    prereq_starts: cs_03
+    depending_modules: poe,xs
+  '960':
+    type: bib
+    address: 127.0.0.1
+    server_num: '960'
+    server_name: 'ts_bib_server.pl'
+    port: '44408'
+    active: 0
+    active_heartbeat: 1
+    ts_data: 0
+    server_base_key: ns_04
+    server_cat: nodal
+    named_host: nodalhost1
+    prereq_starts: cs_03
+    depending_modules: poe,xs
+  '955':
+    type: tag
+    seq_type: tag
+    address: 127.0.0.1
+    server_num: '955'
+    server_name: 'ts_tag_server.pl'
+    port: '44407'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 0
+    server_base_key: ns_03
+    server_cat: nodal
+    named_host: nodalhost1
+    prereq_starts: cs_03
+    depending_modules: poe,xs
+  '945':
+    type: integrator
+    seq_type: integrator
+    address: 127.0.0.1
+    server_num: '945'
+    server_name: 'ts_integrator_server.pl'
+    port: '44430'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 1
+    server_base_key: ds_01
+    server_cat: data
+    named_host: fieldhost1
+    num_extension: 1
+    prereq_starts: cs_03,ns_01,ns_02,ns_03
+    depending_modules: poe,xs
+  '911':
+    type: collector_serial
+    seq_type: collector
+    address: 127.0.0.1
+    server_num: '911'
+    server_name: 'ts_tag_collector_serial.pl'
+    port: '44445'
+    active: 1
+    active_heartbeat: 0
+    ts_data: 1
+    type_ts_data: tag
+    server_base_key: dss_03
+    server_cat: data
+    named_host: fieldhost1
+    num_extension: 1
+    depending_modules: poe,xs
+  '910':
+    type: collector
+    seq_type: collector
+    address: 127.0.0.1
+    server_num: '910'
+    server_name: 'ts_tag_collector_server.pl'
+    port: '44440'
+    active: 0
+    active_heartbeat: 1
+    ts_data: 1
+    type_ts_data: tag
+    server_base_key: dss_03
+    server_cat: data
+    named_host: fieldhost1
+    num_extension: 1
+    depending_modules: poe,xs
+  '875':
+    type: poereaderclient
+    seq_type: poereaderclient
+    description: poe reader client for alien 9670 reader, using telnet conn - port 23
+    address: 127.0.0.1
+    server_num: '875'
+    server_name: 'ts_poe_client_to_reader_a9670_server.pl'
+    port: '44441'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 1
+    server_base_key: dss_04
+    server_cat: data
+    named_host: fieldhost1
+    num_extension: 1
+    prereq_starts: cs_03,ns_01,ns_03
+    depending_modules: poe,xs
+  '877':
+    type: poereaderclient
+    seq_type: poereaderclient
+    description: poe reader client for alien 8800 reader, using telnet conn - port 23
+    address: 127.0.0.1
+    server_num: '877'
+    server_name: 'ts_poe_client_to_reader_server_100.pl'
+    port: '44442'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 1
+    server_base_key: dss_04
+    server_cat: data
+    named_host: fieldhost2
+    num_extension: 1
+    prereq_starts: cs_03,ns_01,ns_03
+    depending_modules: poe,xs
+  '878':
+    type: poereaderclient_alien
+    seq_type: poereaderclient
+    description: poe reader client for multiple alien readers, using telnet conn - port 23
+    address: 127.0.0.1
+    server_num: '878'
+    server_name: 'ts_tag_poe_alien_reader_client_server.pl'
+    port: '44442'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 1
+    server_base_key: dss_04
+    server_cat: data
+    named_host: fieldhost2
+    num_extension: 1
+    prereq_starts: cs_03,ns_01,ns_03
+    depending_modules: poe,xs
+  '850':
+    type: mmonitor
+    seq_type: monitor
+    description: lap monitor client - provides bib entry and corrections
+    address: 127.0.0.1
+    server_num: '850'
+    server_name: 'ts_wx_poe_monitor.pl'
+    port: '44450'
+    active: 0
+    active_heartbeat: 1
+    ts_data: 1
+    server_base_key: ds_02
+    server_cat: data
+    named_host: fieldhost1
+    num_extension: 1
+    start_max: 1
+    prereq_starts: cs_03,ns_01,ns_02
+    depending_modules: poe,poe-loop,wx,xs
+  '851':
+    type: fmonitor
+    seq_type: monitor
+    description: finish monitor client - provides bib entry and corrections
+    address: 127.0.0.1
+    server_num: '851'
+    server_name: 'ts_wx_poe_fmonitor.pl'
+    port: '44460'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 1
+    server_base_key: dss_02
+    server_cat: data
+    named_host: fieldhost1
+    num_extension: 1
+    start_max: 1
+    prereq_starts: cs_03,ns_01,ns_02
+    depending_modules: poe,poe-loop,wx,xs
+  '825':
+    type: laptrack
+    seq_type: tracker
+    description: standalone laptracker for selected runners
+    address: 127.0.0.1
+    server_num: '825'
+    server_name: 'ts_laptracker_server.pl'
+    port: '44475'
+    active: 0
+    active_heartbeat: 0
+    ts_data: 1
+    server_base_key: dss_05
+    server_cat: data
+    named_host: fieldhost1
+    num_extension: 1
+    prereq_starts: cs_03,ns_01,ns_02
+    depending_modules: poe,poe-loop,wx
+  '826':
+    type: bib_entry
+    seq_type: tracker
+    description: cmd line bib entry client
+    address: 127.0.0.1
+    server_num: '826'
+    server_name: 'ts_bib_entry_server.pl'
+    port: '44476'
+    active: 0
+    active_heartbeat: 0
+    ts_data: 1
+    server_base_key: dss_05
+    server_cat: data
+    named_host: fieldhost1
+    num_extension: 1
+    depending_modules: poe,xs
+  '827':
+    type: checkptlogger
+    seq_type: tracker
+    description: integrated check point (selected) logger for bibbed runners
+    address: 127.0.0.1
+    server_num: '827'
+    server_name: 'ts_chkptlogger_server.pl'
+    port: '44477'
+    active: 0
+    active_heartbeat: 0
+    ts_data: 1
+    server_base_key: dss_05
+    server_cat: data
+    named_host: fieldhost2
+    num_extension: 1
+    start_max: 1
+    prereq_starts: cs_03,ns_01,ns_02
+    depending_modules: poe,poe-loop,wx
+  '725':
+    type: lap_master
+    seq_type: mobile
+    description: cmd line bib entry client
+    address: 127.0.0.1
+    server_num: '725'
+    server_name: 'ts_bib_entry_server.pl'
+    port: '44485'
+    active: 0
+    active_heartbeat: 0
+    ts_data: 1
+    server_base_key: dss_06
+    server_cat: data
+    named_host: fieldhost1
+    num_extension: 1
+    start_max: 1
+    depending_modules: poe,xs
+  '976':
+    type: xdisplay
+    seq_type: presentor
+    address: 127.0.0.1
+    server_num: '976'
+    server_name: 'ts_xcross_display_server.pl'
+    port: '44424'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 1
+    server_base_key: ps_02
+    server_cat: data
+    named_host: presentorhost
+    depending_modules: poe,poe-loop,wx
+  '977':
+    type: lboarddisplay
+    seq_type: presentor
+    address: 127.0.0.1
+    server_num: '977'
+    server_name: 'ts_leader_display_server.pl'
+    port: '44423'
+    active: 1
+    active_heartbeat: 1
+    ts_data: 1
+    server_base_key: ps_03
+    server_cat: data
+    named_host: presentorhost
+    depending_modules: poe,poe-loop,wx
+'named_host_mapping':
+  thishost: "localhost"
+

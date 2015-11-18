@@ -1,0 +1,1423 @@
+---
+parse_coding:
+  code_replacment_map:
+    code_for_code:
+      LOCAL_PROP_ORG commander: owner::CHIEF_LOCAL_PROP_ORG
+      ROI important: ROI::important
+      Spirit: green programs::Spirit
+      UMCS: installation-wide control system
+      UMCS training: training::installation-wide control system
+      enhance image: benefit::enhance image
+      LED lighting as standard: LED lighting::as standard
+      LED lighting minimal: LED lighting::minimal
+      LED: LED lighting
+      LED maintenance savings: LED lighting::maintenance savings
+      LED selling point: LED lighting::selling point
+      LED street lights: LED lighting::street lights
+      ISR rating system concerns: Building Status Report::rating system concerns
+      ISR ratings drive projects: Building Status Report::ratings drive projects
+      sustainability POC: sustainability::POC
+      sustainability training: sustainability::training
+      sustainability training::minimal training: sustainability::training::minimal training
+      sustainability training::some knowledge: sustainability::training::some knowledge
+      sustainability policy: sustainability::policy
+      sustainability wild ideas: sustainability::wild ideas
+      sustainability perceived failures: sustainability::perceived failures
+      sustainability awareness: sustainability::awareness
+      adopting EE tech::as budget allows: EE::technology::adopting as budget allows
+      EE systems better: EE::systems::better
+      EE::systems::betterment assumed: EE::systems::better::betterment assumed
+      EE::systems::better costs more: EE::systems::better::cost more
+      EE::tech::testing and evaluation: EE::technology::testing and evaluation
+      EE technology: EE::technology
+      EE is in separate program: funding::programs::EE::separate funding initiative
+      EE funding separate: funding::programs::EE::separate funding initiative
+      EE project funding programs: funding::programs::EE::EE specific
+      EE technology::application specific: EE::technology::application specific
+      EE awareness: EE::awareness
+      EE awareness::awareness low: EE::awareness::awareness low
+      EE awareness::interest low: EE::awareness::interest low
+      EE::end-user awareness varies: EE::awareness::end-user awareness varies
+      EE knowledge: EE::knowledge
+      EE knowledge::interest low: EE::knowledge::interest low
+      EE knowledge::mostly ignored: EE::knowledge::mostly ignored
+      EE training funds: training::EE::funds
+      EE training funds - not available: training::EE::funds::not available
+      EE skills: EE::skills
+      EE skills networking: EE::skills::networking
+      EE skills training: training::EE::skills
+      EE preference: EE::preference
+      EE guidelines: guidance::guidelines::EE
+      EE mandates: guidance::mandate::EE::mandated
+      EE mandates first: guidance::mandate::EE::mandated first
+      EE goals: EE::goals
+      EE reporting: energy::energy management::reporting::EE performance
+      EE reporting structure: energy::reporting::structure
+      LEED level: LEED::level
+      LEED Silver: LEED::level::Silver
+      LEED certification: LEED::certification
+      LEED certification::HEY YOU task: LEED::certification::HEY YOU task
+      LEED certification::OPP|NMJ: LEED::certification::OPP|NMJ
+      LEED certification::certification management: LEED::certification::certification management
+      LEED certification::end-user values: LEED::certification::end-user values
+      LEED certification::increased property value: LEED::certification::increased property value
+      LEED certification::keeping records: LEED::certification::keeping records
+      LEED certification::property management: LEED::certification::property management
+      LEED certification::property record file: LEED::certification::property record file
+      LEED certification::who and who pays: LEED::certification::cost::who and who pays
+      LEED concerns: LEED::concerns
+      LEED concerns::actual savings: LEED::concerns::actual savings
+      LEED cost standard: LEED::cost::standard to project
+      LEED criteria: LEED::criteria|points
+      LEED documentation: LEED::documentation
+      LEED documentation::designer of record: LEED::documentation::designer of record
+      LEED documentation::effort high: LEED::documentation::effort high
+      LEED documentation::no a part of property record file: LEED::documentation::not a part of property record file
+      LEED higher cost: LEED::cost::higher project cost
+      LEED in design: LEED::design stage
+      LEED information: LEED
+      LEED more EE: LEED::not just EE - sustainability
+      LEED performance: LEED::performance
+      LEED performance::LEED criteria concerns: LEED::concerns::performance
+      LEED performance::betterment assumed: LEED::performance::betterment assumed
+      LEED performance::normative view negative: LEED::performance::normative view negative
+      LEED performance::pursuing points not real benefit: LEED::concerns::criteria|points::pursuing points not real benefit
+      LEED performance::some see value: LEED::performance::some see value
+      LEED documentation::performance doubted: LEED::concerns::performance::performance doubted
+      LEED documentation::uncertainty: LEED::concerns::performance::uncertainty
+      LEED process officer: LEED::certification::process officer
+      LEED silver: LEED::level::Silver
+      LEED::corporate advertising: LEED::benefit::corporate advertising
+      LEED::corporate image: LEED::benefit::enhance corporate image
+      LEED::cost savings: LEED::benefit::cost savings
+      LEED::normative view dismissive: LEED::normative view::dismissive
+      LEED::normative view negative: LEED::normative view::negative
+      LEED::normative view positive: LEED::normative view::positive
+      LEED criteria concerns: LEED::concerns::criteria|points::choices poor
+      LEED::points::just plain silly: LEED::concerns::criteria|points::just plain silly
+      LEED::points::low cost points first: LEED::concerns::criteria|points::low cost points first
+      LEED::points::low-level fruit: LEED::concerns::criteria|points::low cost points first
+      LEED::points::over emphasis: LEED::concerns::criteria|points::pursing points not real benefit
+      LEED::points::pursing points not real benefit: LEED::concerns::criteria|points::pursing points not real benefit
+      LEED sponsorship: LEED::program::sponsorship::POC
+      LEED training: training::LEED::program
+      LEED ratings reported: LEED::certification::certifiable - not certified
+      LEED policy: guidance::policy::LEED
+      LEED policy::sustainability POC: guidance::policy::LEED::local support
+      LEED::program perception: LEED::program::perception of program
+      certification: LEED::certification
+      certification cost: LEED::certification::cost
+      certification cost::extra cost: LEED::certification::cost::extra cost
+      certification cost::line item cost: LEED::certification::cost::line item in project budget
+      certification cost::who pays: LEED::certification::cost::who and who pays
+      certification important: LEED::certification::important
+      certification management: LEED::certification::certification management
+      certified vs certifiable: LEED::certification::certified vs certifiable
+      agency drove LEED level: LEED::level::agency drove LEED rating
+      agency owner::agency chief executive - dept secretary: agency owner::agency top executive officer
+      agency wanted plaque: LEED::benefit::recognition::agency wanted plaque
+      USING_ORG commander: business operation groups::local::top manager
+      all the cost factors: lifecycle analysis::skills::all the cost factors
+      audit 25% per year: energy::energy management::audits::required 25% per year
+      awards and recognition: management interest::awards and recognition
+      awareness varies: EE::awareness::varies
+      behavior aspect --environment control: end-user::occupant behavior::comfort control
+      awareness low: EE::awareness::awareness low
+      awareness varies: EE::awareness::awareness varies
+      banging-the-drum vs pounding-the-hammer: energy::energy manager::EE::policies::adoption::persistence needed
+      behavior aspect --environmental control: end-user::occupant behavior::comfort control
+      behavior aspect --set and forget: end-user::occupant behavior::comfort control::set and forget
+      occupancy sensors are huge savings: systems EE::occupany sensors::savings are huge
+      occupancy sensors effective: systems EE::occupany sensors::cost effective energy savings
+      occupant behavior::comfort mngmt not clear: end-user::occupant behavior::comfort control::process not clear
+      occupant behavior::disables proper function: end-user::occupant behavior::comfort control::disables proper function
+      occupant behavior::effects energy consumption: end-user::occupant behavior::effects energy consumption
+      occupant behavior::group::open space preferred: end-user::occupant behavior::group behavior::open space}doors preferred
+      occupant features over EE: project::repair refresh::programming::scope development::occupant features over EE
+      below cut line deferments: project::repair refresh::programming::cut line merit list::below::defer
+      benchmarking not available: energy::intensity::tracking::not available to FM
+      better lighting: making things better
+      EE OBOP --overcome by other priorities: guidance::policy::EE::overcome by other priorities
+      OPP|NMJ: OPP|NMJ --other people's problem|not my job
+      PV solar: systems EE::PV solar
+      systems EE::PV::RH affects PV cell: systems EE::PV solar::RH affects PV cell
+      benefit::enhance image: project::repair refresh::latest standards::benefit::enhance image
+      career focus: role::career focus
+      role experience: role::experience
+      role experience::EE expertise high: role::experience::EE expertise high
+      role experience::ISO-14001 certification: role::experience::ISO-14001 certification
+      certainty5-to-uncertainty1 aspect::1: certainty scale::uncertain many unknowns
+      certainty5-to-uncertainty1 aspect::2: certainty scale::uncertain some unknowns
+      certainty5-to-uncertainty1 aspect::3: certainty scale::outcome mostly certain
+      certainty5-to-uncertainty1 aspect::4: certainty scale::outcome certain
+      comfort control: end-user::occupant behavior::comfort control
+      command desire: management::focus
+      command incentive program: installation incentive program
+      commit funds for betterment: management::commitment::funds for betterment
+      commitment required:  management::commitment::required for change
+      complete vs bandaide repair: project::repair refresh::programming::complete vs bandaide repair
+      complex ownership: ownership::complex relationships
+      complexity --set and forget: complexity::end-user::wants simple set and forget control
+      complexity issue: complexity::affects decision
+      corporate PR: corporate::PR
+      correcting deficiencies: deficiency management::correcting deficiencies
+      deficiencies::compliance::footprint requirements: deficiency management::compliance::footprint requirements
+      deficiencies::compliance::policy and regulation: deficiency management::compliance::policy and regulation
+      deficiencies::end-user::identify and report: deficiency management::end-user::identify and report
+      deputy garrison commander: owner::ASST_CHIEF_LOCAL_PROP_ORG
+      design mandates: guidance::mandate::design requirements
+      design stage: project::stages::design
+      design standards: guidance::standards::design
+      develop EE project: project::EE::development
+      economic aspect --no firm data: economics::no firm data
+      economic aspect --no real savings: economics::no real savings
+      economics poor: economics::ROI poor
+      end-user EE awareness: end-user::EE awareness
+      end-user EE awareness::awareness varies: end-user::EE awareness::awareness varies
+      end-user driven requirement: end-user::drives requirement
+      end-user involvement: end-user::involvement
+      end_user::occupant behavior::comfort control: end-user::occupant behavior::comfort control
+      end_user::occupant behavior::comfort control::disables proper function: end-user::occupant behavior::comfort control::disables proper function
+      end_user::occupant behavior::comfort control::process not clear: end-user::occupant behavior::comfort control::process not clear
+      end_user::occupant behavior::comfort control::set and forget: end-user::occupant behavior::comfort control::set and forget
+      end_user::occupant behavior::effects energy consumption: end-user::occupant behavior::effects energy consumption
+      end_user::occupant behavior::group behavior::open space}doors preferred: end-user::occupant behavior::group behavior::open space}doors preferred
+      energy efficiency: EE::energy efficiency
+      energy champion: energy::energy management::energy champion
+      energy communication: energy::energy management::energy communication channel
+      energy conservation RFI: energy::energy management::energy conservation RFI
+      energy experience low: energy::experience low
+      energy initiative task force: energy::energy initiative task force
+      energy intensity: energy::intensity
+      energy intensity tracking: energy::intensity::tracking
+      energy manager: energy::energy manager
+      energy manager channel: energy::energy manager::channel
+      EM reporting relationships: energy::energy manager::reporting relationships
+      energy manager initiatives: energy::energy manager::initiatives
+      energy manager supportive: energy::energy manager::supportive
+      energy manager::EE::policies::adoption::persistence needed: energy::energy manager::EE::policies::adoption::persistence needed
+      energy manager::develop EE project: project::EE::development::energy manager role
+      energy manager::energy intensity tracking: energy::intensity::tracking::energy manager task
+      energy manager::own funding stream: energy::energy manager::own funding stream
+      energy manager::request EE project funds: energy::energy manager::request EE project funds
+      energy manager::research EE tech: energy::energy manager::research EE tech
+      energy manager::supporting relationships: energy::energy manager::supporting relationships
+      energy meetings: energy::energy meetings
+      energy performance: energy::energy management::use reduction::performance
+      energy performance award: energy::energy management::use reduction::performance::award
+      energy performance data: energy::energy management::use reduction::performance::data
+      energy projects: project::EE::energy use reduction
+      energy rates: energy::rates - unit cost
+      energy rating: energy::EE rating
+      energy reduction reporting: energy::energy management::use reduction::reporting
+      energy retrofit funds: funding::programs::EE::retrofit funds
+      energy retrofit programs: program::EE::retrofits
+      energy retrofit project: project::EE::retrofit
+      energy retrofit projects: project::EE::retrofit
+      energy savings: energy::savings
+      energy savings::cost savings analysis::industry failure by overstatement: energy::savings::cost savings analysis::industry failure by overstatement
+      energy savings::cost savings analysis::many skeptical: energy::savings::cost savings analysis::many skeptical
+      energy tiger team: energy::use reduction::tiger team
+      energy-water use intensity reporting: energy::energy management::intensity::reporting - incl water
+      energy management::EE!q::same use more quality: energy::energy management::EE!q::same use more quality
+      energy management::EE!x::same use more performance: energy::energy management::EE!x::same use more performance
+      energy management::EE::ROI::scan for EE investments: energy::energy management::EE::ROI::scan for EE investments
+      energy management::EE::cost efficiency opportunities: energy::energy management::EE::cost efficiency opportunities
+      energy management::EE::policy expert: energy::energy management::EE::policy expert
+      energy management::audits::required 25% per year: energy::energy management::audits::required 25% per year
+      energy management::proponent::energy conservation: energy::energy management::proponent::energy conservation
+      energy management::top driven requirements::application specific: energy::energy management::top driven requirements::application specific
+      energy management::top driven requirements::some EE knowledge needed: energy::energy management::top driven requirements::some EE knowledge needed
+      project approval levels: project::approval::levels
+      project approval process: project::approval::process
+      project design: project::stages::design
+      project design::design standards: project::stages::design::standards
+      project design::facility maintenance link: project::stages::design::facility maintenance link
+      project development: project::stages::development
+      project development assistance: project::stages::development::assistance
+      project execution: project::stages::execution
+      project funding: funding::project
+      project funding policy: funding::policy::projects
+      project funding policy::ISR ratings drive projects: funding::policy::projects::ISR ratings drive projects
+      project funding policy::O&M project rankng: funding::policy::projects::O&M project rankng
+      project funding policy::authorized funding: funding::policy::projects::authorized funding
+      project funding policy::building modifications: funding::policy::projects::building modifications
+      project funding policy::fund use constraints: funding::policy::projects::fund use constraints
+      project funding policy::record of building modifications: funding::policy::projects::record of building modifications
+      project funding policy::tenants act like owners: funding::policy::projects::tenants act like owners
+      project management: construction management::project management
+      project management::EE|LEED design analysis validation: construction management::project management::design analysis::EE|LEED validation
+      project management::LEED documentation: construction management::project management::LEED::documentation
+      project management::LEED documentation::oversight-DOR: construction management::project management::LEED::documentation::oversight-DOR
+      project management::construction: construction management::project management
+      project management::design submittal reviews: construction management::project management::design submittal reviews
+      project management::energy scorecard: construction management::project management::energy scorecard
+      project management::energy scorecard::design-DOR: construction management::project management::energy scorecard::design-DOR
+      project management::gets LEED certificate: construction management::project management::LEED::requests certificate
+      project management::real estate laison: property management::project management::laison for real estate office
+      project programming: property management::project programming
+      project programming::abundant rules: property management::project programming::abundant rules
+      project programming::activity level low: property management::project programming::activity level low
+      project programming::meet rules, have funds, board approves: property management::project programming::meet rules, have funds, board approves
+      project programming::pass requmts to construction management: property management::project programming::pass requmts to construction management
+      project reporting: project::reporting::energy performance
+      project request: property management::project programming::end-user request
+      project scope and execution: project::scope choices and execution concerns
+      project scope choices: project::scope choices and execution concerns
+      project stages: project::stages
+      project stages::facility property record file: project::stages::involvement::property management::closeout::add to facility property record file
+      project stages::final inspection and turnover: project::stages::involvement::property management::closeout::final inspection and turnover
+      project stages::theory cradle-to-grave: project::stages::involvement::property management::theory cradle-to-grave
+      project sustainability champion: sustainability::project champion
+      project::repair refresh::cost:breakdown: project::repair refresh::cost::breakdown
+      project::repair refresh::cost:breakdown::awareness: project::repair refresh::cost::breakdown::awareness
+      project::repair refresh::cost:breakdown::awareness::low: project::repair refresh::cost::breakdown::awareness::low
+      projects follow need: projects::follow need
+      projects follow need::ISR rating system concerns: projects::follow need::ISR rating system concerns
+      projects follow need::ISR ratings drive projects: property utilization::projects::follow need::ISR ratings drive projects
+      projects follow need::building surveyor qualifications: projects::follow need::building surveyor qualifications
+      projects follow need::building survey|rating checklist: projects::follow need::building survey|rating checklist
+      projects follow need::location constraints: property utilization::projects::follow need::location constraints
+      projects follow need::one-to-N merit list: projects::follow need::one-to-N merit list
+      projects follow need::rating system problems: projects::follow need::rating system problems
+      projects::line item programming: projects::programming::line item
+      projects::line item programming::societal aspect: projects::programming::line item::societal aspect
+      proper operation important: facility management::operation::building systems::EE::proper operation important
+      property accountability: property management::property accountability
+      property funding structure: property utilization::property funding structure
+      property manager: property management::property manager
+      property manager role: property management::property manager::role
+      property oversight|accountability: property management::property oversight|accountability
+      property programming::pass requmts to construction management: property management::project programming::pass requmts to construction management
+      property record file: property management::property::record::file
+      property records: property management::property::record
+      property title responsibility: property utilization::property title responsibility::construction management
+      proactive is more effort: facility management::maintenance::proactive is more effort
+      process aspect::implementation::poor: systems EE::implementation::poor
+      program::EE::retrofits: projects::programming::EE::retrofits
+      programming process imbalances: property management::project programming::process imbalances
+      programming the cost: projects::programming::budgeting::planning the cost
+      design funds: projects::programming::budgeting::design cost
+      designer awareness high: EE::awareness::designer awareness high
+      determining requirements: project::scope::determining requirements
+      develop project scope: project::scope::development
+      different sized projects: project::scope::size affects scope
+      enforcing EE policies: EE::policies::enforcement
+      engineering manager role::major construction: facility management::repair construction::engineering manager role
+      environment control: end-user::occupant behavior::comfort control
+      bigger maintenance EE harder: facility management::maintenance::EE::harder more effort
+      bigger projects: funding::programs::EE::this for bigger projects
+      budgeting oddity --new = old: facility management::maintenance::budgeting::oddity --new = old
+      budgeting precedent: funding::budgeting::precedent
+      building category: property management::property::building category
+      building documentation: property management::property::record::file
+      building documentation::energy performance data: energy::energy management::building documentation::energy performance data
+      building documentation::property record file: property management::property::record::file
+      building inventory accountability: property management::property::inventory accountability
+      building performance measures: property utilization::building performance measures
+      building documentation: property management::property::record::file::local
+      building surveyor qualifications: deficiency management::end-user::building surveyor qualifications
+      building survey|rating checklist: deficiency management::end-user::building survey|rating checklist
+      building use affects consumption: energy::intensity::building use affects consumption
+      facility inventory accountability: property management::property::inventory accountability
+      facility maintenance: facility management::maintenance
+      facility maintenance link: facility management::maintenance::linkage
+      facility maintenance::ideas to energy manager: facility management::maintenance::ideas to energy manager
+      facility maintenance::improving maintenance: facility management::maintenance::improving maintenance
+      facility maintenance::too many system types::effort high: facility management::maintenance::too many system types::effort high
+      facility management certification: facility management::professional certification
+      facility manager: facility management::facility manager
+      facility manager role: facility management::facility manager::role
+      facility property record file: property management::property::record::file
+      facility property records: property management::property::record
+      final inspection and turnover: project::stages::involvement::property management::closeout::final inspection and turnover
+      formal plan vs formal strategy: business strategy::formal plan vs formal strategy
+      free power: end-user::classification::utilities not included::not paying --free power
+      fuel sources: energy::fuel sources
+      fully occupied: facility management::maintenance::labor::fully allocated
+      fund constraints: funding::constraints::spending categories
+      fund limitations: funding::constraints::spending limitations
+      fund limitations::LED lighting as standard: projects::LED lighting as standard
+      fund limitations::facility maintenance::triage approach: facility management::maintenance::budget limits::triage approach
+      fund limitations::installation budget::triage approach: installation management::budget limits::triage approach
+      fund use constraints: funding::policy::projects::constraints::spending categories
+      funding::policy::projects::fund use constraints: funding::policy::projects::constraints::spending categories
+      funding constraints: funding::constraints
+      funding energy projects: funding::policy::projects::EE retrofit
+      fund limitations::policy driven initiatives: funding::programs::EE::initiatives::spending limitations
+      funding energy projects::EE project funding streams: funding::programs::EE::project funding streams
+      funding energy projects::bigger pot more interest: funding::programs::EE::bigger pot more interest
+      funding energy projects::different competition levels: funding::programs::EE::different competition levels
+      funding energy projects::different sized projects: funding::programs::EE::different sized projects
+      funding energy projects::energy retrofit projects: funding::programs::EE::energy retrofit projects
+      funding energy projects::fenced money: funding::programs::EE::fenced money
+      funding energy projects::ranked on ROI: funding::programs::EE::projects ranked on ROI
+      funding::budget management::unbalanced: funding::budgeting::not balanced
+      funding::budget::no funds for activity: funding::budgeting::no funds for activity
+      funding::feast and famine: funding::budgeting::feast and famine
+      funding::EE projects::programs::this for bigger projects: funding::programs::EE::this program for bigger projects
+      funds competition: funding::competing requirements
+      funds competition::core fleet BP: funding::competing requirements::property utilization BP
+      funds competition::core fleet BP::loss to construction mngmt: funding::competing requirements::property utilization BP::loss to construction mngmt
+      funds competition::core fleet BP::loss to end-user operations: funding::competing requirements::property utilization BP::loss to end-user operations
+      funds competition::core fleet BP::loss to facility mngmt: funding::competing requirements::property utilization BP::loss to facility mngmt
+      funds competition::core fleet BP::unfunded requirement takes from other: funding::competing requirements::property utilization BP::unfunded requirement takes from other
+      funds competition::ffleet::more value per dollar: funding::competing requirements::ffleet::more value per dollar
+      funds competition::footprint mngmt::demonstrating value: funding::competing requirements::footprint mngmt::demonstrating value
+      funds not available: funding::budgeting::not budgeted not available
+      funds use discretion: funding::off budget funds::discretionary use
+      gaming the system: project::programming::gaming the system
+      garrison commander: owner::CHIEF_LOCAL_PROP_ORG
+      gets the money: energy::energy manager::gets the money
+      go further than certification: construction management::project management::LEED::go further than certification
+      ffleet energy management::installation energy management::big pipe: energy::ffleet energy management::installation energy management::big pipe
+      ffleet energy management::now has responsibility for utilities: energy::ffleet energy management::now has responsibility for utilities
+      hand receipt property: property management::property accountability::sign-for building
+      high performance buildings: green programs::top management sponsored::high performance buildings
+      high profile Green project: green programs::LEED::high profile project
+      high-efficiency parking: LEED::criteria|points::high-efficiency parking
+      higher cross-leveling funds: funding::budgeting::higher cross-leveling funds
+      huge driver: economics::huge driver
+      humidity control is important: facility management::maintenance::humidity control is important
+      humidity control is non-trivial: facility management::maintenance::humidity control is non-trivial
+      ideas to energy manager: facility management::facility manager::ideas to energy manager
+      identify and fix small nagging problems: facility management::maintenance::identify and fix small nagging problems
+      increases maintenance workload: facility management::maintenance::EE::increases maintenance workload
+      informing management of conflict: energy::energy management::channel conflict::informing management of conflict
+      ingrained in culture: organization::values::ingrained in culture
+      initial cost important: project::programming::budgeting::initial cost::important
+      initial cost thresholds: project::programming::budgeting::initial cost::thresholds
+      first cost: project::programming::budgeting::initial cost
+      first cost important: project::programming::budgeting::initial cost::important
+      inappropriate ISR ratings: projects::follow need::inappropriate ISR ratings
+      internal program: green programs::top management sponsored::internal program
+      high performance buildings: green programs::top management sponsored::high performance buildings
+      intimidated by new technology: facility management::maintenance::maintainers::intimidated by new technology
+      introduction: role::experience
+      inventory accountability vs title accountability: property management::property accountability vs title accountability
+      investment in equipment and skills: facility management::maintenance::make investment in equipment and skills
+      jurisdiction control: owner::function::jurisdiction control
+      keeping customer|user happy: facility management::maintenance::keeping customer|user happy
+      intensity compared to others: ffleet management::benchmarking::installation usage intensities::intensity compared to others
+      lack of interoperability: building products EE::lack of interoperability
+      lasts forever: sustainability::understandings::lasts forever
+      learning thru doing: facility management::maintenance::maintainers::learning thru doing
+      less strategy more mandates: guidance::mandate::EE::less strategy more mandates
+      less strategy more regulation: guidance::regulation::EE::less strategy more regulation
+      less unskilled labor: facility management::maintenance::maintainers::less unskilled labor
+      life safety trumps: projects::follow need::life safety trumps
+      lifecycle analysis: lifecycle::analysis
+      lifecycle analysis::bigger projects: lifecycle::analysis::bigger projects
+      lifecycle analysis::energy cost savings: lifecycle::analysis::energy cost savings
+      lifecycle analysis::no follow up: lifecycle::analysis_::no follow up
+      lifecycle analysis::skills::all the cost factors: lifecycle::analysis::skills::all the cost factors
+      lifecycle costs::brick and mortar cheaper: lifecycle::costs::brick and mortar cheaper
+      lifecycle costs::fleet::benchmarking: lifecycle::costs::fleet::benchmarking
+      lifecycle costs::fleet::huge data source: lifecycle::costs::fleet::huge data source
+      lifecycle costs::not tracking: lifecycle::costs::not tracking
+      lighting controls: systems EE::lighting::lighting controls
+      systems EE::occupany sensors::cost effective energy savings: systems EE::lighting::occupany sensors::cost effective energy savings
+      systems EE::occupany sensors::savings are huge: systems EE::lighting::occupany sensors::savings are huge
+      line item cost: projects::programming::line item::cost
+      local property roles: property management::property accountability::local property roles
+      location constraints: property utilization::projects::follow need::location constraints
+      long-term view: sustainability::long-term view
+      loss of skill learning: facility management::maintenance::loss of skill learning
+      loss of support - future needs: projects::follow need::loss of support - future needs
+      low energy new buildings: property utilization::projects::new building::low energy
+      magnitude of the problem: role::experience::understandings::magnitude of the problem
+      maintaining to standard: facility management::maintenance::maintaining to standard
+      maintenance is hard: facility management::maintenance::maintenance is hard
+      making things better: benefit::making things better
+      making things better::better lighting: benefit::making things better::better lighting
+      making things better::right-sizing: benefit::making things better::right-sizing
+      making things better::usability: benefit::making things better::usability
+      management interest: management::interest
+      management interest::awards and recognition: management::interest::awards and recognition
+      management interest::enables business priorities: management::interest::enables business priorities
+      management interest::high: management::interest::high
+      management interest::high::unexpected: management::interest::high::unexpected
+      management interest::low: management::interest::low
+      management interest::staying informed: management::interest::staying informed
+      management interest::top management support::makes difference: management::interest::top management support::makes difference
+      management interest::top management support::no support: management::interest::top management support::no support
+      management likes recognition: management::likes recognition
+      management likes recognition::social aspect --award - recognition: management::likes recognition::social aspect --award - recognition
+      management recognition: management::recognition
+      managing keys: property management::property accountability::managing keys
+      mandate::total property audit: guidance::mandate::total property audit
+      mandate::use ethanol fuel: guidance::mandate::use ethanol fuel
+      mandates as org strategy: org strategy::by::mandates
+      master planning role: master planning::role
+      meanings of ownership: ownership::meanings of
+      meanings of property manager: property management::meanings of
+      meet rules, have funds, board approves: funding::project::meet rules, have funds, board approves
+      metered data: energy::use reduction::performance::metered data
+      metered performance: energy::use reduction::performance::metered performance
+      metering: energy::use reduction::performance::metering
+      metering mandate: guidance::mandate::metering
+      metering programs: energy::energy management::metering programs
+      mini-splits EE better: systems EE::mini-splits::EE better
+      minimal training: training::EE::skills::minimal training
+      minimum energy new buildings: property utilization::projects::new building::low energy
+      mixing ownership with property accountability: ownership::property accountability function
+      more better stuff: facility management::operation::more better stuff
+      more effective programs: green programs::more effective programs
+      mostly ignored: EE::mostly ignored
+      mostly spreadsheets: energy::energy management::energy conservation RFI::requirements attainment::assessment::mostly spreadsheets
+      multi-tier levels: stakeholders::multi-tier levels
+      multi-year effort: energy::use reduction::performance::award::multi-year effort
+      multiple selling points valuable: EE::adoption::multiple selling points valuable
+      net-zero requirement: guidance::mandate::net-zero requirement
+      new EE equipment more maintenance: facility management::maintenance::new EE equipment more maintenance
+      new SF increase: footprint management::managing size::new SF increase
+      new construction: property utilization::new construction::meets standard
+      new construction only: property utilization::property management::new construction only
+      no LEED performance measurement: LEED::performance::no measurement
+      no M&V process: saving energy::no M&V process
+      no brainer: no-brainer
+      no commit - wait management commit: management::commitment::lower management::no commit - wait higher management commit
+      no design no project: project::EE::no design no project
+      no formal strategy: management::business process::strategy::no formal strategy
+      no invite: property management::project manager laison::no invite to project events
+      no mandates little support: guidance::mandate::EE::no mandates little support
+      no mandates little support::percent reduction mandate: guidance::mandate::EE::percent reduction mandate::no mandates little support
+      no projects no LEED: property management::project programming::no projects no LEED
+      no validation of performance: LEED::performance::no measurement
+      master planning: installation utilization manager
+      master planning role: installation utilization manager::role
+      master planning::authorized allowances: installation utilization manager::authorized allowances
+      master planning::authorized allowances::enforce on new construct: installation utilization manager::authorized allowances::enforce on new construct
+      master planning::determining requirements: installation utilization manager::determining requirements
+      master planning::develop project scope: installation utilization manager::develop project scope
+      master planning::involvement low: installation utilization manager::involvement low
+      master planning::later stages less involvement: installation utilization manager::later project stages less involvement
+      master planning::owner sets policy: installation utilization manager::owner sets policy
+      master planning::program the project funding: installation utilization manager::program the project funding
+      master planning::project programming::technical lead: installation utilization manager::project programming::technical lead
+      no-brainer if you have money: no-brainer::if you have money
+      normative view dismissive: normative view::dismissive
+      normative view negative: normative view::negative
+      normative view positive: normative view::positive
+      not checked: property management::con certification::operation::none
+      not consulted: installation utilization manager::not consulted
+      not invited: property management::project manager laison::no invite to project events
+      not paying utility bill: end-user::classification::utilities not included::not paying utility bill
+      end-user::signs-for no cost use: end-user::signs-for no-cost-use
+      not written: management::business process::strategy::not written
+      off-budget money: funding::off budget funds
+      on any change: end-user::pushback::on any change
+      one-to-N merit list: projects::programming::one-to-N merit list
+      only-a-tenant reminder: installation management::ownership coordination authority::remind tenants that they are not owners
+      operating the building: facility management::operation::building systems
+      operation orders: energy::energy management::energy conservation RFI
+      operation vs design: facility management::operation::building systems::reality vs design
+      operator knowledge minimal: facility management::operation::building systems::operator knowledge minimal
+      opportunity yields projects: energy::intensity::high::opportunity yields projects
+      optimize use: energy::use reduction::optimize use
+      org strategy by EE program initiatives: org strategy::by::EE program initiatives
+      org strategy by Eng Const Bulletin --ECB: org strategy::by::Facility Const Bulletin --ECB
+      org strategy by ISR tracking system: org strategy::by::Building Status Report tracking system
+      org strategy by RFI directive: org strategy::by::energy conservation RFI
+      org strategy by RFP template standard: org strategy::by::RFP template standard
+      org strategy by executive directive: org strategy::by::executive directive
+      org strategy by meeting context: org strategy::by::meeting context
+      org strategy by process participants: org strategy::by::process participants
+      org strategy by requirement::funded: org strategy::by::requirement::funded
+      org strategy by requirement::unfunded: org strategy::by::requirement::unfunded
+      org strategy by staff authorization: org strategy::by::staff authorization
+      org strategy by structure::ffleet management: org strategy::by::structure::ffleet management
+      org/business strategy by LEED silver: org strategy::by::LEED silver
+      organizational aspect --leader wants award plaque: management::likes recognition::wants award plaque
+      own funding stream: energy::energy manager::own funding stream
+      owner decision: owner::main decision maker
+      owner has checkbook: owner::has checkbook
+      owner role: owner::role
+      owner sets policy: owner::sets policy
+      owner's representative: owner::representative of owner
+      owner::gets the money: owner::has checkbook
+      ownership source: ownership::source
+      ownership::LOCAL_PROP_ORG commander: ownership::installation::CHIEF_LOCAL_PROP_ORG
+      ownership::client to units - inventory control: ownership::client to business operation groups - inventory control
+      ownership::jurisdiction control: ownership::functions::jurisdiction control
+      ownership::mixing ownership with construction mgmt: ownership::functions::some ownership functions in construction mgmt
+      ownership::mixing ownership with property accountability: ownership::functions::some ownership functions in property mgmt
+      ownership::garrison commander: ownership::installation::CHIEF_LOCAL_PROP_ORG
+      ownership::layers of responsibility: ownership::levels of responsibility
+      ownership::meanings of ownership: ownership::meanings of
+      ownership::property accountability: ownership::property::final accountability
+      ownership::property accountability function: ownership::function::property final accountability
+      ownership::property oversight|accountability: ownership::function::coordinate property oversight
+      ownership::real estate action: ownership::real estate::authorize action
+      ownership::real estate guardian|agent: ownership::function::coordinate real estate guardian|agent
+      ownership::responsibility vs ownership: ownership::has authority and responsibility
+      ownership::title held by other: ownership::function::title management done by others
+      packaged project: project::packaged - turnkey
+      payback in local dollars: ROI::local budget::savings
+      peer installations: ffleet management::benchmarking::peer installations
+      percent reduction mandate: guidance::mandate::EE::percent reduction mandate
+      performance doubted: LEED::concerns::performance::performance doubted
+      performance measurement: projects::construction validation::performance measurement::not done
+      performance measurement vs certification: LEED::certification::no performance measurement
+      performance verification: projects::construction validation::performance measurement::not done
+      physical reality aspect --comfort: end-user::occupant behavior::comfort control
+      pie not pot sharing: funding::competing requirements::pie not pot sharing
+      pilot program: pilot demonstration::program
+      pilot programs: pilot demonstration::program
+      pilot projects: pilot demonstration::project
+      pilot technology: pilot demonstration::technology
+      pilot test EE tech: pilot demonstration::testing EE technology
+      policy: guidance::policy
+      policy and regulation: guidance::policy and regulation
+      policy driven initiatives: guidance::policy::driving initiatives
+      policy guidance: guidance::policy
+      policy guidelines: guidance::guidelines::EE
+      policy requirement: guidance::policy::driving requirements
+      policy::compliance metrics::better metrics: guidance::policy::compliance metrics::better metrics needed
+      policy::compliance training: guidance::policy::compliance training
+      policy::public sector::main driver: guidance::public sector::policy::main driver
+      policy::public sector::shapes budgets: guidance::public sector::policy::shapes budgets
+      poor EE maintenance catastrophic failure: facility management::maintenance::poor EE maintenance catastrophic failure
+      pre vs post construction certification: design certification vs construction validation
+      prerequisites: energy::use reduction::performance::prerequisites
+      previous experience: role::experience
+      private rental - have property manager: private rental::has property manager
+      private rental - have tenants: private rental::has tenants
+      private rental - is facility manager: private rental::has facility manager
+      private rental - is owner: private rental::has owner
+      professional aspect: role::professional aspect
+      professional aspect::learning on the job: role::professional aspect::learning on the job
+      provide property assets: property management::property::coordinate property assets
+      public-private partnerships: installation management::public-private partnerships
+      public-public partnerships: installation management::public-public partnerships
+      pursing points not savings: LEED::concerns::criteria|points::pursing points not savings
+      pursuing points not real benefit: LEED::concerns::criteria|points::pursing points not real benefit
+      pushback from end-users: end-user::pushback
+      racking and stacking projects: project::approval::process::racking and stacking projects
+      rainwater collection: systems EE::rainwater collection
+      rainwater collection::economics poor: systems EE::rainwater collection::economics poor
+      rainwater collection::significant maintenance: systems EE::rainwater collection::significant maintenance
+      ranked on ROI: funding::programs::EE::projects ranked on ROI
+      rating system problems: projects::follow need::ISR rating system concerns
+      real estate action: property management::real estate::action
+      real estate guardian|agent: property management::real estate::guardian|agent
+      real estate records: property management::real estate::records
+      real estate role: property management::real estate::role
+      real property office: property management::property::office
+      real property planning board process: installation utilization manager::realty planning board process
+      real property role: property management::property manager::role
+      real property title records: construction management::real estate::records::titles
+      recognition: management::recognition
+      record of building modifications: property management::record of building modifications
+      reducing energy intensity: energy::use reduction::by intensity
+      property management::con certification::as built::none: property management::construction::validation::as built::none
+      property management::con certification::design::partial: property management::construction::certification::design::partial
+      property management::con certification::operation::none: property management::construction::validation::operation::none
+      facility management::con certification::as built::none: facility management::construction::validation::as built::none
+      facility management::con certification::design::limited: facility management::construction::certification::design::limited
+      facility management::con certification::operation::none: facility management::construction::validation::operation::none
+      construction management::certification::as built::partial: construction management::validation::as built::partial
+      construction management::certification::operation::1-year - new initiative: construction management::validation::operation::1-year - new initiative
+      reliability first - energy savings second: business area::critical logistics::mission critical aspect::energy reliability first - energy savings second
+      reliability is critical factor: business area::critical logistics::mission critical aspect::reliability is most critical factor
+      renewable source energy: energy::renewable source
+      renovate to EE standard: project::repair refresh::to EE standard
+      requires top level support: management::commitment::requires top level support
+      research EE tech: EE::technology::research for understandings
+      right sizing: EE::systems::right-sizing
+      right sizing::lower first cost: EE::systems::right-sizing::lower first cost
+      right sizing::more important: EE::systems::right-sizing::more important
+      right thing to do: organization::values::right thing to do
+      right tools in right hands: facility management::maintenance::right tools in right hands
+      right-sizing: EE::systems::right-sizing
+      rushed design and construction: footprint management::reorganization::rushed design and construction
+      rushed design and construction::need vs reality: footprint management::reorganization::rushed design and construction::poor match to real needs
+      saving energy: energy::savings
+      saving energy::conservation process::overridden by end-user: energy::savings::conservation process::overridden by end-user
+      saving energy::energy retrofit programs: energy::savings::energy retrofit programs
+      saving energy::no M&V process: energy::savings::no M&V process
+      saving energy::proper operation important: energy::savings::proper operation important
+      seasonal change-over comfort imbalance: facility management::operation::seasonal change-over comfort imbalance
+      see it touch it: EE::knowledge::see it touch it
+      sell the project: energy::energy manager::sell the project
+      senior workforce: facility management::maintenance::shop level::senior workforce
+      shop level awareness low: facility management::maintenance::shop level::EE::awareness low
+      shop level interest low: facility management::maintenance::shop level::EE::interest low
+      showcase LEED project: LEED::showcase LEED project
+      significant maintenance: facility management::maintenance::building systems::EE
+      significant maintenance::economics poor: facility management::maintenance::building systems::EE::economics poor
+      site planning board: installation utilization manager::realty planning board process
+      smaller distribution system: benefit::smaller distribution system
+      smaller systems less energy: benefit::smaller systems less energy
+      smart meters: energy::use attribution::smart meters
+      smarter processes: construction management::smarter processes
+      social aspect --abundant water - why: norms::regional::abundant water
+      social aspect --award - recognition: management::recognition::award
+      social aspect --influence: norms::social::influences choices
+      social norm::influences choices: norms::social::influences choices
+      social norms::green values: norms::social::green values
+      social norms::green values::positive results::virtuous circle: norms::social::green values::positive results::virtuous circle
+      social norms::positive feedback::influences choices: norms::social::positive feedback::influences choices
+      society aspect --solar PV: top management::loss of support::negative feedback - solar PV
+      solar PV: systems EE::PV solar
+      solar farm: systems EE::PV solar::solar farm
+      solar farm::ROI: systems EE::PV solar::solar farm::ROI::over 40 years
+      someone else's money: funding::someone else's money
+      space use - tenant: end-user::space use
+      space utilization: property management::space utilization
+      space utilization vs property management: property management::space utilization::managing the footprint
+      space utilization::building category: property management::space utilization::building category
+      spliting-the-pie social sharing: management::decision making::spliting-the-pie social sharing
+      spray foam insulation::great potential: building products EE::spray foam insulation::great potential
+      spray foam insulation::poor implementation: building products EE::spray foam insulation::poor implementation
+      spray foam insulation::relatively complex: building products EE::spray foam insulation::relatively complex
+      staff authorization: top management::staff authorization
+      stakeholders vs process participants: stakeholders::process participants::selected stakeholders
+      stovepiped funds: funding::programs::EE::stovepiped funds
+      stovepiped to next level: energy::energy management::stovepiped to next level
+      support energy oporders: property management::building records::support energy conservation RFI
+      sustainability squeezed out: sustainability::squeezed out
+      sustainability strategy: sustainability::strategy
+      sustainability strategy::no formal strategy: sustainability::strategy::no formal strategy
+      sustainable savings more maintenance: facility management::maintenance::sustainable savings more maintenance
+      system operators: facility management::operation::system operators
+      system sizing::bigger is better: norms::industry::system sizing::bigger is better
+      system sizing::bigger is better::vendor economic incentive: norms::industry::system sizing::bigger is better::vendor economic incentive
+      system sizing::to be safe - not wrong: norms::industry::system sizing::to be safe - not wrong
+      takes guts to do it: facility management::operation::innovations::takes guts to do it
+      technical aspect --pre work needed: project::scope::determining requirements::pre work needed
+      technology training: training::EE technology
+      technology training::diffusing poorly: training::EE technology::diffusing poorly
+      tenant role: end-user::role
+      tenant role perception: end-user::role::perception
+      tenant space use: end-user::space use
+      tenants act like owners: end-user::act like owners
+      the right thing to do: organization::values::right thing to do
+      this-for-that bargaining: funding::competing requirements::pie not pot sharing::this-for-that bargaining
+      time commitment high: energy::savings::verification::time commitment high
+      title held by other: ownership::function::title management done by others
+      title holder: construction management::title holder
+      title holder vs owner: ownership::function::title management by construction management
+      too small for LEED: LEED::cost::too much for small projects
+      tracks performance: energy::use reduction::performance::tracking
+      training important: training::important
+      training supportive: training::supportive
+      uncertainty high: issues concerns::uncertainty::high
+      understanding EE technology: EE::technology::understandings
+      enables EE analysis: energy::use attribution::enables EE analysis
+      usability: benefit::making things better::usability
+      use-or-lose budgeting process: funding::use-or-lose budgeting process
+      user building rating: deficiency management::end-user::user building rating
+      user involvement: end-user::involvement
+      utility reimbursement: end-user::classification::utility reimbursement
+      utility savings should drive projects: energy::cost savings::utility savings should drive projects
+      utilization - property management: property utilization::property management
+      utilization - property management::building category: property utilization::property management::building category
+      utilization - property management::property manager role: property utilization::property management::property manager role
+      virtuous circle: sustainability::virtuous circle
+      warrenty|quit claim deed: property management::real estate::warrenty|quit claim deed
+      waste-to-energy: sustainability::waste-to-energy
+      water savings: EE::water::cost savings
+      water savings minimal: EE::water::cost savings::minimal
+      water use___reduction huge: system water::privatized::use reduction::huge
+      we are our own problem: guidance::requirements::FAR::we are our own problem
+      who and who pays: LEED::certification::cost::who and who pays
+      who pays: LEED::certification::cost::who and who pays
+      wind power: energy::renewable sources::wind power
+      work effort focus: role::work effort focus
+      work group awareness high: EE::awareness::work group::high
+      work group event: EE::knowledge::work group event
+      --owner-- commitment required: owner::commitment required
+      Australian program: green programs::Australian program
+      Comp EW Plan -EE- goals: comprehensive water and energy plan::goals
+      EE action outside new: projects::programming::EE::retrofits
+      EE already integrated: EE::strategy::already integrated in policies
+      EE benefits: EE::benefit
+      EE discussed: EE::technology::discussed
+      EE expertise high: EE::knowledge::expertise high
+      EE intensity: energy::intensity
+      EE is not relevant: EE::opportunity::not relevant to business practice
+      EE lowers cost: EE::benefit::lowers cost
+      EE never included: EE::strategy::never included
+      EE no net environmental gain: EE::benefit::no net environmental gain
+      EE opportunity ignoring: EE::opportunity::ignoring
+      EE opportunity not aware: EE::opportunity::not aware
+      EE partial application: EE::opportunity::partial application
+      EE policy unclear/indirect: guidance::policy::EE::unclear/indirect
+      EE project benefits: EE::benefit::project
+      EE projects on new buildings: projects::EE::retrofit new buildings
+      EE reviews for upgrades: EE::strategy::reviews for upgrades
+      EE strategy: EE::strategy
+      EE::facility management::must reflect new systems: facility management::EE::processes::must reflect new systems
+      facility management::certification important: facility management::professional certification::important
+      EE strategy::less strategy more mandates: EE::strategy::less strategy more mandates
+      EE::strategic planning::narrow field view: EE::strategy::planning::narrow field view
+      EE vs sustainability: EE::sustainability::short term savings vs long term savings
+      interservice support agreement --ISA: interagency support agreement
+      US government owned: ownership::US government owned
+      abundant pilot projects: pilot demonstration::abundant pilot projects
+      abundant rules: guidance::abundant rules
+      achievable savings: LEED::concerns::achievable savings
+      actual savings: LEED::concerns::actual savings
+      adoption resistance: issues concerns::adoption resistance
+      after certification: LEED::concerns::steps after certification
+      aggravation factor: issues concerns::aggravation factor
+      alternative EE estimates: LEED::concerns::differing EE savings estimates
+      inconsistent application: LEED::concerns::inconsistent application
+      annual deficiency list: energy::energy manager::annual deficiency list
+      annual energy report: energy::energy manager::annual energy report
+      anxiety high: issues concerns::anxiety high
+      audits required: energy::energy management::audits required
+      avoidance high: issues concerns::avoidance high
+      avoidance possible: issues concerns::avoidance possible
+      color of money: funding::constraints::spending categories::color of money
+      comfort trumps EE: EE::systems::comfort trumps EE
+      dated FM processes: facility management::maintenance::dated FM processes
+      dedicated M&V person: facility management::EE::processes::dedicated M&V person
+      central vs distributed funds: funding::budgeting::ear-marked vs general funds
+      centrally funded: training::centrally funded
+      better tools: facility management::maintenance::better tools needed
+      better water: system water::privatized::better water
+      building records local: property management::property::record::file::local
+      cheaper costs more later: issues concerns::cheaper costs more later
+      client service: organization::collaborative effort::client service
+      cost effective labor: facility management::maintenance::cost effective labor
+      cost effectiveness is a turf battle - change in process: issues concerns::cost effectiveness is a turf battle - change in process
+      cost vs available time: energy::use reduction::performance::verification::cost and available time
+      design certification vs construction validation: issues concerns::design certification vs construction validation
+      design concept vs actual --disappointment: issues concerns::design concept vs actual --disappointment
+      differing estimates: LEED::concerns::differing EE savings estimates
+      difficulty high: issues concerns::difficulty high
+      diffusing poorly: issues concerns::diffusing poorly
+      disagreement over process: issues concerns::disagreement over process
+      discretionary money: funding::programs::EE::discretionary money
+      disruptive change: issues concerns::disruptive change
+      faster better quality: issues concerns::faster better quality
+      faster better quality cheaper - pick two: issues concerns::faster better quality cheaper - pick two
+      integration low: issues concerns::integration low
+      interest low: EE::awareness::interest low
+      involvement high: organization::involvement::high
+      knowledge not shared: EE::systems::functional knowledge not shared
+      labor and cost assistance: energy::energy management::labor and cost assistance
+      limitations: issues concerns::limitations::org capabilities
+      limitations process management: issues concerns::limitations::process management
+      longstanding concern: issues concerns::longstanding concern
+      longstanding effort: issues concerns::longstanding effort
+      lower cost: benefit::making things better::lower cost
+      minimize design cost: projects::programming::budgeting::design cost::minimize
+      missed opportunities: issues concerns::missed opportunities
+      money talks: economics::money talks
+      more than EE: green programs::more than EE
+      multitudes of devices: issues concerns::multitudes of devices
+      need vs reality: issues concerns::need vs reality
+      no shared funds: issues concerns::no shared funds
+      outcome uncertainty: issues concerns::outcome uncertainty
+      overstated claims: issues concerns::overstated claims
+      overstated claims::performance doubted: issues concerns::overstated claims::performance doubted
+      reject change: stakeholders::reject change
+      separate funding: funding::programs::EE::fenced money
+      team dynamics: organization::team dynamics
+      collaborative effort: organization::collaborative effort
+      third party: third party task
+      timeline not fixed: comprehensive water and energy plan::timeline not fixed
+      uncertainty: issues concerns::uncertainty
+      understanding low: EE::understanding::low
+      verified savings: energy::use reduction::performance::need verified savings
+      viewed differently: sustainability::viewed differently than EE
+      accountable officer: installation management::property management::accountable officer
+      activity very low: property management::project programming::activity very low
+      Global savings: cost savings::to ffleet budgets - not local
+      aggravation minor: facility management::maintenance::aggravation minor
+      annual budgeting process: funding::budgeting::annual budgeting process
+      architectural features vs EE: projects::follow need::end-user::space use is top priority
+      authorized allowances: footprint management::authorized allowances in size and shape
+      automatically report PM concerns: facility management::operation::future BAS::automatically report FM concerns
+      avoiding landfill costs: issues concerns::avoiding landfill costs
+      benefit to FM: cost savings::energy::benefit to FM
+      effort high: issues concerns::effort high
+      effort significant: issues concerns::effort significant
+      better costs more: issues concerns::better costs more
+      better methods plus better products: benefit::better methods plus better products
+      better quality and desirable: benefit::better quality and desirable
+      better system management: benefit::better system management
+      business process duplication: issues concerns::business process duplication
+      category conversion: footprint management::managing shape::category conversion
+      changing needs: issues concerns::changing business needs
+      changing priorities: issues concerns::changing management priorities
+      client to garrison command - inventory fit: end-user::client to installation owner::footprint fit
+      codes and standards: guidance::codes and standards::design
+      expand if successful: pilot demonstration::expand if successful
+      increase new EE equipment: facility management::preference::increase new EE equipment
+      incremental improvement: EE::incremental improvement
+      independent contractor: LEED::certification::independent contractor
+      mold remediation: facility management::maintenance::mold remediation
+      new interesting technology: EE::technology::new interesting technology
+      not available: issues concerns::not available
+      not rated: issues concerns::not rated
+      not really usable: issues concerns::not really usable
+      not typical: issues concerns::not typical
+      not usual: issues concerns::not usual
+      not usual topic: issues concerns::not usual topic
+      out of sight out of mind: issues concerns::out of sight out of mind
+      owning rate of return: owner::can get results::owning rate of return
+      unexpected effect::negative: issues concerns::unexpected effect::negative
+      org strategy::top down: org strategy::methods::top down
+      org strategy::bottom up: org strategy::methods::bottom up
+      top down vs bottom up strategy: org strategy::methods::top down vs bottom up strategy
+      utilization - property management::tenant role: property management::space utilization::tenant role
+      utilization - property management::tenants act like owners: property management::space utilization::tenant act like owners
+      fleet management vs one-site management: ffleet management vs one-site management
+      installation incentive program: incentive program::installation incentive program
+      policy::wonk: role::policy wonk
+      stovepiped: stovepiping::functional area
+      water use::reduction huge: system water::water use::reduction huge
+      easement: property management::real estate::easement
+      meets and bounds: property management::real estate::meets and bounds
+      lease: property management::real estate::lease
+      never happens: issues concerns::never happens
+      no short changing: issues concerns::no short changing
+      ISR: Building Status Report
+      ISR::I --infrastructure: Building Status Report::built facilities status
+      ISR::NI --natural infrastructure: Building Status Report::land management status
+      ISR::S --services-installation support services: Building Status Report::status of supporting services
+  topic_to_code_map:
+    alt_codes:
+      CS training program: system operators
+      Comparison to peers: building use affects consumption
+      D1MP1 energy background: role
+      EE benefits: EE benefits
+      EE goals in racking and stacking: life safety trumps
+      EE level of awareness: EE awareness
+      EE making things better: better lighting
+      EE project benefits: FM gets excess utility dollars
+      EE supporting role: annual budgeting process
+      EPACT goals: EE is in separate program
+      Energy efficiency in future operations: better costs more
+      Energy efficiency strategy: supportive mixed
+      Energy performance programs: Federal Energy Decision System
+      Energy skills: understanding EE technology
+      Four decision participant review: title holder vs owner
+      Granter of easement: owner decision
+      If money is available, can you do the project: project approval process
+      LED lighting and maintenance: maintenance savings
+      LEED and other green programs: non-core activity
+      LEED certification manager: responsible party
+      LEED concerns: alternative EE estimates
+      LEED documentation: LEED documentation
+      LEED participation: LEED Silver
+      LEED project programming activity: LEED in design
+      Level of awareness ORG2: shop level awareness low
+      M0F0 as main driver behind projects: metered data
+      Maintenance savings: LED
+      ORG1 communication regarding energy: energy manager
+      ORG1's role in ownership: property manager
+      Pilot projects: collaboration programs
+      Reporting: operation orders
+      Reporting relationships: stovepiped to next level
+      Skills networking: called upon
+      The mandates are very important: policy and regulation
+      UMCS training program: system operators
+      Valued skills: management interest
+      Who is the owner?: garrison commander
+      aggravation factor: right thing to do
+      awards and recognition: prerequistes
+      background in EE: environmental engineering
+      building quality due to commissioning: no validation of performance
+      business strategy: less strategy more regulation
+      certification ceremony: master planning role
+      certification cost: programming the cost
+      certified vs certifiable: policy
+      combining stove piped money - operational fund and SRM funds: decision making
+      comparison of normal PROGRAM8 projects: user building rating
+      complexity issue: UMCS
+      core energy skills and competencies: energy tiger team
+      corporate linkage: corporate::business model::second::cost efficiency
+      demonstration of technology: see it touch it
+      design: monitoring data::not used
+      ee upgrades immediately post-construction: EE funding separate
+      end-user awareness: fund constraints
+      energy as a part of user rating: building performance measures
+      energy awareness: sustainability awareness
+      energy champion: energy manager
+      energy efficiency goal setting: maximize project funding
+      energy management task orders: energy manager
+      energy performance and BRAC: missed opportunities
+      energy projects: project funding
+      energystar program: green programs::tracking energy use
+      evolution of EE sustainability policy: conflicting priorities
+      expert assistance: contracting process
+      facility maintenance and energy project engagement: metering programs
+      facility management: facility managerment certification
+      funding energy projects: EE project funding programs
+      funding program concerns: metered performance
+      general background: role
+      green programs: LEED
+      higher quality facilities: performance doubted
+      how master planning participates: project programming
+      humidity and PV cell degradation: PV solar
+      importance of EE expertise to career: career focus
+      in terms of expanding energy skills: EE training funds - not available
+      invites to the new construction building training: LEED information
+      lack of reassurance: no validation of performance
+      lifecycle analysis of project: all the cost factors
+      linking energy efficiency and sustainability: sustainability wild ideas
+      local decisions on projects: interservice support agreement (ISA)
+      maintaining LEED certification: certification management
+      monthly energy - meetings: webinars
+      multi-tier levels of stakeholders: team dynamics
+      new EE technology improving maintenance: reducing energy intensity
+      new construction training - new technology training: committment required
+      overstating LEED savings: operation vs design
+      ownership: accountable officer
+      payback and first cost economics: huge driver
+      pilot programs: pilot projects
+      pilot projects: discretionary money
+      project development: no design no project
+      project reporting: annual energy report
+      project stages: project execution
+      property management: real property office
+      property manager involvement after design: real estate role
+      pushback from end-users: EE guidelines
+      rainwater collection system: water savings
+      reporting structure: many players
+      respecting ee policies: normative view dismissive
+      responsibility for managing building documentation - categorization: property
+        records
+      right sizing: right sizing
+      savings cost on the BLDGCODE4 project: sometimes higher EE
+      sign off of solar installation: project approval process
+      social aspect: ingrained in culture
+      space utilization: property management
+      strategy plan for sustainability: comprehensive water and energy plan
+      sustainability: LEED
+      sustainability and EE review: dated FM processes
+      tenant activities within buildings: changing needs
+      the difference between EE and sustainability: energy efficiency
+      the solar farm: easement
+      use of unit operational funds for building changes: master planning role
+      using energy savings for project funding: separate funding
+      utility reimbursement: no EE link
+      who is the owner: property management
+      who says the project meets LEED and this is what we want: LEED process officer
+      who will do the certification: responsible party
+    code_sub_links:
+      CS training program: not available
+      Comparison to peers: temporal aspect
+      EE goals in racking and stacking: not typical
+      EE level of awareness: design standards
+      EE making things better: smaller distribution system
+      EE project benefits: increases maintenance worklevel
+      EE supporting role: LED maintenance savings
+      EPACT goals: integration low
+      Energy efficiency in future operations: metering
+      Energy efficiency strategy: less strategy more mandates
+      Energy performance programs: LEED
+      Energy skills: magnitude of the problem
+      Four decision participant review: complex ownership
+      LED lighting and maintenance: energy performance
+      LEED and other green programs: normative view negative
+      LEED certification manager: certification management
+      LEED concerns: achievable savings
+      LEED documentation: external representative
+      LEED participation: LEED
+      LEED project programming activity: no projects no LEED
+      Level of awareness ORG2: designer awareness high
+      M0F0 as main driver behind projects: sell the project
+      Maintenance savings: LED selling point
+      ORG1's role in ownership: property oversight|accountability
+      Pilot projects: abundant pilot projects
+      Reporting: exterior lighting reduction
+      Reporting relationships: gaming the system
+      Skills networking: via telephone
+      The mandates are very important: metering
+      UMCS training program: not available
+      Valued skills: recognition
+      Who is the owner?: building inventory accountability
+      aggravation factor: aggravation minor
+      awards and recognition: metered data
+      building quality due to commissioning: longstanding effort
+      certification ceremony: not invited
+      certification cost: who pays
+      certified vs certifiable: LEED certification
+      comparison of normal PROGRAM8 projects: ISR ratings drive projects
+      complexity issue: smarter processes
+      core energy skills and competencies: multitudes of devices
+      demonstration of technology: ROI
+      end-user awareness: awareness varies
+      energy as a part of user rating: not rated
+      energy awareness: awareness low
+      energy champion: own funding stream
+      energy efficiency goal setting: minimum energy new buildings
+      energy performance and BRAC: need vs reality
+      energy projects: construction program
+      expert assistance: difficulty high
+      facility maintenance and energy project engagement: improving maintenance
+      funding energy projects: new construction only
+      funding program concerns: color of money
+      higher quality facilities: normative view negative
+      how master planning participates: new construction only
+      in terms of expanding energy skills: encouragement minimal
+      invites to the new construction building training: interest low
+      lack of reassurance: effort high
+      lifecycle analysis of project: bigger projects
+      linking energy efficiency and sustainability: EE lowers cost
+      local decisions on projects: project request
+      maintaining LEED certification: maintaining to standard
+      monthly energy - meetings: not usual
+      new EE technology improving maintenance: no-brainer
+      new construction training - new technology training: diffusing poorly
+      overstating LEED savings: performance doubted
+      ownership: title held by other
+      project development: design funds
+      project reporting: LEED
+      project stages: involvement high
+      property management: deputy garrison commander
+      property manager involvement after design: later stages less involvement
+      pushback from end-users: on any change
+      racking and stacking projects: activity very low
+      rainwater collection system: economics poor
+      respecting ee policies: high-efficiency parking
+      responsibility for managing building documentation - categorization: responsible
+        party
+      savings cost on the BLDGCODE4 project: temporal aspect
+      sign off of solar installation: lease
+      space utilization: building category
+      strategy plan for sustainability: no formal strategy
+      sustainability: LEED certification
+      sustainability and EE review: collaborative effort
+      tenant activities within buildings: need vs authorization
+      the solar farm: rights to electricity
+      training: minimal training
+      use of unit operational funds for building changes: authorized funding
+      user initiated energy project: never happens
+      using energy savings for project funding: ROI
+      utility reimbursement: free power
+      who is the owner: facility inventory accountability
+      who says the project meets LEED and this is what we want: LEED sponsorship
+      who will do the certification: who and who pays
+    main_codes:
+      BEETL: pilot technology
+      C1R0 background: role experience
+      C1W0 background: role experience
+      Comparison to peers: changing priorities
+      D1MP1 energy background: role experience
+      EE benefits: EE project benefits
+      EE betterment: EE systems better
+      EE champion: energy champion
+      EE development training: EE skills training
+      EE goals in racking and stacking: energy manager
+      EE improves social image: EE systems better
+      EE level of awareness: project design
+      EE making things better: lower cost
+      EE project benefits: LED lighting
+      EE real property management: property management
+      EE supporting role: cost savings
+      EE technology: EE technology
+      EPACT goals: EPACT
+      Energy efficiency in future operations: fund limitations
+      Energy efficiency strategy: EE strategy
+      Energy performance programs: green programs
+      Energy skills: EE skills
+      FAR: Federal Acquisition Rules
+      Four decision participant review: facility inventory accountability
+      G0S0 background: role experience
+      GSHP technology: EE technology
+      Granter of easement: master planning
+      ISR dashboard: projects follow need
+      If money is available, can you do the project: project funding policy
+      LED lighting and maintenance: LED lighting
+      LEED: LEED
+      LEED - claiming all energy points: LEED criteria
+      LEED and other green programs: LEED
+      LEED as separate budget cost: LEED
+      LEED certifiable to certified: LEED
+      LEED certification: LEED certification
+      LEED certification manager: LEED certification
+      LEED concerns: LEED concerns
+      LEED documentation: LEED documentation
+      LEED interface: LEED
+      LEED participation: policy requirement
+      LEED project programming activity: project programming
+      LOCAL_PROP_ORG sustainability policies: sustainability strategy
+      Level of awareness ORG2: work group awareness high
+      M&V - performance verification: performance verification
+      M0F0 as main driver behind projects: energy manager initiatives
+      Maintenance savings: maintenance savings
+      O&M training: training important
+      ORG1 communication regarding energy: energy communication
+      ORG1 different policies: policy
+      ORG1's role in ownership: ownership
+      ORG35 ECB policy mechanism: org strategy::by::Eng Const Bulletin --ECB
+      ORG35 policies: policy
+      ORG35 role in energy projects: energy projects
+      ORG51 clients: green programs::client awareness
+      P0L0 background: role experience
+      P0L0 score card: owner::program leader
+      PLACE1 green programs: green programs
+      PV cost: solar PV
+      Pilot projects: pilot projects
+      ROI: ROI
+      Reliability: EE systems better
+      Reporting: EE reporting
+      Reporting relationships: EM reporting relationships
+      Skills networking: EE skills networking
+      The mandates are very important: no mandates little support
+      UMCS training program: UMCS training
+      Valued skills: valuable skills
+      Who is the owner?: ownership
+      aggravation factor: aggravation factor
+      awards and recognition: management likes recognition
+      awareness: command incentive program
+      background in EE: certifed facility manager
+      benchmarking: EE::benchmarking::for owner use
+      budget savings: cost savings
+      building quality due to commissioning: betterment assumed
+      business decision: energy::intensity::low
+      business strategy: business strategy
+      business strategy from the acquisition side: business strategy
+      buying vs developing technologies: EE technology
+      c2w0 values: mission oriented view
+      career skills and EE: EE skills
+      centers of expertise: expert assistance
+      certification at LOCAL_PROP_OWNER: LEED
+      certification ceremony: property manager
+      certification cost: certification cost
+      certifications: certification important
+      certified vs certifiable: certified vs certifiable
+      cheap energy: energy rates
+      closing: role
+      combining stove piped money - operational fund and SRM funds: combining funds
+      command incentive program: awards and recognition
+      commissioning: longstanding effort
+      communicating the intent of building operation: tenant space use
+      comparison of normal PROGRAM8 projects: projects follow need
+      competing within BRAC: sustainability::increasing value
+      competing within FOOTPRINT_REORGANIZATION: sustainability::increasing value
+      complex products with poor implementations: complexity issue
+      complexity: complexity issue
+      complexity issue: complexity issue
+      core energy skills and competencies: computer driven
+      corporate image: LEED::corporate image
+      corporate linkage: stovepiping::less private sector
+      corporate positive spins: corporate PR
+      critical mass pricing point for PV: solar PV
+      demonstration of technology: demonstration of technology
+      design: design standards
+      developing expertise: expert assistance
+      differences between commercial sector and public sector: property management
+      diffusion of sustainability strategy: business strategy
+      displaying the plaque: management likes recognition
+      education: EE skills training
+      ee upgrades immediately post-construction: project funding policy
+      effecting sustainability: high performance buildings
+      end-user awareness: end-user EE awareness
+      energy as a part of user rating: energy rating
+      energy aspect: energy
+      energy awareness: EE awareness
+      energy awareness in education: EE awareness
+      energy champion: energy champion
+      energy committee: energy meetings
+      energy efficiency goal setting: business strategy
+      energy management stovepiping: energy manager
+      energy management task orders: energy conservation RFI
+      energy manager: energy manager
+      energy meetings: energy meetings
+      energy performance and FOOTPRINT_REORGANIZATION: rushed design and construction
+      energy picture shared by others: EE awareness
+      energy projects: energy projects
+      energy rates: energy rates
+      energy use awareness: energy::use attribution
+      energy's effect on funding: funding
+      energystar program: green programs
+      environmental and sustainability: sustainability
+      evolution of EE sustainability policy: sustainability policy
+      expert assistance: expert assistance
+      facility maintenance and energy project engagement: facility maintenance
+      facility management: facility managerment
+      funding: funding
+      funding energy projects: funding energy projects
+      funding program concerns: program constraints
+      future FOOTPRINT_REORGANIZATION: sustainability
+      future energy: fuel sources
+      general background: role experience
+      getting expertise: expert assistance
+      getting smarter: making things better
+      good project development experience: project development
+      green program managers awareness: green programs::program managers::use EE consultants
+      green programs: green programs
+      heavy maintenance items: maintenance is hard
+      high energy use: extra cost
+      high performance buildings: internal program
+      higher level recognition: management interest::high
+      higher quality facilities: LEED performance
+      housing areas: end-user::restructuring incentives
+      how master planning participates: master planning
+      how policy affects decisions: policy
+      how the building will be used: tenant space use
+      humidity and PV cell degradation: EE technology
+      importance of EE expertise to career: rewarding work
+      importance of dehumidification: IAQ
+      improving real property values: property management::increasing property value
+      in terms of expanding energy skills: EE skills training
+      institutional image enhancement: enhance image
+      inter agency alliances: not typical
+      interim ownership: ownership
+      invites to the new construction building training: EE knowledge
+      lack of reassurance: LEED documentation
+      level of awareness: EE::end-user awareness varies
+      level of awareness - work group: EE awareness
+      level of awareness by tenants: end-user EE awareness
+      levels of awareness, common technology: EE awareness
+      lifecycle: lifecycle analysis
+      lifecycle analysis: lifecycle analysis
+      lifecycle analysis and payback: ROI
+      lifecycle analysis of project: lifecycle analysis
+      linking energy efficiency and sustainability: different views
+      local decisions on projects: building category
+      maintaining LEED certification: LEED certification
+      management benefit: EE project benefits
+      management recognition - the award: management interest::high
+      metering reports: metered performance
+      metering requirements: metering
+      monthly energy - meetings: energy meetings
+      more FOOTPRINT_REORGANIZATION: fund limitations
+      multi-tier levels of stakeholders: stakeholders
+      neo-classical decision making: ROI
+      new EE technology improving maintenance: improving maintenance
+      new construction training - new technology training: technology training
+      not LED lighting: EE technology
+      occupants want to be comfortable: comfort control
+      open windows in humid climates: humidity control is non-trivial
+      optimization: optimize use
+      overlap between audit requirements and energy scorecard: audits required
+      overstating LEED savings: issues concerns::overstated claims
+      ownership: ownership
+      payback and first cost economics: economics
+      payback on metering: metering
+      peer installations: peer installations
+      performance measurement: EE::performance measurement
+      performance metrics: performance measurement
+      pilot program manager: pilot programs
+      pilot programs: pilot programs
+      pilot projects: pilot projects
+      problem areas in metering: metered data
+      product choices in LEED: spray foam insulation::relatively complex
+      program initiatives: green programs
+      program involvement: consultant EE::deep knowledge
+      program start: expert assistance
+      project budget costs: project funding
+      project development: project development
+      project management vs program management: project programming
+      project reporting: project reporting
+      project stages: project stages
+      project sustainability champion: project sustainability champion
+      property management: property management
+      property manager involvement after design: property management
+      property value enhancement: LEED certification::increased property value
+      public-private: public-private partnerships
+      public-private partnerships: public-private partnerships
+      public-public partnerships: public-public partnerships
+      pushback from customers: pushback from end-users
+      pushback from end-users: pushback from end-users
+      pushback from tenant users: pushback from end-users
+      racking and stacking projects: project programming
+      rainwater collection system: rainwater collection
+      real property: real property role
+      referencing sustainability: sustainability
+      regulations: codes and standards
+      renovation requirements: LEED silver
+      reporting structure: EE reporting structure
+      resolving training concerns: sustainability
+      respecting ee policies: enforcing EE policies
+      responsibility for managing building documentation - categorization: building
+        documentation
+      right sizing: optimize use
+      role: role
+      role in project stages: project stages
+      satisfaction with EE: EE systems better
+      savings cost on the BLDGCODE4 project: project scope choices
+      scalable WTE plant: waste-to-energy
+      side issue: LEED certification
+      sign off of solar installation: title holder
+      silo'ing of budget funds: EE::performance tracking
+      social aspect: social norm::influences choices
+      source of the model: strategic partnership
+      space functionality: making things better::usability
+      space utilization: space utilization
+      spending someone else's money: someone else's money
+      stovepiping of EE: stovepiped
+      strategic alliance: strategic alliances
+      strategy: cost savings
+      strategy plan for sustainability: sustainability strategy
+      sustainability: sustainability
+      sustainability and EE: sustainability
+      sustainability and EE review: energy manager
+      sustainability as corporate value: business strategy
+      sustainability experience and expertise: expert assistance
+      sustainability planner: sustainability
+      sustainability program in ORG1: sustainability
+      sustainability strategy: business strategy
+      sustainability training: sustainability training
+      system capability for EE: EE::performance::requires proper setup
+      technology improvements: EE technology
+      tenant LEED satisfaction: LEED certification
+      tenant activities within buildings: project programming
+      tenant awareness: EE awareness
+      tenant use variation: tenant space use
+      tenant's asking for EE: end-user EE awareness
+      the "owner": ownership
+      the difference between EE and sustainability: no adverse impact
+      the four BP model: property utilization::core business processes::T-n-R 2008
+      the four core business process: decision - four core business processes
+      the plaque: management likes recognition
+      the solar farm: solar farm
+      then how is performance checked: performance verification
+      training: sustainability training
+      unexpected management interest: management interest::high
+      use of group operational funds for building changes: project funding policy
+      user initiated energy project: user initiated energy project
+      using energy savings for project funding: color of money
+      utility bill: not paying utility bill
+      utility bill recapture: utility reimbursement
+      utility budget savings: energy savings
+      utility cost recapture: ownership::fund reprogramming
+      utility reimbursement: utility reimbursement
+      value engineering: optimize use
+      value from facility space: owner::more value from space
+      visioning charrette: owner::future vision
+      waste-to-energy (WTE): waste-to-energy
+      well-to-wheel: owner::translates policy
+      who decides expertise needs: policy guidance
+      who is the owner: ownership
+      who is the owner or who does LEED: ownership
+      who says the project meets LEED and this is what we want: LEED policy
+      who will do the certification: LEED certification
+      whose product offering: systems EE::grid control and monitoring utility use::new
+        market
+      wind power: wind power
+      wind turbine pilot technology: pilot technology
+      work group awareness: EE awareness
+pre_text:
+  ascii_line_limit: 500
+post_text:
+  critical_text_low_limit: 10
+  prime_code_count_low_limit: 5
+word_handling:
+  active_verbs:
+    are: 1
+    do: 1
+    get: 1
+    going: 1
+    had: 1
+    has: 1
+    have: 1
+    is: 1
+    that: 1
+    was: 1
+    will: 1
+    would: 1
+  ignore_words:
+    '-': 1
+    a: 1
+    an: 1
+    the: 1

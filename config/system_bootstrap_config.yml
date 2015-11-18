@@ -1,0 +1,3 @@
+---
+bootstrap_parameters:
+  log_dir: 'server_log/'

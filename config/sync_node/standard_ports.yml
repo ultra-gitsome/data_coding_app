@@ -1,0 +1,21 @@
+--- 
+standard_ports:
+  node_supervisor: 44400
+  local_daemon: 44401
+  node: 44403
+  event: 44404
+  notification: 44405
+  tag: 44407
+  runner: 44409
+  course: 44410
+  consolidator: 44415
+  relay: 44418
+  integrator: 44430
+  contextor: 44420
+  lapdisplay: 44425
+  xdisplay: 44424
+  lboarddisplay: 44423
+  announcer: 44422
+  mmonitor: 44450
+  fmonitor: 44460
+  laptracker: 44475

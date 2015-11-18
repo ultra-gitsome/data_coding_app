@@ -1,0 +1,91 @@
+---
+'config_remarks':
+  'name': "ts_node_parameters.yml"
+  'description': "Configuration file for a TS Node"
+  'settings':
+    1: "The main settings: db_connection_conf, system_conf"
+  'coordination':
+    1: "Sync's with sync_node_parameters"
+'node_config':
+  'default':
+    'description':
+      node_identifier: DEFAULT
+      node_name: 'default server'
+      node_number: 0
+      init_dtg: '2012-11-24 8:00:00'
+  'db_connection_conf':
+    dsn: 'localhost:3306'
+    hostname: 'localhost'
+    database: 'race_timing_3'
+    user: 'station01'
+    user2: 'race_root'
+    password: 'racetiming'
+    password2: 'runrunrun'
+  'datatype_classification':
+    'primary':
+      add: 1
+      mod: 1
+      out: 0
+    'secondary':
+      dup: 1
+      add: 1
+    'tertiary':
+      out: 1
+      info: 1
+  'system_conf':
+    '_system_conf_REMARKS': 'these data settinga are mostly crap.....'
+    '_default_path_resets': 0
+    '_default_paths':
+      yml_log_file_dir: '/server_log/'
+      yml_state_file_dir: '/server_reg/'
+      yml_tracker_file_dir: '/run_tracker/'
+    'node_environment':
+      write_to_detail_table: 0
+      add_tcategory_context_data: 0
+      add_group_context_data: 0
+      use_segpts_for_ftcourse: 0
+      use_yml_log_file: 1
+      override_segpt_rw_delta_secs: 0
+      push_record_data_forward: 1
+      record_data_push_interval: 10
+      record_push_remarks: 'default 10; every 10 x 10secs or 10 items...whichever comes later'
+      push_tracking_data_forward: 0
+      push_detail_data_forward: 0
+      segpt_default_value: 11
+      segpt_default_rw_delta_secs: 600
+      log_messages_yml: 1
+      use_ts_data: 1
+      add_context_ts_data: 0
+      relay_upload_ts_data: 0
+      relay_delay_ts_data_upload: 0
+      win32_platform: 1
+      use_database: 0
+      store_ts_data_to_local_db: 0
+      store_ts_data_to_master_db: 0
+      store_timing_data_db: 0
+      store_laps_data_db: 0
+      make_safe_timing_inserts: 1
+      make_safe_laps_inserts: 1
+      data_store_options:
+        timing: 1
+        laps: 1
+        detailed: 0
+    path_n_file_resets:
+      reset_base: 0
+      reset_logging: 0
+      reset_tsdata: 0
+      base_reset:
+        base_dir: 'c:/Timing/'
+        conf_dir: 'server_conf/'
+        sys_conf_dir: 'sys_conf/'
+        reg_dir: 'server_reg/'
+        state_dir: 'server_data/'
+        data_dir: 'server_data/'
+        tracker_dir: 'run_tracker/'
+      ts_data_reset:
+        data_dir: 'server_data'
+        base_data_file_name:
+      logging_reset:
+        log_dir:
+        base_log_file_name:
+

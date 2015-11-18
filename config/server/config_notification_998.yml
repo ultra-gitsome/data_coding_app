@@ -1,0 +1,479 @@
+---
+server_initiation:
+  config_server_ref_states:
+    events:
+      seq_server_type: node_supervisor
+    my_server_named_host: corehost
+    my_server_category: core_servers
+    my_server_key: my_supervisor
+    my_server_type: node_supervisor
+    my_local_server_type: node_supervisor
+    preferred_server_num: 1000
+  local:
+    environment:
+      testing: 1
+      socket_carp: 1
+      server_session_carp: 1
+      run_time_carp: 1
+      run_time_by_key_carp: 1
+      my_server_shortform_type: NodeSuper
+      init_server_message: 'HAE TS Node Supervisor'
+      turn_on_local_data_saves: 0
+      save_remarks: 'no ts data handled with the Node Supervisor'
+      save_quick_data: 0
+      save_record_data: 0
+      save_tracking_data: 0
+      save_detail_data: 0
+    database:
+      use_database: 1
+      store_ts_data_to_local_db: 0
+      store_ts_data_to_master_db: 0
+      store_timing_data_db: 0
+      store_laps_data_db: 0
+      make_safe_timing_inserts: 0
+      make_safe_laps_inserts: 0
+      data_store_options:
+        timing: 0
+        laps: 0
+        detailed: 0
+  config_servers:
+    events:
+      make_active: 0
+      state: 'i_am'
+      server_cat: 'core_servers'
+      server_my: 'my_event'
+    runners:
+      make_active: 0
+      state: 'tellmerunners'
+      server_cat: 'nodal_servers'
+      server_my: 'my_runnerdata'
+      address: '127.0.0.1'
+      port: 44409
+    tags:
+      make_active: 0
+      state: 'tellmetags'
+      server_cat: 'nodal_servers'
+      server_my: 'my_tagdata'
+      address: '127.0.0.1'
+      port: 44407
+    courses:
+      make_active: 0
+      state: 'tellmecourses'
+      server_cat: 'nodal_servers'
+      server_my: 'my_coursedata'
+      address: '127.0.0.1'
+      port: 44410
+    bibs:
+      make_active: 0
+      state: 'tellmebibs'
+      address: '127.0.0.1'
+      port: 44408
+  local_node_hosted_servers:
+    name_mapping:
+      thishost: "127.0.0.3"
+      corehost: "127.0.0.1"
+      nodalhost: "127.0.0.1"
+      altnodalhost: "127.0.0.2"
+      datahost: "127.0.0.4"
+      forwardhost: "127.0.0.5"
+      displayhost: "127.0.0.6"
+      presentorhost: "127.0.0.6"
+      audiohost: "127.0.0.7"
+      fieldhost: "127.0.0.1"
+      localhost: "locahost"
+    daemons:
+      my_daemon_core:
+        seq_server_type: 'daemon'
+        port: 44401
+        named_host: 'localhost'
+    tracker_servers:
+      my_tracker:
+        type: 'dtracker'
+        port: 44402
+        named_host: 'thishost'
+    core_servers:
+      my_supervisor:
+        seq_server_type: 'supervisor'
+        port: 44400
+        named_host: 'corehost'
+      my_node:
+        seq_server_type: 'node'
+        port: 44403
+        named_host: 'corehost'
+      my_notify:
+        seq_server_type: 'notification'
+        port: 44405
+        named_host: 'corehost'
+      my_event:
+        seq_server_type: 'event'
+        port: 44404
+        named_host: 'corehost'
+    nodal_servers:
+      my_coursedata:
+        seq_server_type: 'course'
+        port: 44410
+        named_host: 'nodalhost'
+      my_runnerdata:
+        seq_server_type: 'runner'
+        port: 44409
+        named_host: 'nodalhost'
+      my_tagdata:
+        seq_server_type: 'tag'
+        port: 44407
+        named_host: 'nodalhost'
+      my_bibdata:
+        seq_server_type: 'bib'
+        port: 44408
+        named_host: 'nodalhost'
+    data_servers:
+    field_servers:
+      my_integrator:
+        seq_server_type: 'integrator'
+        port: 44430
+        named_host: 'fieldhost'
+    presentor_servers:
+clientserver_tasking_config:
+  push_clients_href:
+    frames_config_remarks: '- {push_clients_href} client config: use named clients if there are limited and the same number of clients to push data'
+    frames_config_remarks2: '- keyed clients are intended as lists of clients within client categorys'
+    frames_config_remarks3: '- named clients are intended for more detailed inline states'
+    frames_config_remarks4: '- keyed clients use similiar inline task(s) - thus use frame-to-signal control to set inline states'
+    frames_config_remarks5: '- named_clients and keyed_clients must have unique key names to not step on each other'
+    poewxframes:
+      PSEUDO_FRAME:
+        name_key: 'ts_control'
+        default_tasker_method: 'main_signal_poeclient_tasker'
+        main_tasker_method:
+          default: 'main_signal_poeclient_tasker'
+        tasker_subtasks_remarks: 'subtasks indexes correspond to signal types'
+        tasker_subtasks:
+          heartbeat: 1
+          refresh: 2
+          group_start: 3
+        client_category:
+          default: 'named_clients'
+        make_push_client_list: 0
+        push_client_listing_by_key:
+      confservice:
+        main_tasker_method:
+          group_start: 'main_signal_poeclient_tasker'
+        tasker_subtasks:
+          group_start:
+            inline_task: 'group_start'
+            send_state: 'start'
+            accept_signal: 1
+            daemon_client: 1
+        client_category:
+          group_start: 'keyed_clients'
+        client_type:
+          group_start: 2
+        make_push_client_list: 0
+        signal_map_client_keys:
+          group_start:
+            '1': 'core_servers'
+            '2': 'nodal_servers'
+            '3': 'main_servers'
+            '4': 'presentor_servers'
+      ttracker:
+        main_tasker_method:
+          get_data: 'main_signal_poeclient_tasker'
+        tasker_subtasks:
+          get_data:
+            inline_task: 'get_tracker_data'
+            send_state: 'tell_me_data'
+            rcvd_state: 'tracker_data'
+            accept_signal: 1
+            daemon_client: 0
+        client_category:
+          group_start: 'named_clients'
+        client_type:
+          get_data: 1
+        make_push_client_list: 1
+        push_client_listing_by_key:
+          tracker: 1
+        signal_map_client_keys:
+          get_data:
+            '1': 'tracker'
+          get_sources:
+            '1': 'tracker'
+      tscontrol:
+        main_tasker_method:
+          heartbeat: 'main_signal_poeclient_tasker'
+          refresh: 'main_signal_poeclient_tasker'
+          group_start: 'main_signal_poeclient_tasker'
+          group_start_new: 'main_signal_poeclient_tasker'
+          batch_start: 'main_signal_poeclient_tasker'
+          start_by_daemon: 'main_signal_poeclient_tasker'
+          stop_by_daemon: 'main_signal_poeclient_tasker'
+        tasker_subtasks:
+          heartbeat:
+            inline_task: 'send_heartbeat'
+            send_state: 'heartbeat'
+            accept_signal: 1
+          refresh:
+            inline_task: 'send_heartbeat'
+            send_state: 'heartbeat'
+            accept_signal: 1
+          group_start:
+            inline_task: 'group_start_new'
+            send_state: 'start'
+            accept_signal: 1
+          group_start_new:
+            inline_task: 'group_start_new'
+            send_state: 'start'
+            accept_signal: 1
+          batch_start:
+            inline_task: 'batch_start'
+            send_state: 'start'
+            accept_signal: 1
+          start_by_daemon:
+            inline_task: 'start_stop'
+            send_state: 'start'
+            accept_signal: 1
+          stop_by_daemon:
+            inline_task: 'start_stop'
+            send_state: 'stop'
+            accept_signal: 1
+        client_category:
+          heartbeat: 'keyed_clients'
+          refresh: 'keyed_clients'
+          group_start: 'keyed_clients'
+          group_start_new: 'keyed_clients'
+          batch_start: 'keyed_clients'
+          start_by_daemon: 'keyed_clients'
+          stop_by_daemon: 'keyed_clients'
+        make_push_client_list: 0
+        start_client_list_key:
+          remarks: 'this is probably a bad idea...mark for deletion...'
+          group_start:
+            '1': 'core_servers'
+            '2': 'nodal_servers'
+        push_client_listing_by_key:
+          started_servers: 1
+          started_daemons: 1
+          all_servers: 1
+          all_daemons: 1
+        signal_map_client_keys:
+          heartbeat:
+            '1': 'started_servers'
+            '2': 'started_daemons'
+            '3': 'all_servers'
+            '4': 'all_daemons'
+          refresh:
+            '1': 'started_servers'
+            '2': 'started_daemons'
+            '3': 'all_servers'
+            '4': 'all_daemons'
+          group_start:
+            '1': 'core_servers'
+            '2': 'nodal_servers'
+            '3': 'main_servers'
+            '4': 'presentor_servers'
+          group_start_new:
+            '1': 'core_servers'
+            '2': 'nodal_servers'
+            '3': 'main_servers'
+            '4': 'presentor_servers'
+            '5': 'batch_primary_servers'
+          batch_start:
+            '1': 'batch_primary_servers'
+    named_clients:
+      ttracker:
+        name_key: 'tracker'
+        client_type: 1
+        server_cat: 'tracker_servers'
+        tasker_inline_tasks:
+          get_data: 
+            '1': 'get_tracker_data'
+          get_sources: 
+            '1': 'get_tracker_sources'
+        inline_task_count:
+          get_data:
+            '1': 1
+          get_sources:
+            '1': 1
+        inline_tasks:
+          get_data: 'get_tracker_data'
+          get_sources: 'get_tracker_sources'
+        send_states:
+          get_data: 'tell_me_data'
+          get_sources: 'tell_me_who'
+        rcvd_states:
+          get_data: 'tracker_data'
+          get_sources: 'who_tracking'
+        accept_signals:
+          get_data: 1
+          get_sources: 1
+      integrator:
+        name_key: 'integrator'
+        client_type: 1
+        server_cat: 'field_servers'
+        inline_tasks:
+          new_data: 'send_data_stuff'
+          sync_data: 'sync_data_fwd'
+        send_states:
+          new_data: 'data'
+          sync_data: 'sync_data'
+        accept_signals:
+          new_data: 1
+          sync_data: 1
+      dmn_01:
+        name_key: 'daemon_core'
+        server_cat: 'daemons'
+        inline_tasks:
+          heartbeat: 'heartbeat'
+          refresh: 'refresh'
+          group_start: 'group_start'
+        send_states:
+          heartbeat: 'heartbeat'
+          refresh: 'refresh'
+          group_start: 'group_start'
+        accept_signals:
+          heartbeat: 1
+          refresh: 1
+          group_start: 1
+    keyed_clients:
+      started_servers:
+        key_remarks: 'actions on started servers'
+        inline_tasks:
+          heartbeat: 'send_heartbeat'
+          refresh: 'send_heartbeat'
+        send_states:
+          heartbeat: 'heartbeat'
+          refresh: 'heartbeat'
+        accept_signals:
+          heartbeat: 1
+          refresh: 1
+      started_daemons:
+        key_remarks: 'actions on started daemons'
+        inline_tasks:
+          heartbeat: 'send_heartbeat'
+          refresh: 'send_heartbeat'
+        send_states:
+          heartbeat: 'heartbeat'
+          refresh: 'heartbeat'
+        accept_signals:
+          heartbeat: 1
+          refresh: 1
+      all_servers:
+        key_remarks: 'actions on all servers'
+        inline_tasks:
+          heartbeat: 'send_heartbeat'
+          refresh: 'send_heartbeat'
+        send_states:
+          heartbeat: 'heartbeat'
+          refresh: 'heartbeat'
+        accept_signals:
+          heartbeat: 1
+          refresh: 1
+      all_daemons:
+        key_remarks: 'actions on all daemons'
+      core_servers:
+        key_remarks: 'start/stop action on core servers'
+        control_daemon_host: 'corehost'
+        tasker_inline_tasks:
+          group_start: 'group_start'
+        inline_tasks:
+          group_start: 'group_start'
+        send_states:
+          group_start: 'group_start'
+        accept_signals:
+          group_start: 1
+        list_of_keys:
+          node: 1
+          notification: 2
+          event: 3
+      nodal_servers:
+        key_remarks: 'start/stop action on nodal servers'
+        control_daemon_host: 'nodalhost'
+        tasker_inline_tasks:
+          group_start: 'group_start'
+        inline_tasks:
+          group_start: 'group_start'
+        send_states:
+          group_start: 'group_start'
+        accept_signals:
+          group_start: 1
+        list_of_keys:
+          course: 1
+          runner: 2
+          tag: 3
+      main_servers:
+        key_remarks: 'start/stop action on main servers'
+      presentor_servers:
+        key_remarks: 'start/stop action on presentor servers'
+      batch_primary_servers:
+        key_remarks: 'start/stop action on integrator, presentor, and mmonitor servers'
+    batched_servers:
+      group_start_new:
+        ps_01: 1
+        fs_01_945: 1
+        fs_02_850: 1
+      batch_start:
+        ms_02: 1
+        ps_01: 1
+        fs_01_945: 1
+        fs_02_850: 1
+  client_push:
+    client_push_remarks: 'this config should be useful in the future...but the push process has not yet stabilized'
+    wait_timeout: 600
+    conn_timeout: 6  
+    confirm_data:
+      push: 0
+      presentor: 0
+      monitor: 0
+    data_confirm_key:
+      push: 'track_id'
+      presentor: 'track_id'
+      monitor: 0
+    data_push_tries:
+      push: 0
+      presentor: 0
+      monitor: 0
+    log_data_interval_count:
+      push: 10
+      presentor: 10
+      monitor: 10
+      in: 1
+    die_on_error:
+      push: 0
+      presentor: 0
+      monitor: 0
+  forwarding_client:
+    push_wait_timeout: 600
+    push_conn_timeout: 6  
+    do_push_packet: 1
+  presentor_client:
+    pres_wait_timeout: 600
+    pres_conn_timeout: 6  
+    do_presentor_packet: 0
+  monitor_client:
+    monitor_wait_timeout: 600
+    monitor_conn_timeout: 6  
+    do_monitor_packet: 0
+other_old_stuff_conf:
+  host_servers:
+    address:
+      my_consolidator: "127.0.0.1"
+      my_relay: "127.0.0.1"
+      my_contextor: "127.0.0.1"
+      my_presentor: "127.0.0.1"
+      my_integrator: "127.0.0.1"
+      my_coursedata: "127.0.0.1"
+      my_runnerdata: "127.0.0.1"
+      my_bibdata: "127.0.0.1"
+      my_tagdata: "127.0.0.1"
+      my_collector: "127.0.0.1"
+      my_monitor: "127.0.0.1"
+    port:
+      my_consolidator: 44420
+      my_relay: 44422
+      my_contextor: 44424
+      my_presentor: 44425
+      my_integrator: 44430
+      my_coursedata: 44410
+      my_runnerdata: 44409
+      my_bibdata: 44408
+      my_tagdata: 44407
+      my_collector: 44440
+      my_monitor: 44450

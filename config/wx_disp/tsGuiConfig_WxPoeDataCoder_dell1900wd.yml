@@ -1,0 +1,1506 @@
+---
+'main':
+  'display_config':
+    'config_remarks':
+      display_size: 'the max display size for this config file is roughly 1000px by 1900px'
+      textbox_files: 'data saved from text box fields is placed in a file identified by: *txtboxs-prefix*_*server_type*_*server_num*.yml'
+      textbox_files2: 'each textbox field is keyed within the a single yaml datastore file by its reference key'
+    'panel_list':
+      mainpanel: 1
+      gridpanel: 2
+      statuspanel: 3
+      reader1panel: 4
+      aspectpanel: 5
+      codespanel: 6
+      specialpanel: 7
+    'panel_class_names':
+      mainpanel: 'WxDataCoderMainPanel'
+      statuspanel: 'WxVStatusPanel'
+      gridpanel: 'WxDataCoderGridPanel'
+      reader1panel: 'WxDataCoderRowInfoPanel'
+      aspectpanel: 'WxDataCoderAspectPanel'
+      codespanel: 'WxDataCoderCodesPanel'
+      specialpanel: 'WxDataCoderSpecialPanel'
+    'grid_to_panel_map':
+      grid_aspect: 'aspectpanel'
+      grid: 'gridpanel'
+      grid_codes: 'codespanel'
+      grid_hot_codes: 'codespanel'
+    'grid_to_poeclient_map':
+      reader1grid: 'reader_1'
+      reader2grid: 'reader_2'
+      grid: 'Monitor'
+    'panel_titles':
+      mainpanel: 
+      statuspanel:
+      reader1panel: 'Reader 1'
+      reader2panel: 'Reader 2'
+    'active_data_tracker_panels':
+    'data_primary_control_list_mapping':
+      'data_coding':
+        'runlinks': 'name_codes'
+      'interviewee_select':
+        'data_coding':
+          'runlinks': 'name_codes'
+      'perspective_level':
+        'data_coding':
+          'runlinks': 'perspective_levels'
+      'perspective_view':
+        'data_coding':
+          'runlinks': 'perspective_views'
+      'stakeholder_primary_role':
+        'data_coding':
+          'runlinks': 'stakeholder_primary_roles'
+      'select_new_topic':
+        'data_coding':
+          'runlinks': 'topics'
+    'save_data_prefix':
+      txtboxs_via_wfmgr:
+        'prefix': 'txtboxs'
+    'signal_message_field_mapping':
+      'in_layout_module':
+        'smessage_system':
+          panel: 'mainpanel'
+          field: 'datanotice'
+        'smessage_event':
+          panel: 'mainpanel'
+          field: 'datanotice'
+        'ialert':
+          panel: 'mainpanel'
+          field: 'counter'
+        'talert':
+          panel: 'mainpanel'
+          field: ''
+          button: 'disconn_go'
+          on_state: ''
+          off_state: ''
+      'txtboxs_by_wfmgr_method':
+        'vstatus':
+          panel: 'statuspanel'
+          textbox: 'textboxstatus'
+        'vlogger':
+          panel: 'statuspanel'
+          field: ''
+          textbox: 'textboxlogger'
+        'billboard':
+          panel: 'statuspanel'
+          textbox: 'textboxboard'
+    window:
+      title: 'WxPoe Data Coder Display'
+      show: 1
+      panel_spacing: 1
+      'origin':
+        X: 0
+        Y: 0
+      'size':
+        height: 1035
+        width: 1925
+    fonts:
+      status:
+        'size': 12
+      row:
+        'size': 10
+      row_label:
+        'size': 11
+      row_label_bold:
+        'size': 11
+      select:
+        'size': 12
+      sidebar:
+        'size': 10
+      main_buttons:
+        'size': 9
+      small_textbox:
+        'size': 9
+      panel_title:
+        'size': 9
+      combobox:
+        'size': 9
+      submit_outgoing:
+        'size': 9
+      submit_incoming:
+        'size': 10
+    panels:
+      mainpanel:
+        'origin':
+          X: 0
+          Y: 0
+        'size':
+          height: 182
+          width: 1480
+        'matrix_block':
+          'origin':
+            X: 3
+            Y: 1
+          row_height: 30
+          header_row_height: 30
+          col_spacing: 5
+          col_1_width: 130
+          col_2_width: 230
+          col_3_width: 200
+          col_4_width: 65
+          col_5_width: 65
+          col_6_width: 15
+          col_7_width: 85
+          col_8_width: 20
+          col_9_width: 80
+        'buttons':
+          submit_in_1:
+            'label_text': '>Check In<'
+            'in_frame_evt_method': 'on_click_submit'
+            'evt_button_id': 21
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 100
+          run_recodes:
+            'label_text': '>>> Re-Codes'
+            'in_frame_evt_method': 'on_click_submit'
+            'evt_button_id': 11
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 120
+          run_parse:
+            'label_text': '>>> Parse'
+            'in_frame_evt_method': 'on_click_submit'
+            'evt_button_id': 12
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 100
+          run_coding:
+            'label_text': '>>> Code'
+            'in_frame_evt_method': 'on_click_submit'
+            'evt_button_id': 13
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 100
+          run_atx_files:
+            'label_text': '>>> .atx'
+            'in_frame_evt_method': 'on_click_submit'
+            'evt_button_id': 14
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 90
+          run_dist_calc:
+            'label_text': '>>> Dist'
+            'in_frame_evt_method': 'on_click_submit'
+            'evt_button_id': 15
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 90
+          run_write_sheets:
+            'label_text': '>>> .xls'
+            'in_frame_evt_method': 'on_click_submit'
+            'evt_button_id': 16
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 90
+          lock_select_1:
+            'label_text': 'Lock Selection'
+            'in_frame_evt_method': 'lock_combobox_na'
+            'evt_button_id': 201
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 105
+          lock_select_2:
+            'label_text': 'Lock Selection'
+            'in_frame_evt_method': 'lock_combobox_na'
+            'evt_button_id': 202
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 105
+          lock_select_3:
+            'label_text': 'Lock Selection'
+            'in_frame_evt_method': 'lock_combobox_na'
+            'evt_button_id': 203
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 105
+          prev_sentence:
+            'label_text': '<< Prev'
+            'evt_button_id': 501
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 90
+          next_sentence:
+            'label_text': 'Next >>'
+            'evt_button_id': 502
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 90
+          button_tracker_go:
+            'label_text': 'Start Data Tracker'
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 25
+              Y: 235
+            'size':
+              height: 25
+              width: 150
+          button_epack_go:
+            'label_text': 'ePack +'
+            'button_label_swap': 'ePack -'
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 90
+          button_save_conf:
+            'label_text': 'Save IP Config'
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 300
+              Y: 235
+            'size':
+              height: 25
+              width: 150
+        'textcontrols':
+          'submit_1_text':
+            'in_frame_evt_method': 'text_entry_event'
+            'evt_meth_id': 11
+            'input_field': 1
+            'label_text': ''
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 70
+          'submit_2_text':
+            'in_frame_evt_method': 'text_entry_event'
+            'evt_meth_id': 12
+            'input_field': 1
+            'label_text': ''
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 5
+              Y: 45
+            'size':
+              height: 30
+              width: 70
+          'select_interviewee_label':
+            'remarks_text': 'matching cntrl id to button 501'
+            'input_field': 0
+            'multiline': 0
+            'label_text': 'Select Interview:'
+            'set_origin': 0
+            'set_size': 1
+            'id_set': 0
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 100
+          'select_topic_label':
+            'remarks_text': 'matching cntrl id to button 501'
+            'input_field': 0
+            'multiline': 0
+            'label_text': 'Select Topic:'
+            'set_origin': 0
+            'set_size': 1
+            'id_set': 0
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 100
+          'select_sentence_label':
+            'remarks_text': 'matching cntrl id to button 501'
+            'input_field': 0
+            'multiline': 0
+            'label_text': 'Select Sentence:'
+            'set_origin': 0
+            'set_size': 1
+            'id_set': 0
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 100
+          'sentence_text_selected':
+            'in_frame_evt_method': ''
+            'evt_meth_id': 15
+            'input_field': 1
+            'label_text': 'Topic sentence'
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 1
+              Y: 121
+            'size':
+              height: 30
+              width: 1400
+          'sentence_text_selected_pre':
+            'in_frame_evt_method': ''
+            'evt_meth_id': 16
+            'input_field': 1
+            'label_text': 'Previous Topic sentence'
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 1
+              Y: 94
+            'size':
+              height: 25
+              width: 950
+          'sentence_text_selected_post':
+            'in_frame_evt_method': ''
+            'evt_meth_id': 17
+            'input_field': 1
+            'label_text': 'Next Topic sentence'
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 1
+              Y: 153
+            'size':
+              height: 25
+              width: 950
+          'reader1_count':
+            'remarks_text': 'matching cntrl id to button 501'
+            'label_text': '0000'
+            'evt_meth_id': 601
+            'set_origin': 1
+            'set_size': 1
+            'id_set': 1
+            'origin':
+              X: 1425
+              Y: 130
+            'size':
+              height: 25
+              width: 40
+          'datanotice':
+            'input_field': 0
+            'multiline': 0
+            'label_text': 'Waiting'
+            'set_origin': 1
+            'set_size': 0
+            'id_set': 0
+            'origin':
+              X: 200
+              Y: 1
+            'size':
+              height: 0
+              width: 0
+          'clickeventnotice':
+            'input_field': 0
+            'multiline': 0
+            'label_text': 'New Start'
+            'set_origin': 1
+            'set_size': 0
+            'id_set': 0
+            'origin':
+              X: 5
+              Y: 1
+            'size':
+              height: 0
+              width: 0
+          'start_time_disp':
+            'input_field': 0
+            'multiline': 0
+            'label_text': 'New Start'
+            'set_origin': 1
+            'set_size': 0
+            'id_set': 0
+            'data_fetch_key': 'wfmgr' 
+            'data_fetch_method': 'main_display_start_time' 
+            'origin':
+              X: 485
+              Y: 2
+            'size':
+              height: 0
+              width: 0
+          'time_diff':
+            'input_field': 0
+            'multiline': 0
+            'label_text': 'Waiting'
+            'set_origin': 1
+            'set_size': 0
+            'id_set': 0
+            'data_fetch_key': 'wfmgr' 
+            'data_fetch_method': 'hms_delta_from_main_display_time' 
+            'origin':
+              X: 635
+              Y: 2
+            'size':
+              height: 0
+              width: 0
+          'servernotice':
+            'input_field': 0
+            'multiline': 0
+            'label_text': 'Primary Server'
+            'set_origin': 1
+            'set_size': 0
+            'id_set': 0
+            'data_fetch_key': 'wfmgr' 
+            'data_fetch_method': 'wxframe_nserver_status' 
+            'origin':
+              X: 550
+              Y: 200
+            'size':
+              height: 0
+              width: 0
+          'textboxright':
+            'input_field': 1
+            'label_text': ''
+            'multiline': 1
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 1125
+              Y: 0
+            'size':
+              height: 120
+              width: 350
+        'comboboxes':
+          interviewee_select:
+            'label_text': 'SelectCodedSubject'
+            'default_option': 'Select Coded Subject'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'off_focus_combobox'
+            'evt_meth_id': 31
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 200
+          topic_select:
+            'label_text': 'SelectTopic'
+            'default_option': 'Select Topic Cat'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'off_focus_combobox'
+            'evt_meth_id': 32
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 500
+          sentence_select:
+            'label_text': 'SelectSentence'
+            'default_option': 'Select Topic Sentence'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'off_focus_combobox'
+            'evt_meth_id': 33
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 500
+          sp_select_3:
+            'label_text': 'Select (Default is None)'
+            'default_option': 'None'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'off_focus_combobox'
+            'evt_meth_id': 34
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 185
+          select_new_topic:
+            'label_text': 'Select Topic'
+            'default_option': 'Change Sentence Topic'
+            'set_origin': 0
+            'set_size': 1
+            'evt_meth_id': 71
+            'in_frame_evt_method': 'evt_combobox_special'
+            'order_by': 'key_sorted'
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 300
+          chkpt_select_2:
+            'label_text': 'Select Chkpt'
+            'default_option': 'ChkPt 1'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'off_focus_combobox_sp'
+            'evt_meth_id': 42
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 190
+          chkpt_select_3:
+            'label_text': 'Select Chkpt'
+            'default_option': 'ChkPt 1'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'off_focus_combobox_sp'
+            'evt_meth_id': 43
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 90
+      aspectpanel:
+        'origin':
+          X: 0
+          Y: 183
+        'size':
+          height: 260
+          width: 925
+        'textcontrols':
+          'panel_title':
+            'origin':
+              X: 400
+              Y: 0
+            'size':
+              height: 20
+              width: 170
+      gridpanel:
+        'origin':
+          X: 0
+          Y: 444
+        'size':
+          height: 400
+          width: 925
+        'textcontrols':
+          'panel_title':
+            'origin':
+              X: 400
+              Y: 0
+            'size':
+              height: 20
+              width: 170
+      codespanel:
+        'origin':
+          X: 927
+          Y: 183
+        'size':
+          height: 800
+          width: 553
+        'textcontrols':
+          'panel_title':
+            'origin':
+              X: 400
+              Y: 0
+            'size':
+              height: 20
+              width: 170
+      specialpanel:
+        'origin':
+          X: 0
+          Y: 846
+        'size':
+          height: 140
+          width: 925
+        'matrix_block':
+          'origin':
+            X: 3
+            Y: 1
+          row_height: 30
+          header_row_height: 30
+          col_spacing: 5
+          col_1_width: 15
+          col_2_width: 130
+          col_3_width: 100
+          col_4_width: 170
+          col_5_width: 65
+          col_6_width: 65
+          col_7_width: 15
+          col_8_width: 65
+          col_9_width: 100
+        'comboboxes':
+          perspective_level:
+            'label_text': 'PerspectiveLevel'
+            'default_option': 'Select View Level'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'evt_combobox_special'
+            'evt_meth_id': 51
+            'order_by': 'value'
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 200
+          perspective_view:
+            'label_text': 'ViewOrientation'
+            'default_option': 'View Orientation'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'evt_combobox_special'
+            'evt_meth_id': 52
+            'order_by': 'value'
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 200
+          stakeholder_primary_role:
+            'label_text': 'MainStakeholderRole'
+            'default_option': 'Main Role'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'evt_combobox_special'
+            'evt_meth_id': 53
+            'order_by': 'value'
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 30
+              width: 200
+        'checkboxes':
+          cause:
+            'label_text': 'Cause'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'evt_checkbox_special'
+            'evt_meth_id': 41
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 100
+          effect:
+            'label_text': 'Effect'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'evt_checkbox_special'
+            'evt_meth_id': 42
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 100
+          cause_n_effect:
+            'label_text': 'Cause -n- Effect'
+            'set_origin': 0
+            'set_size': 1
+            'in_frame_evt_method': 'evt_checkbox_special'
+            'evt_meth_id': 43
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 150
+        'textcontrols':
+          'panel_title':
+            'origin':
+              X: 500
+              Y: 0
+            'size':
+              height: 20
+              width: 170
+          'sub_role_text':
+            'in_frame_evt_method': 'evt_textinput_special'
+            'evt_input_id': 62
+            'input_field': 1
+            'label_text': ''
+            'set_origin': 0
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 250
+          'set_causality_label':
+            'remarks_text': 'matching cntrl id to button 501'
+            'input_field': 0
+            'multiline': 0
+            'label_text': 'Causality:'
+            'set_origin': 0
+            'set_size': 1
+            'id_set': 0
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 100
+          'set_views_label':
+            'remarks_text': 'matching cntrl id to button 501'
+            'input_field': 0
+            'multiline': 0
+            'label_text': 'Normative views:'
+            'set_origin': 0
+            'set_size': 1
+            'id_set': 0
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 100
+          'set_roles_label':
+            'remarks_text': 'matching cntrl id to button 501'
+            'input_field': 0
+            'multiline': 0
+            'label_text': 'Roles in text:'
+            'set_origin': 0
+            'set_size': 1
+            'id_set': 0
+            'origin':
+              X: 0
+              Y: 0
+            'size':
+              height: 25
+              width: 100
+      statuspanel:
+        'origin':
+          X: 1482
+          Y: 0
+        'size':
+          height: 1000
+          width: 425
+        'buttons':
+          savebutton:
+            'label_text': 'Save'
+            'in_frame_evt_method': 'saveNow'
+            'evt_button_id': 901
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 50
+              Y: 0
+            'size':
+              height: 25
+              width: 80
+          closebutton:
+            'label_text': 'Close'
+            'in_frame_evt_method': 'OnClose'
+            'evt_button_id': 902
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 200
+              Y: 0
+            'size':
+              height: 25
+              width: 50
+        'textcontrols':
+          'panel_title':
+            'input_field': 0
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 150
+              Y: 0
+            'size':
+              height: 20
+              width: 170
+          'textboxlogger':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 25
+            'size':
+              height: 450
+              width: 425
+          'textboxstatus':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 480
+            'size':
+              height: 450
+              width: 425
+    grids:
+      grid_aspect:
+        rows: 30
+        cols: 20
+        colgrp_size: 12
+        colgrps: 1
+        grid_mark_config:
+          mark_col_count: 1
+          mark_label: '*'
+          mark_evt_method: 'grid_left_click_event'
+          cell_select_evt_method: 'grid_select_cell_event'
+          mark_row_location: 'begin'
+          mark_col_label: ''
+          mark_col_width: 25
+          mark_col_align: 'center'
+          mark_cell_colors: '120:120:120'
+        populate_ordered_mnums: 0
+        start:
+          X: 0
+          Y: 0
+        dim:
+          height: 260
+          width: 925
+        head_label:
+          header_col_height: 20
+          row_label_width: 0
+          header_font_pt_size: 10
+          colgrp_labels:
+            '1': 'Num'
+            '2': 'Code'
+            '3': 'Note'
+            '4': 
+            '5': '!!'
+            '6': 'r4'
+            '7': 'r3'
+            '8': 'r2'
+            '9': 'r1'
+            '10': 'NA'
+            '11': 'Pre'
+            '12': 'Post'
+          colgrp_sizes:
+            '1': 40
+            '2': 275
+            '3': 275
+            '4': 15
+            '5': 30
+            '6': 30
+            '7': 30
+            '8': 30
+            '9': 30
+            '10': 30
+            '11': 40
+            '12': 40
+        col_helper_keys:
+          data_links:
+            code_name: 2
+            code_note: 3
+            strong_pt: 5
+            rate_4: 6
+            rate_3: 7
+            rate_2: 8
+            rate_1: 9
+            no_rate: 10
+            sent_pre: 12
+            sent_post: 13
+        cells:
+          row_height: 10
+          font_pt_size: 9
+          first_row_height: 20
+          first_font_pt_size: 14
+      grid:
+        rows: 100
+        cols: 18
+        colgrp_size: 12
+        colgrps: 1
+        populate_ordered_mnums: 0
+        grid_mark_config:
+          mark_col_count: 1
+          mark_label: '?'
+          mark_evt_method: 'grid_left_click_event'
+          mark_row_location: 'begin'
+          mark_col_label: ''
+          mark_col_width: 25
+          mark_col_align: 'center'
+          mark_cell_colors: '120:120:120'
+        start:
+          X: 0
+          Y: 0
+        dim:
+          height: 400
+          width: 925
+        head_label:
+          header_col_height: 20
+          row_label_width: 0
+          header_font_pt_size: 10
+          colgrp_labels:
+            '1': 'num'
+            '2': 'Code'
+            '3': 'meta'
+            '4': 'start'
+            '5': '-3'
+            '6': '-2'
+            '7': '-1'
+            '8': 'this'
+            '9': '+1'
+            '10': '+2'
+            '11': '+3'
+            '12': 'total'
+          colgrp_sizes:
+            '1': 35
+            '2': 350
+            '3': 90
+            '4': 70
+            '5': 25
+            '6': 25
+            '7': 25
+            '8': 50
+            '9': 25
+            '10': 25
+            '11': 25
+            '12': 60
+        cells:
+          row_height: 10
+          font_pt_size: 9
+          first_row_height: 20
+          first_font_pt_size: 14
+      grid_codes:
+        rows: 1000
+        cols: 18
+        colgrp_size: 5
+        colgrps: 1
+        populate_ordered_mnums: 0
+        grid_mark_config:
+          mark_col_count: 1
+          mark_label: '<'
+          row_add_dbclk_evt_method: 'grid_left_double_click_event'
+          mark_row_location: 'begin'
+          mark_col_label: ''
+          mark_col_width: 25
+          mark_col_align: 'center'
+          mark_cell_colors: '120:120:120'
+        start:
+          X: 0
+          Y: 301
+        dim:
+          height: 502
+          width: 552
+        head_label:
+          header_col_height: 20
+          row_label_width: 0
+          header_font_pt_size: 10
+          colgrp_labels:
+            '1': 'num'
+            '2': 'Code'
+            '3': 'meta'
+            '4': 'blocks'
+            '5': 'chars'
+            '6': 'words'
+          colgrp_sizes:
+            '1': 35
+            '2': 350
+            '3': 90
+            '4': 50
+            '5': 70
+            '6': 60
+        col_helper_keys:
+          data_links:
+            code_name: 2
+            code_meta: 3
+            char_ct: 5
+            block_ct: 4
+            word_ct: 6
+            sentence_ct: 7
+        cells:
+          row_height: 10
+          font_pt_size: 9
+          first_row_height: 20
+          first_font_pt_size: 14
+      grid_hot_codes:
+        rows: 500
+        cols: 18
+        colgrp_size: 5
+        colgrps: 1
+        populate_ordered_mnums: 0
+        grid_mark_config:
+          mark_col_count: 1
+          mark_label: '<'
+          row_mark_evt_method: 'hot_grid_left_click_event'
+          mark_row_location: 'begin'
+          mark_col_label: ''
+          mark_col_width: 25
+          mark_col_align: 'center'
+          mark_cell_colors: '120:120:120'
+        start:
+          X: 0
+          Y: 0
+        dim:
+          height: 300
+          width: 552
+        head_label:
+          header_col_height: 20
+          row_label_width: 0
+          header_font_pt_size: 10
+          colgrp_labels:
+            '1': 'num'
+            '2': 'Code'
+            '3': 'meta'
+            '4': 'blocks'
+            '5': 'chars'
+            '6': 'words'
+          colgrp_sizes:
+            '1': 35
+            '2': 350
+            '3': 90
+            '4': 50
+            '5': 70
+            '6': 60
+        col_helper_keys:
+          data_links:
+            code_name: 2
+            code_meta: 3
+            char_ct: 5
+            block_ct: 4
+            word_ct: 6
+            sentence_ct: 7
+        cells:
+          row_height: 10
+          font_pt_size: 9
+          first_row_height: 20
+          first_font_pt_size: 14
+'grpstats':
+  'display_config':
+    'config_remarks':
+      display_size: 'the max display size for this config file is roughly 1000px by 1900px'
+    'panel_list':
+      sidebarpanel: 1
+      grplog1panel: 1
+      grplog2panel: 1
+      grplog3panel: 1
+    'panel_class_names':
+      sidebarpanel: 'TSSidebarEntryPanel'
+      grplog1panel: 'TSMonitorGroupLogPanel'
+      grplog2panel: 'TSMonitorGroupLog2Panel'
+      grplog3panel: 'TSMonitorGroupLog3Panel'
+    'grid_to_panel_map':
+      sidebarpanel: 0
+    'panel_titles':
+      sidebarpanel: 0
+      grplog1panel: 'Group 1'
+      grplog2panel: 'Group 2'
+      grplog3panel: 'Group 3'
+    'active_data_tracker_panels':
+    'window':
+      title: 'Group Stats Display'
+      show: 1
+      panel_spacing: 1
+      'origin':
+        X: 0
+        Y: 0
+      'size':
+        height: 1055
+        width: 1350
+    'fonts':
+      status:
+        'size': 12
+      row:
+        'size': 10
+      select:
+        'size': 12
+      sidebar:
+        'size': 10
+      main_buttons:
+        'size': 9
+      small_textbox:
+        'size': 9
+      panel_title:
+        'size': 9
+      combobox:
+        'size': 9
+      submit_outgoing:
+        'size': 9
+      submit_incoming:
+        'size': 10
+    'panels':
+      sidebarpanel:
+        'origin':
+          X: 0
+          Y: 0
+        'size':
+          height: 1050
+          width: 550
+        'buttons':
+          savebutton:
+            'origin':
+              X: 1
+              Y: 1
+            'size':
+              height: 0
+              width: 0
+          closebutton:
+            'origin':
+              X: 250
+              Y: 1
+            'size':
+              height: 0
+              width: 0
+          disconnbutton:
+            'origin':
+              X: 1
+              Y: 40
+            'size':
+              height: 0
+              width: 0
+          deadtimebutton:
+            'origin':
+              X: 1
+              Y: 80
+            'size':
+              height: 25
+              width: 200
+          quickaddbutton:
+            'origin':
+              X: 1
+              Y: 115
+            'size':
+              height: 25
+              width: 90
+          gender_select:
+            'origin':
+              X: 280
+              Y: 175
+            'size':
+              height: 25
+              width: 60
+          course_select:
+            'origin':
+              X: 1
+              Y: 202
+            'size':
+              height: 25
+              width: 300
+          web_push_btn:
+            'origin':
+              X: 1
+              Y: 920
+            'size':
+              height: 30
+              width: 180
+          sync_data_btn:
+            'origin':
+              X: 250
+              Y: 40
+            'size':
+              height: 25
+              width: 90
+        'textcontrols':
+          'textboxlower':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 500
+            'size':
+              height: 450
+              width: 550
+          'deadtimetext':
+            'origin':
+              X: 225
+              Y: 80
+            'size':
+              height: 30
+              width: 40
+          'deadtimetextlabel':
+            'origin':
+              X: 270
+              Y: 84
+            'size':
+              height: 20
+              width: 5
+          'bibinputtext':
+            'origin':
+              X: 210
+              Y: 149
+            'size':
+              height: 25
+              width: 40
+          'firstnameinputtext':
+            'origin':
+              X: 60
+              Y: 149
+            'size':
+              height: 25
+              width: 120
+          'lastnameinputtext':
+            'origin':
+              X: 60
+              Y: 175
+            'size':
+              height: 25
+              width: 120
+          'ageinputtext':
+            'origin':
+              X: 210
+              Y: 175
+            'size':
+              height: 25
+              width: 40
+          'firstnametextlabel':
+            'origin':
+              X: 1
+              Y: 153
+            'size':
+              height: 25
+              width: 50
+          'lastnametextlabel':
+            'origin':
+              X: 1
+              Y: 179
+            'size':
+              height: 25
+              width: 50
+          'gendertextlabel':
+            'origin':
+              X: 255
+              Y: 179
+            'size':
+              height: 25
+              width: 40
+          'agetextlabel':
+            'origin':
+              X: 185
+              Y: 179
+            'size':
+              height: 25
+              width: 35
+          'bibtextlabel':
+            'origin':
+              X: 185
+              Y: 153
+            'size':
+              height: 25
+              width: 35
+      grplog1panel:
+        'origin':
+          X: 551
+          Y: 0
+        'size':
+          height: 1020
+          width: 300
+        'textcontrols':
+          'panel_title':
+            'input_field': 0
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 150
+              Y: 0
+            'size':
+              height: 20
+              width: 170
+          'textboxmaingroup1':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 25
+            'size':
+              height: 420
+              width: 300
+          'textboxMgroup1':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 446
+            'size':
+              height: 250
+              width: 300
+          'textboxFgroup1':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 697
+            'size':
+              height: 250
+              width: 300
+      grplog2panel:
+        'origin':
+          X: 852
+          Y: 0
+        'size':
+          height: 1020
+          width: 300
+        'textcontrols':
+          'panel_title':
+            'input_field': 0
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 150
+              Y: 0
+            'size':
+              height: 20
+              width: 170
+          'textboxmaingroup2':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 20
+            'size':
+              height: 420
+              width: 300
+          'textboxMgroup2':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 446
+            'size':
+              height: 250
+              width: 300
+          'textboxFgroup2':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 697
+            'size':
+              height: 250
+              width: 300
+      grplog3panel:
+        'origin':
+          X: 1153
+          Y: 0
+        'size':
+          height: 1020
+          width: 300
+        'textcontrols':
+          'panel_title':
+            'input_field': 0
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 150
+              Y: 0
+            'size':
+              height: 20
+              width: 170
+          'textboxmaingroup3':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 20
+            'size':
+              height: 420
+              width: 300
+          'textboxMgroup3':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 446
+            'size':
+              height: 250
+              width: 300
+          'textboxFgroup3':
+            'input_field': 1
+            'multiline': 1
+            'label_text': ''
+            'set_origin': 1
+            'set_size': 1
+            'origin':
+              X: 0
+              Y: 697
+            'size':
+              height: 250
+              width: 300

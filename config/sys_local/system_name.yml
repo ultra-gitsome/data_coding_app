@@ -1,0 +1,4 @@
+---
+system_parameters:
+  name_remarks: 'this file holds the unique system name that the TS system can use to recognize the local and network addresses'
+  TSHOSTNAME: 'Dell_5520'

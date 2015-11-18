@@ -1,0 +1,54 @@
+--- 
+hosting_config: 
+  config_remarks: 
+    display_size: the max display size for this config file is roughly 1000px by 1900px
+  display:
+    max_height_px: 1000
+    max_width_px: 1900
+  data_host_map: 
+    audio_ip_address: 127.0.0.1
+    display_ip_address: 127.0.0.1
+    field_ip_address: 127.0.0.1
+    forward_ip_address: 127.0.0.1
+    mdata_ip_address: 127.0.0.3
+    nodal_alt_ip_address: 127.0.0.1
+  hostname_to_ip_key_map: 
+    altnodalhost: nodal_alt_ip_address
+    audiohost: audio_ip_address
+    corehost: core_ip_address
+    displayhost: display_ip_address
+    fieldhost: field_ip_address
+    forwardhost: forward_ip_address
+    hubhost: hub_ip_address
+    mdatahost: mdata_ip_address
+    nodalhost: nodal_ip_address
+    superhost: super_ip_address
+    thishost: my_ip_address
+  hub_host_map: 
+    hub_ip_address: 127.0.0.1
+  local_hosted_service: 
+    local_daemon: 1
+    local_super: 1
+    node_supervisor: 0
+  local_host_map: 
+    my_ip_address: 127.0.0.3
+  primary_host_map: 
+    core_ip_address: 127.0.0.1
+    nodal_ip_address: 127.0.0.2
+    super_ip_address: 127.0.0.3
+  server_hosting_map: 
+    contextor: mdatahost
+    course: nodalhost
+    event: corehost
+    fmonitor: fieldhost
+    mmonitor: mdatahost
+    laptracker: mdatahost
+    integrator: fieldhost
+    local_daemon: thishost
+    node: corehost
+    node_supervisor: superhost
+    notification: corehost
+    presentor: displayhost
+    relay: forwardhost
+    runner: nodalhost
+    tag: nodalhost
